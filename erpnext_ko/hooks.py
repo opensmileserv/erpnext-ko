@@ -7,5 +7,7 @@ app_license = "gpl-3.0"
 
 required_apps = ["frappe/erpnext"]
 
+app_include_js = "erpnext_ko.bundle.js"
+
 after_install = "erpnext_ko.install.activate"
 after_migrate = "erpnext_ko.install.activate"

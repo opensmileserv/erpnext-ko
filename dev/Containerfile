@@ -1,3 +1,8 @@
 FROM frappe/erpnext:v16.60.0
 COPY --chown=frappe:frappe . /home/frappe/frappe-bench/apps/erpnext_ko
-RUN cd /home/frappe/frappe-bench && uv pip install --python env/bin/python --no-deps -e apps/erpnext_ko
+RUN cd /home/frappe/frappe-bench \
+    && uv pip install --python env/bin/python --no-deps -e apps/erpnext_ko \
+    && ls -1 apps > sites/apps.txt \
+    && rm -rf sites/assets \
+    && ln -s /home/frappe/frappe-bench/assets sites/assets \
+    && FRAPPE_DOCKER_BUILD=1 bench build --app erpnext_ko

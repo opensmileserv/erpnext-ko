@@ -18,6 +18,8 @@ upstream 에도 `ko.po` 는 있다 (v16.60 기준). 하지만 그대로 쓸 수 
 - Frappe 는 설치된 앱 순서대로 `sites/assets/locale/ko/LC_MESSAGES/<앱>.mo` 를 읽어 하나의 사전으로 합친다. 같은 원문이면 뒤에 설치된 앱이 이긴다.
 - 그래서 이 앱이 frappe·erpnext 의 원문을 모두 담으면 기존 번역을 대신하게 된다.
 - upstream 원본에 빠진 v16 사이드바·데스크 아이콘 라벨도 [upstream/sidebar.pot](upstream/sidebar.pot) 으로 담는다.
+- 날짜 선택기(air-datepicker)에는 한국어 로케일이 없어 월·요일이 영어로 나온다. 이 앱이 [erpnext_ko/public/js](erpnext_ko/public/js) 에서 `ko` 로케일을 등록한다.
+- Frappe 는 날짜 선택기 언어를 사용자 설정의 언어로만 고른다. 그래서 언어를 비워 둔 사용자도 화면 언어를 따르게 한다.
 - 설치할 때(`after_install`)와 `bench migrate` 할 때(`after_migrate`) 다음 세 가지를 한다.
   1. 언어 `ko` 를 켠다.
   2. ko.po 를 .mo 로 컴파일한다.
@@ -37,7 +39,7 @@ bench --site <site> install-app erpnext_ko
 
 ## 컨테이너로 띄워 보기
 
-`frappe/erpnext:v16.60.0` 이미지 위에 이 앱을 얹은 개발 스택이다. 앱은 이미지를 만들 때 복사해 넣는다. Docker Desktop 의 바인드 마운트는 파일을 바꿔치기하는 저장(임시 파일 → 이름 바꾸기)을 컨테이너에 보여 주지 않기 때문이다.
+`frappe/erpnext:v16.60.0` 이미지 위에 이 앱을 얹은 개발 스택이다. 앱은 이미지를 만들 때 복사해 넣는다. Docker Desktop 의 바인드 마운트는 파일을 바꿔치기하는 저장(임시 파일 → 이름 바꾸기)을 컨테이너에 보여 주지 않기 때문이다. 이미지를 만들 때 `bench build` 가 앱의 JS 를 묶고 ko.po 를 .mo 로 컴파일한다.
 
 ```bash
 docker compose -f dev/compose.yml up -d --build
@@ -45,10 +47,20 @@ docker compose -f dev/compose.yml up -d --build
 
 첫 실행은 사이트를 만들고 한국 기본값(한국어, KRW, Asia/Seoul, 시범 회사)으로 설정 마법사를 끝낸다. 몇 분 걸린다. 그다음 http://localhost:8081 에 개발용 계정 `Administrator` / `admin` 으로 들어간다. 이 PC 에서만 열린다.
 
-ko.po 를 고친 뒤 화면에 반영한다. 컴파일한 .mo 를 컨테이너에 넣고 캐시를 비운다.
+ko.po 를 고친 뒤 화면에 반영한다. 컴파일한 .mo 를 백엔드·작업자 컨테이너에 넣고 캐시를 비운다.
 
 ```bash
 ./dev/refresh
+```
+
+JS 나 `hooks.py` 를 고쳤으면 이미지를 다시 만들고 캐시를 비운다.
+
+```bash
+docker compose -f dev/compose.yml up -d --build
+```
+
+```bash
+docker compose -f dev/compose.yml exec backend bench --site ko.localhost clear-cache
 ```
 
 ## 번역 작업
