@@ -1,0 +1,13 @@
+id: no-docstring
+valid:
+  - |
+    def total() -> int:
+        return 0
+  - message = "값으로 쓰는 문자열은 괜찮다"
+invalid:
+  - |
+    def total() -> int:
+        """합계를 낸다."""
+        return 0
+  - |
+    """모듈 설명"""

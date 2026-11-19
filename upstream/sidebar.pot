@@ -1,0 +1,1820 @@
+# ERPNext·Frappe 한국어 번역 (erpnext-ko)
+# GPL-3.0-or-later
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ERPNext Ko 16\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-11-19 00:00+0000\n"
+"PO-Revision-Date: 2026-11-19 00:00+0000\n"
+"Last-Translator: erpnext-ko\n"
+"Language: ko\n"
+"Language-Team: Korean\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#. Title of the Workspace Sidebar 'Assets'
+#. Label of the Desktop Icon 'Assets'
+#: erpnext/erpnext/desktop_icon/assets.json:1
+#: erpnext/erpnext/workspace_sidebar/assets.json:1
+msgid "Assets"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Assets'
+#. Item label in the Workspace Sidebar 'Buying'
+#. Item label in the Workspace Sidebar 'CRM'
+#. Title of the Workspace Sidebar 'Home'
+#. Item label in the Workspace Sidebar 'Home'
+#. Item label in the Workspace Sidebar 'Invoicing'
+#. Item label in the Workspace Sidebar 'Manufacturing'
+#. Item label in the Workspace Sidebar 'Projects'
+#. Item label in the Workspace Sidebar 'Quality'
+#. Item label in the Workspace Sidebar 'Selling'
+#. Item label in the Workspace Sidebar 'Stock'
+#. Item label in the Workspace Sidebar 'Support'
+#. Label of the Desktop Icon 'Home'
+#: erpnext/erpnext/desktop_icon/home.json:1
+#: erpnext/erpnext/workspace_sidebar/assets.json:1
+#: erpnext/erpnext/workspace_sidebar/buying.json:1
+#: erpnext/erpnext/workspace_sidebar/crm.json:1
+#: erpnext/erpnext/workspace_sidebar/home.json:1
+#: erpnext/erpnext/workspace_sidebar/invoicing.json:1
+#: erpnext/erpnext/workspace_sidebar/manufacturing.json:1
+#: erpnext/erpnext/workspace_sidebar/projects.json:1
+#: erpnext/erpnext/workspace_sidebar/quality.json:1
+#: erpnext/erpnext/workspace_sidebar/selling.json:1
+#: erpnext/erpnext/workspace_sidebar/stock.json:1
+#: erpnext/erpnext/workspace_sidebar/support.json:1
+msgid "Home"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Assets'
+#. Item label in the Workspace Sidebar 'Buying'
+#. Item label in the Workspace Sidebar 'Invoicing'
+#. Item label in the Workspace Sidebar 'Manufacturing'
+#. Item label in the Workspace Sidebar 'Payments'
+#. Item label in the Workspace Sidebar 'Projects'
+#. Item label in the Workspace Sidebar 'Selling'
+#. Item label in the Workspace Sidebar 'Stock'
+#: erpnext/erpnext/workspace_sidebar/assets.json:1
+#: erpnext/erpnext/workspace_sidebar/buying.json:1
+#: erpnext/erpnext/workspace_sidebar/invoicing.json:1
+#: erpnext/erpnext/workspace_sidebar/manufacturing.json:1
+#: erpnext/erpnext/workspace_sidebar/payments.json:1
+#: erpnext/erpnext/workspace_sidebar/projects.json:1
+#: erpnext/erpnext/workspace_sidebar/selling.json:1
+#: erpnext/erpnext/workspace_sidebar/stock.json:1
+msgid "Dashboard"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Assets'
+#: erpnext/erpnext/workspace_sidebar/assets.json:1
+msgid "Asset"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Assets'
+#: erpnext/erpnext/workspace_sidebar/assets.json:1
+msgid "Depreciation Schedule"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Assets'
+#: erpnext/erpnext/workspace_sidebar/assets.json:1
+msgid "Asset Capitalization"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Assets'
+#: erpnext/erpnext/workspace_sidebar/assets.json:1
+msgid "Asset Movement"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Assets'
+#. Item label in the Workspace Sidebar 'CRM'
+#: erpnext/erpnext/workspace_sidebar/assets.json:1
+#: erpnext/erpnext/workspace_sidebar/crm.json:1
+msgid "Maintenance"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Assets'
+#: erpnext/erpnext/workspace_sidebar/assets.json:1
+msgid "Asset Maintenance Team"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Assets'
+#: erpnext/erpnext/workspace_sidebar/assets.json:1
+msgid "Asset Maintenance"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Assets'
+#: erpnext/erpnext/workspace_sidebar/assets.json:1
+msgid "Asset Maintenance Log"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Assets'
+#: erpnext/erpnext/workspace_sidebar/assets.json:1
+msgid "Asset Value Adjustment"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Assets'
+#: erpnext/erpnext/workspace_sidebar/assets.json:1
+msgid "Asset Repair"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Assets'
+#. Item label in the Workspace Sidebar 'Buying'
+#. Item label in the Workspace Sidebar 'CRM'
+#. Item label in the Workspace Sidebar 'Invoicing'
+#. Item label in the Workspace Sidebar 'Manufacturing'
+#. Item label in the Workspace Sidebar 'Payments'
+#. Item label in the Workspace Sidebar 'Projects'
+#. Item label in the Workspace Sidebar 'Selling'
+#. Item label in the Workspace Sidebar 'Stock'
+#. Item label in the Workspace Sidebar 'Support'
+#: erpnext/erpnext/workspace_sidebar/assets.json:1
+#: erpnext/erpnext/workspace_sidebar/buying.json:1
+#: erpnext/erpnext/workspace_sidebar/crm.json:1
+#: erpnext/erpnext/workspace_sidebar/invoicing.json:1
+#: erpnext/erpnext/workspace_sidebar/manufacturing.json:1
+#: erpnext/erpnext/workspace_sidebar/payments.json:1
+#: erpnext/erpnext/workspace_sidebar/projects.json:1
+#: erpnext/erpnext/workspace_sidebar/selling.json:1
+#: erpnext/erpnext/workspace_sidebar/stock.json:1
+#: erpnext/erpnext/workspace_sidebar/support.json:1
+msgid "Reports"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Assets'
+#: erpnext/erpnext/workspace_sidebar/assets.json:1
+msgid "Fixed Asset Register"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Assets'
+#: erpnext/erpnext/workspace_sidebar/assets.json:1
+msgid "Asset Depreciation Ledger"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Assets'
+#: erpnext/erpnext/workspace_sidebar/assets.json:1
+msgid "Asset Depreciations and Balances"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Assets'
+#: erpnext/erpnext/workspace_sidebar/assets.json:1
+msgid "Asset Activity"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Assets'
+#. Item label in the Workspace Sidebar 'Buying'
+#. Item label in the Workspace Sidebar 'CRM'
+#. Item label in the Workspace Sidebar 'Manufacturing'
+#. Item label in the Workspace Sidebar 'Projects'
+#. Item label in the Workspace Sidebar 'Quality'
+#. Item label in the Workspace Sidebar 'Selling'
+#. Item label in the Workspace Sidebar 'Stock'
+#. Item label in the Workspace Sidebar 'Support'
+#: erpnext/erpnext/workspace_sidebar/assets.json:1
+#: erpnext/erpnext/workspace_sidebar/buying.json:1
+#: erpnext/erpnext/workspace_sidebar/crm.json:1
+#: erpnext/erpnext/workspace_sidebar/manufacturing.json:1
+#: erpnext/erpnext/workspace_sidebar/projects.json:1
+#: erpnext/erpnext/workspace_sidebar/quality.json:1
+#: erpnext/erpnext/workspace_sidebar/selling.json:1
+#: erpnext/erpnext/workspace_sidebar/stock.json:1
+#: erpnext/erpnext/workspace_sidebar/support.json:1
+msgid "Setup"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Assets'
+#. Item label in the Workspace Sidebar 'Buying'
+#. Item label in the Workspace Sidebar 'Home'
+#. Item label in the Workspace Sidebar 'Manufacturing'
+#. Item label in the Workspace Sidebar 'Selling'
+#. Item label in the Workspace Sidebar 'Stock'
+#: erpnext/erpnext/workspace_sidebar/assets.json:1
+#: erpnext/erpnext/workspace_sidebar/buying.json:1
+#: erpnext/erpnext/workspace_sidebar/home.json:1
+#: erpnext/erpnext/workspace_sidebar/manufacturing.json:1
+#: erpnext/erpnext/workspace_sidebar/selling.json:1
+#: erpnext/erpnext/workspace_sidebar/stock.json:1
+msgid "Item"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Assets'
+#: erpnext/erpnext/workspace_sidebar/assets.json:1
+msgid "Asset Category"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Assets'
+#: erpnext/erpnext/workspace_sidebar/assets.json:1
+msgid "Location"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Assets'
+#. Item label in the Workspace Sidebar 'Buying'
+#. Item label in the Workspace Sidebar 'CRM'
+#. Item label in the Workspace Sidebar 'Invoicing'
+#. Item label in the Workspace Sidebar 'Manufacturing'
+#. Item label in the Workspace Sidebar 'Projects'
+#. Item label in the Workspace Sidebar 'Selling'
+#. Item label in the Workspace Sidebar 'Stock'
+#. Item label in the Workspace Sidebar 'Support'
+#: erpnext/erpnext/workspace_sidebar/assets.json:1
+#: erpnext/erpnext/workspace_sidebar/buying.json:1
+#: erpnext/erpnext/workspace_sidebar/crm.json:1
+#: erpnext/erpnext/workspace_sidebar/invoicing.json:1
+#: erpnext/erpnext/workspace_sidebar/manufacturing.json:1
+#: erpnext/erpnext/workspace_sidebar/projects.json:1
+#: erpnext/erpnext/workspace_sidebar/selling.json:1
+#: erpnext/erpnext/workspace_sidebar/stock.json:1
+#: erpnext/erpnext/workspace_sidebar/support.json:1
+msgid "Settings"
+msgstr ""
+
+#. Title of the Workspace Sidebar 'Buying'
+#. Label of the Desktop Icon 'Buying'
+#: erpnext/erpnext/desktop_icon/buying.json:1
+#: erpnext/erpnext/workspace_sidebar/buying.json:1
+msgid "Buying"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Buying'
+#. Item label in the Workspace Sidebar 'Stock'
+#: erpnext/erpnext/workspace_sidebar/buying.json:1
+#: erpnext/erpnext/workspace_sidebar/stock.json:1
+msgid "Material Request"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Buying'
+#: erpnext/erpnext/workspace_sidebar/buying.json:1
+msgid "Request for Quotation"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Buying'
+#: erpnext/erpnext/workspace_sidebar/buying.json:1
+msgid "Supplier Quotation"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Buying'
+#: erpnext/erpnext/workspace_sidebar/buying.json:1
+msgid "Purchase Order"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Buying'
+#. Item label in the Workspace Sidebar 'Invoicing'
+#: erpnext/erpnext/workspace_sidebar/buying.json:1
+#: erpnext/erpnext/workspace_sidebar/invoicing.json:1
+msgid "Purchase Invoice"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Buying'
+#. Item label in the Workspace Sidebar 'Home'
+#. Item label in the Workspace Sidebar 'Invoicing'
+#: erpnext/erpnext/workspace_sidebar/buying.json:1
+#: erpnext/erpnext/workspace_sidebar/home.json:1
+#: erpnext/erpnext/workspace_sidebar/invoicing.json:1
+msgid "Supplier"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Buying'
+#: erpnext/erpnext/workspace_sidebar/buying.json:1
+msgid "Supplier Group"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Buying'
+#. Item label in the Workspace Sidebar 'Selling'
+#: erpnext/erpnext/workspace_sidebar/buying.json:1
+#: erpnext/erpnext/workspace_sidebar/selling.json:1
+msgid "Price List"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Buying'
+#. Item label in the Workspace Sidebar 'Selling'
+#: erpnext/erpnext/workspace_sidebar/buying.json:1
+#: erpnext/erpnext/workspace_sidebar/selling.json:1
+msgid "Address"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Buying'
+#: erpnext/erpnext/workspace_sidebar/buying.json:1
+msgid "Contacts"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Buying'
+#: erpnext/erpnext/workspace_sidebar/buying.json:1
+msgid "Supplier Scorecard"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Buying'
+#: erpnext/erpnext/workspace_sidebar/buying.json:1
+msgid "Supplier Scorecard Criteria"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Buying'
+#: erpnext/erpnext/workspace_sidebar/buying.json:1
+msgid "Supplier Scorecard Variable"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Buying'
+#: erpnext/erpnext/workspace_sidebar/buying.json:1
+msgid "Supplier Scorecard Standing"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Buying'
+#: erpnext/erpnext/workspace_sidebar/buying.json:1
+msgid "Purchase Analytics"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Buying'
+#: erpnext/erpnext/workspace_sidebar/buying.json:1
+msgid "Purchase Order Analysis"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Buying'
+#: erpnext/erpnext/workspace_sidebar/buying.json:1
+msgid "Requested Items to Order and Receive"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Buying'
+#: erpnext/erpnext/workspace_sidebar/buying.json:1
+msgid "Items To Be Requested"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Buying'
+#: erpnext/erpnext/workspace_sidebar/buying.json:1
+msgid "Item-wise Purchase History"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Buying'
+#. Item label in the Workspace Sidebar 'Stock'
+#: erpnext/erpnext/workspace_sidebar/buying.json:1
+#: erpnext/erpnext/workspace_sidebar/stock.json:1
+msgid "Purchase Receipt Trends"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Buying'
+#. Item label in the Workspace Sidebar 'Financial Reports'
+#: erpnext/erpnext/workspace_sidebar/buying.json:1
+#: erpnext/erpnext/workspace_sidebar/financial_reports.json:1
+msgid "Purchase Invoice Trends"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Buying'
+#: erpnext/erpnext/workspace_sidebar/buying.json:1
+msgid "Purchase Order Trends"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Buying'
+#: erpnext/erpnext/workspace_sidebar/buying.json:1
+msgid "Procurement Tracker"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Buying'
+#: erpnext/erpnext/workspace_sidebar/buying.json:1
+msgid "Item Wise Consumption"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Buying'
+#: erpnext/erpnext/workspace_sidebar/buying.json:1
+msgid "Supplier Quotation Comparison"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Buying'
+#: erpnext/erpnext/workspace_sidebar/buying.json:1
+msgid "Supplier Addresses And Contacts"
+msgstr ""
+
+#. Title of the Workspace Sidebar 'CRM'
+#. Label of the Desktop Icon 'CRM'
+#: erpnext/erpnext/desktop_icon/crm.json:1
+#: erpnext/erpnext/workspace_sidebar/crm.json:1
+msgid "CRM"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'CRM'
+#: erpnext/erpnext/workspace_sidebar/crm.json:1
+msgid "Lead"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'CRM'
+#: erpnext/erpnext/workspace_sidebar/crm.json:1
+msgid "Opportunity"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'CRM'
+#. Item label in the Workspace Sidebar 'Home'
+#. Item label in the Workspace Sidebar 'Invoicing'
+#. Item label in the Workspace Sidebar 'Selling'
+#: erpnext/erpnext/workspace_sidebar/crm.json:1
+#: erpnext/erpnext/workspace_sidebar/home.json:1
+#: erpnext/erpnext/workspace_sidebar/invoicing.json:1
+#: erpnext/erpnext/workspace_sidebar/selling.json:1
+msgid "Customer"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'CRM'
+#. Item label in the Workspace Sidebar 'Selling'
+#: erpnext/erpnext/workspace_sidebar/crm.json:1
+#: erpnext/erpnext/workspace_sidebar/selling.json:1
+msgid "Sales Analytics"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'CRM'
+#: erpnext/erpnext/workspace_sidebar/crm.json:1
+msgid "Lead Details"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'CRM'
+#: erpnext/erpnext/workspace_sidebar/crm.json:1
+msgid "Sales Pipeline Analytics"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'CRM'
+#: erpnext/erpnext/workspace_sidebar/crm.json:1
+msgid "Opportunity Summary by Sales Stage"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'CRM'
+#. Item label in the Workspace Sidebar 'Selling'
+#: erpnext/erpnext/workspace_sidebar/crm.json:1
+#: erpnext/erpnext/workspace_sidebar/selling.json:1
+msgid "Sales Funnel"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'CRM'
+#: erpnext/erpnext/workspace_sidebar/crm.json:1
+msgid "Prospects Engaged But Not Converted"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'CRM'
+#: erpnext/erpnext/workspace_sidebar/crm.json:1
+msgid "First Response Time for Opportunity"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'CRM'
+#: erpnext/erpnext/workspace_sidebar/crm.json:1
+msgid "Campaign Efficiency"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'CRM'
+#: erpnext/erpnext/workspace_sidebar/crm.json:1
+msgid "Lead Owner Efficiency"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'CRM'
+#. Item label in the Workspace Sidebar 'Support'
+#: erpnext/erpnext/workspace_sidebar/crm.json:1
+#: erpnext/erpnext/workspace_sidebar/support.json:1
+msgid "Maintenance Schedule"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'CRM'
+#. Item label in the Workspace Sidebar 'Support'
+#: erpnext/erpnext/workspace_sidebar/crm.json:1
+#: erpnext/erpnext/workspace_sidebar/support.json:1
+msgid "Maintenance Visit"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'CRM'
+#. Item label in the Workspace Sidebar 'Support'
+#: erpnext/erpnext/workspace_sidebar/crm.json:1
+#: erpnext/erpnext/workspace_sidebar/support.json:1
+msgid "Warranty Claim"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'CRM'
+#: erpnext/erpnext/workspace_sidebar/crm.json:1
+msgid "Sales Pipeline"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'CRM'
+#: erpnext/erpnext/workspace_sidebar/crm.json:1
+msgid "Contract"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'CRM'
+#: erpnext/erpnext/workspace_sidebar/crm.json:1
+msgid "Appointment"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'CRM'
+#: erpnext/erpnext/workspace_sidebar/crm.json:1
+msgid "Communication"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'CRM'
+#. Item label in the Workspace Sidebar 'Selling'
+#: erpnext/erpnext/workspace_sidebar/crm.json:1
+#: erpnext/erpnext/workspace_sidebar/selling.json:1
+msgid "Campaign"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'CRM'
+#: erpnext/erpnext/workspace_sidebar/crm.json:1
+msgid "Email Campaign"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'CRM'
+#: erpnext/erpnext/workspace_sidebar/crm.json:1
+msgid "SMS Center"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'CRM'
+#: erpnext/erpnext/workspace_sidebar/crm.json:1
+msgid "SMS Log"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'CRM'
+#: erpnext/erpnext/workspace_sidebar/crm.json:1
+msgid "Email Group"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'CRM'
+#. Item label in the Workspace Sidebar 'Selling'
+#: erpnext/erpnext/workspace_sidebar/crm.json:1
+#: erpnext/erpnext/workspace_sidebar/selling.json:1
+msgid "Territory"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'CRM'
+#. Item label in the Workspace Sidebar 'Selling'
+#: erpnext/erpnext/workspace_sidebar/crm.json:1
+#: erpnext/erpnext/workspace_sidebar/selling.json:1
+msgid "Customer Group"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'CRM'
+#. Item label in the Workspace Sidebar 'Selling'
+#: erpnext/erpnext/workspace_sidebar/crm.json:1
+#: erpnext/erpnext/workspace_sidebar/selling.json:1
+msgid "Contact"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'CRM'
+#: erpnext/erpnext/workspace_sidebar/crm.json:1
+msgid "Prospect"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'CRM'
+#. Item label in the Workspace Sidebar 'Selling'
+#: erpnext/erpnext/workspace_sidebar/crm.json:1
+#: erpnext/erpnext/workspace_sidebar/selling.json:1
+msgid "Sales Person"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'CRM'
+#: erpnext/erpnext/workspace_sidebar/crm.json:1
+msgid "Sales Stage"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'CRM'
+#: erpnext/erpnext/workspace_sidebar/crm.json:1
+msgid "Lead Source"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'CRM'
+#. Item label in the Workspace Sidebar 'ERPNext Settings'
+#: erpnext/erpnext/workspace_sidebar/crm.json:1
+#: erpnext/erpnext/workspace_sidebar/erpnext_settings.json:1
+msgid "CRM Settings"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'CRM'
+#: erpnext/erpnext/workspace_sidebar/crm.json:1
+msgid "SMS Settings"
+msgstr ""
+
+#. Title of the Workspace Sidebar 'ERPNext Settings'
+#. Label of the Desktop Icon 'ERPNext Settings'
+#: erpnext/erpnext/desktop_icon/erpnext_settings.json:1
+#: erpnext/erpnext/workspace_sidebar/erpnext_settings.json:1
+msgid "ERPNext Settings"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'ERPNext Settings'
+#: erpnext/erpnext/workspace_sidebar/erpnext_settings.json:1
+msgid "Global Defaults"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'ERPNext Settings'
+#: erpnext/erpnext/workspace_sidebar/erpnext_settings.json:1
+msgid "System Settings"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'ERPNext Settings'
+#: erpnext/erpnext/workspace_sidebar/erpnext_settings.json:1
+msgid "Accounts Settings"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'ERPNext Settings'
+#. Item label in the Workspace Sidebar 'Selling'
+#: erpnext/erpnext/workspace_sidebar/erpnext_settings.json:1
+#: erpnext/erpnext/workspace_sidebar/selling.json:1
+msgid "POS Settings"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'ERPNext Settings'
+#: erpnext/erpnext/workspace_sidebar/erpnext_settings.json:1
+msgid "Selling Settings"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'ERPNext Settings'
+#: erpnext/erpnext/workspace_sidebar/erpnext_settings.json:1
+msgid "Buying Settings"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'ERPNext Settings'
+#. Item label in the Workspace Sidebar 'Stock'
+#: erpnext/erpnext/workspace_sidebar/erpnext_settings.json:1
+#: erpnext/erpnext/workspace_sidebar/stock.json:1
+msgid "Stock Settings"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'ERPNext Settings'
+#: erpnext/erpnext/workspace_sidebar/erpnext_settings.json:1
+msgid "Manufacturing Settings"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'ERPNext Settings'
+#: erpnext/erpnext/workspace_sidebar/erpnext_settings.json:1
+msgid "Projects Settings"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'ERPNext Settings'
+#: erpnext/erpnext/workspace_sidebar/erpnext_settings.json:1
+msgid "Support Settings"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'ERPNext Settings'
+#: erpnext/erpnext/workspace_sidebar/erpnext_settings.json:1
+msgid "Other Settings"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'ERPNext Settings'
+#: erpnext/erpnext/workspace_sidebar/erpnext_settings.json:1
+msgid "Subscription Settings"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'ERPNext Settings'
+#. Item label in the Workspace Sidebar 'Stock'
+#: erpnext/erpnext/workspace_sidebar/erpnext_settings.json:1
+#: erpnext/erpnext/workspace_sidebar/stock.json:1
+msgid "Item Variant Settings"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'ERPNext Settings'
+#. Item label in the Workspace Sidebar 'Stock'
+#: erpnext/erpnext/workspace_sidebar/erpnext_settings.json:1
+#: erpnext/erpnext/workspace_sidebar/stock.json:1
+msgid "Delivery Settings"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'ERPNext Settings'
+#: erpnext/erpnext/workspace_sidebar/erpnext_settings.json:1
+msgid "Currency Exchange Settings"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'ERPNext Settings'
+#: erpnext/erpnext/workspace_sidebar/erpnext_settings.json:1
+msgid "Appointment Booking Settings"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'ERPNext Settings'
+#. Item label in the Workspace Sidebar 'Stock'
+#: erpnext/erpnext/workspace_sidebar/erpnext_settings.json:1
+#: erpnext/erpnext/workspace_sidebar/stock.json:1
+msgid "Stock Reposting Settings"
+msgstr ""
+
+#. Title of the Workspace Sidebar 'Financial Reports'
+#. Item label in the Workspace Sidebar 'Financial Reports'
+#. Item label in the Workspace Sidebar 'Invoicing'
+#. Item label in the Workspace Sidebar 'Payments'
+#. Label of the Desktop Icon 'Financial Reports'
+#: erpnext/erpnext/desktop_icon/financial_reports.json:1
+#: erpnext/erpnext/workspace_sidebar/financial_reports.json:1
+#: erpnext/erpnext/workspace_sidebar/invoicing.json:1
+#: erpnext/erpnext/workspace_sidebar/payments.json:1
+msgid "Financial Reports"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Financial Reports'
+#: erpnext/erpnext/workspace_sidebar/financial_reports.json:1
+msgid "Balance Sheet"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Financial Reports'
+#: erpnext/erpnext/workspace_sidebar/financial_reports.json:1
+msgid "Profit and Loss"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Financial Reports'
+#: erpnext/erpnext/workspace_sidebar/financial_reports.json:1
+msgid "Cash Flow"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Financial Reports'
+#. Item label in the Workspace Sidebar 'Invoicing'
+#. Item label in the Workspace Sidebar 'Payments'
+#: erpnext/erpnext/workspace_sidebar/financial_reports.json:1
+#: erpnext/erpnext/workspace_sidebar/invoicing.json:1
+#: erpnext/erpnext/workspace_sidebar/payments.json:1
+msgid "Trial Balance"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Financial Reports'
+#: erpnext/erpnext/workspace_sidebar/financial_reports.json:1
+msgid "Consolidated Report"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Financial Reports'
+#: erpnext/erpnext/workspace_sidebar/financial_reports.json:1
+msgid "Custom Financial Statement"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Financial Reports'
+#: erpnext/erpnext/workspace_sidebar/financial_reports.json:1
+msgid "Financial Report Template"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Financial Reports'
+#: erpnext/erpnext/workspace_sidebar/financial_reports.json:1
+msgid "Ledgers"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Financial Reports'
+#. Item label in the Workspace Sidebar 'Invoicing'
+#. Item label in the Workspace Sidebar 'Payments'
+#: erpnext/erpnext/workspace_sidebar/financial_reports.json:1
+#: erpnext/erpnext/workspace_sidebar/invoicing.json:1
+#: erpnext/erpnext/workspace_sidebar/payments.json:1
+msgid "General Ledger"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Financial Reports'
+#: erpnext/erpnext/workspace_sidebar/financial_reports.json:1
+msgid "Customer Ledger"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Financial Reports'
+#: erpnext/erpnext/workspace_sidebar/financial_reports.json:1
+msgid "Supplier Ledger"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Financial Reports'
+#: erpnext/erpnext/workspace_sidebar/financial_reports.json:1
+msgid "Registers"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Financial Reports'
+#. Item label in the Workspace Sidebar 'Invoicing'
+#. Item label in the Workspace Sidebar 'Payments'
+#: erpnext/erpnext/workspace_sidebar/financial_reports.json:1
+#: erpnext/erpnext/workspace_sidebar/invoicing.json:1
+#: erpnext/erpnext/workspace_sidebar/payments.json:1
+msgid "Accounts Receivable"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Financial Reports'
+#. Item label in the Workspace Sidebar 'Invoicing'
+#. Item label in the Workspace Sidebar 'Payments'
+#: erpnext/erpnext/workspace_sidebar/financial_reports.json:1
+#: erpnext/erpnext/workspace_sidebar/invoicing.json:1
+#: erpnext/erpnext/workspace_sidebar/payments.json:1
+msgid "Accounts Payable"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Financial Reports'
+#: erpnext/erpnext/workspace_sidebar/financial_reports.json:1
+msgid "AR Summary"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Financial Reports'
+#: erpnext/erpnext/workspace_sidebar/financial_reports.json:1
+msgid "AP Summary"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Financial Reports'
+#. Item label in the Workspace Sidebar 'Selling'
+#: erpnext/erpnext/workspace_sidebar/financial_reports.json:1
+#: erpnext/erpnext/workspace_sidebar/selling.json:1
+msgid "Sales Register"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Financial Reports'
+#: erpnext/erpnext/workspace_sidebar/financial_reports.json:1
+msgid "Purchase Register"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Financial Reports'
+#: erpnext/erpnext/workspace_sidebar/financial_reports.json:1
+msgid "Item-wise sales Register"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Financial Reports'
+#: erpnext/erpnext/workspace_sidebar/financial_reports.json:1
+msgid "Item-wise Purchase Register"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Financial Reports'
+#: erpnext/erpnext/workspace_sidebar/financial_reports.json:1
+msgid "Profitability"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Financial Reports'
+#: erpnext/erpnext/workspace_sidebar/financial_reports.json:1
+msgid "Gross Profit"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Financial Reports'
+#: erpnext/erpnext/workspace_sidebar/financial_reports.json:1
+msgid "Profitability Analysis"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Financial Reports'
+#. Item label in the Workspace Sidebar 'Selling'
+#: erpnext/erpnext/workspace_sidebar/financial_reports.json:1
+#: erpnext/erpnext/workspace_sidebar/selling.json:1
+msgid "Sales Invoice Trends"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Financial Reports'
+#: erpnext/erpnext/workspace_sidebar/financial_reports.json:1
+msgid "Other Reports"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Financial Reports'
+#: erpnext/erpnext/workspace_sidebar/financial_reports.json:1
+msgid "Trial Balance for Party"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Financial Reports'
+#: erpnext/erpnext/workspace_sidebar/financial_reports.json:1
+msgid "Payment Period Based On Invoice Date"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Financial Reports'
+#. Item label in the Workspace Sidebar 'Selling'
+#: erpnext/erpnext/workspace_sidebar/financial_reports.json:1
+#: erpnext/erpnext/workspace_sidebar/selling.json:1
+msgid "Sales Partners Commission"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Financial Reports'
+#. Item label in the Workspace Sidebar 'Selling'
+#: erpnext/erpnext/workspace_sidebar/financial_reports.json:1
+#: erpnext/erpnext/workspace_sidebar/selling.json:1
+msgid "Customer Credit Balance"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Financial Reports'
+#: erpnext/erpnext/workspace_sidebar/financial_reports.json:1
+msgid "Sales Payment Summary"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Financial Reports'
+#: erpnext/erpnext/workspace_sidebar/financial_reports.json:1
+msgid "Address And Contacts"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Financial Reports'
+#: erpnext/erpnext/workspace_sidebar/financial_reports.json:1
+msgid "UAE VAT 201"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Home'
+#. Item label in the Workspace Sidebar 'Invoicing'
+#. Item label in the Workspace Sidebar 'Selling'
+#: erpnext/erpnext/workspace_sidebar/home.json:1
+#: erpnext/erpnext/workspace_sidebar/invoicing.json:1
+#: erpnext/erpnext/workspace_sidebar/selling.json:1
+msgid "Sales Invoice"
+msgstr ""
+
+#. Title of the Workspace Sidebar 'Invoicing'
+#. Label of the Desktop Icon 'Invoicing'
+#: erpnext/erpnext/desktop_icon/invoicing.json:1
+#: erpnext/erpnext/workspace_sidebar/invoicing.json:1
+msgid "Invoicing"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Invoicing'
+#: erpnext/erpnext/workspace_sidebar/invoicing.json:1
+msgid "Chart of Accounts"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Invoicing'
+#: erpnext/erpnext/workspace_sidebar/invoicing.json:1
+msgid "Receivables"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Invoicing'
+#: erpnext/erpnext/workspace_sidebar/invoicing.json:1
+msgid "Credit Note"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Invoicing'
+#: erpnext/erpnext/workspace_sidebar/invoicing.json:1
+msgid "Payables"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Invoicing'
+#: erpnext/erpnext/workspace_sidebar/invoicing.json:1
+msgid "Debit Note"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Invoicing'
+#. Title of the Workspace Sidebar 'Payments'
+#. Item label in the Workspace Sidebar 'Payments'
+#. Label of the Desktop Icon 'Payments'
+#: erpnext/erpnext/desktop_icon/payments.json:1
+#: erpnext/erpnext/workspace_sidebar/invoicing.json:1
+#: erpnext/erpnext/workspace_sidebar/payments.json:1
+msgid "Payments"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Invoicing'
+#. Item label in the Workspace Sidebar 'Payments'
+#: erpnext/erpnext/workspace_sidebar/invoicing.json:1
+#: erpnext/erpnext/workspace_sidebar/payments.json:1
+msgid "Payment Entry"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Invoicing'
+#. Item label in the Workspace Sidebar 'Payments'
+#: erpnext/erpnext/workspace_sidebar/invoicing.json:1
+#: erpnext/erpnext/workspace_sidebar/payments.json:1
+msgid "Journal Entry"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Invoicing'
+#. Item label in the Workspace Sidebar 'Payments'
+#: erpnext/erpnext/workspace_sidebar/invoicing.json:1
+#: erpnext/erpnext/workspace_sidebar/payments.json:1
+msgid "Payment Request"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Invoicing'
+#. Item label in the Workspace Sidebar 'Payments'
+#: erpnext/erpnext/workspace_sidebar/invoicing.json:1
+#: erpnext/erpnext/workspace_sidebar/payments.json:1
+msgid "Payment Order"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Invoicing'
+#. Item label in the Workspace Sidebar 'Payments'
+#: erpnext/erpnext/workspace_sidebar/invoicing.json:1
+#: erpnext/erpnext/workspace_sidebar/payments.json:1
+msgid "Payment Reconciliation"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Invoicing'
+#. Item label in the Workspace Sidebar 'Payments'
+#: erpnext/erpnext/workspace_sidebar/invoicing.json:1
+#: erpnext/erpnext/workspace_sidebar/payments.json:1
+msgid "Unreconcile Payment"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Invoicing'
+#. Item label in the Workspace Sidebar 'Payments'
+#: erpnext/erpnext/workspace_sidebar/invoicing.json:1
+#: erpnext/erpnext/workspace_sidebar/payments.json:1
+msgid "Process Payment Reconciliation"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Invoicing'
+#. Item label in the Workspace Sidebar 'Payments'
+#: erpnext/erpnext/workspace_sidebar/invoicing.json:1
+#: erpnext/erpnext/workspace_sidebar/payments.json:1
+msgid "Repost Accounting Ledger"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Invoicing'
+#. Item label in the Workspace Sidebar 'Payments'
+#: erpnext/erpnext/workspace_sidebar/invoicing.json:1
+#: erpnext/erpnext/workspace_sidebar/payments.json:1
+msgid "Repost Payment Ledger"
+msgstr ""
+
+#. Title of the Workspace Sidebar 'Manufacturing'
+#. Label of the Desktop Icon 'Manufacturing'
+#: erpnext/erpnext/desktop_icon/manufacturing.json:1
+#: erpnext/erpnext/workspace_sidebar/manufacturing.json:1
+msgid "Manufacturing"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Manufacturing'
+#: erpnext/erpnext/workspace_sidebar/manufacturing.json:1
+msgid "BOM"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Manufacturing'
+#: erpnext/erpnext/workspace_sidebar/manufacturing.json:1
+msgid "Work Order"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Manufacturing'
+#: erpnext/erpnext/workspace_sidebar/manufacturing.json:1
+msgid "Job Card"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Manufacturing'
+#. Item label in the Workspace Sidebar 'Stock'
+#: erpnext/erpnext/workspace_sidebar/manufacturing.json:1
+#: erpnext/erpnext/workspace_sidebar/stock.json:1
+msgid "Stock Entry"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Manufacturing'
+#: erpnext/erpnext/workspace_sidebar/manufacturing.json:1
+msgid "Material Planning"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Manufacturing'
+#: erpnext/erpnext/workspace_sidebar/manufacturing.json:1
+msgid "Item Lead Time"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Manufacturing'
+#: erpnext/erpnext/workspace_sidebar/manufacturing.json:1
+msgid "Production Plan"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Manufacturing'
+#: erpnext/erpnext/workspace_sidebar/manufacturing.json:1
+msgid "Forecasting"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Manufacturing'
+#: erpnext/erpnext/workspace_sidebar/manufacturing.json:1
+msgid "Master Production Schedule"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Manufacturing'
+#: erpnext/erpnext/workspace_sidebar/manufacturing.json:1
+msgid "Sales Forecast"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Manufacturing'
+#: erpnext/erpnext/workspace_sidebar/manufacturing.json:1
+msgid "Production Planning Report"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Manufacturing'
+#. Item label in the Workspace Sidebar 'Stock'
+#: erpnext/erpnext/workspace_sidebar/manufacturing.json:1
+#: erpnext/erpnext/workspace_sidebar/stock.json:1
+msgid "Tools"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Manufacturing'
+#: erpnext/erpnext/workspace_sidebar/manufacturing.json:1
+msgid "BOM Creator"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Manufacturing'
+#: erpnext/erpnext/workspace_sidebar/manufacturing.json:1
+msgid "BOM Update Tool"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Manufacturing'
+#: erpnext/erpnext/workspace_sidebar/manufacturing.json:1
+msgid "BOM Comparison Tool"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Manufacturing'
+#: erpnext/erpnext/workspace_sidebar/manufacturing.json:1
+msgid "Downtime Entry"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Manufacturing'
+#: erpnext/erpnext/workspace_sidebar/manufacturing.json:1
+msgid "Work Order Summary"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Manufacturing'
+#: erpnext/erpnext/workspace_sidebar/manufacturing.json:1
+msgid "Quality Inspection Summary"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Manufacturing'
+#: erpnext/erpnext/workspace_sidebar/manufacturing.json:1
+msgid "Downtime Analysis"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Manufacturing'
+#: erpnext/erpnext/workspace_sidebar/manufacturing.json:1
+msgid "Job Card Summary"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Manufacturing'
+#: erpnext/erpnext/workspace_sidebar/manufacturing.json:1
+msgid "BOM Search"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Manufacturing'
+#: erpnext/erpnext/workspace_sidebar/manufacturing.json:1
+msgid "Production Analytics"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Manufacturing'
+#: erpnext/erpnext/workspace_sidebar/manufacturing.json:1
+msgid "BOM Operations Time"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Manufacturing'
+#: erpnext/erpnext/workspace_sidebar/manufacturing.json:1
+msgid "Work Order Consumed Materials"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Manufacturing'
+#. Item label in the Workspace Sidebar 'Stock'
+#: erpnext/erpnext/workspace_sidebar/manufacturing.json:1
+#: erpnext/erpnext/workspace_sidebar/stock.json:1
+msgid "Warehouse"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Manufacturing'
+#: erpnext/erpnext/workspace_sidebar/manufacturing.json:1
+msgid "Operation"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Manufacturing'
+#: erpnext/erpnext/workspace_sidebar/manufacturing.json:1
+msgid "Workstation"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Manufacturing'
+#: erpnext/erpnext/workspace_sidebar/manufacturing.json:1
+msgid "Workstation Type"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Manufacturing'
+#: erpnext/erpnext/workspace_sidebar/manufacturing.json:1
+msgid "Plant Floor"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Manufacturing'
+#: erpnext/erpnext/workspace_sidebar/manufacturing.json:1
+msgid "Routing"
+msgstr ""
+
+#. Title of the Workspace Sidebar 'Projects'
+#. Label of the Desktop Icon 'Projects'
+#: erpnext/erpnext/desktop_icon/projects.json:1
+#: erpnext/erpnext/workspace_sidebar/projects.json:1
+msgid "Projects"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Projects'
+#: erpnext/erpnext/workspace_sidebar/projects.json:1
+msgid "Project"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Projects'
+#: erpnext/erpnext/workspace_sidebar/projects.json:1
+msgid "Task"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Projects'
+#: erpnext/erpnext/workspace_sidebar/projects.json:1
+msgid "Timesheet"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Projects'
+#: erpnext/erpnext/workspace_sidebar/projects.json:1
+msgid "Activity Type"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Projects'
+#: erpnext/erpnext/workspace_sidebar/projects.json:1
+msgid "Activity Cost"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Projects'
+#: erpnext/erpnext/workspace_sidebar/projects.json:1
+msgid "Project Template"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Projects'
+#: erpnext/erpnext/workspace_sidebar/projects.json:1
+msgid "Project Type"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Projects'
+#: erpnext/erpnext/workspace_sidebar/projects.json:1
+msgid "Project Update"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Projects'
+#: erpnext/erpnext/workspace_sidebar/projects.json:1
+msgid "Project Summary"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Projects'
+#: erpnext/erpnext/workspace_sidebar/projects.json:1
+msgid "Daily Timesheet Summary"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Projects'
+#: erpnext/erpnext/workspace_sidebar/projects.json:1
+msgid "Timesheet Billing Summary"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Projects'
+#: erpnext/erpnext/workspace_sidebar/projects.json:1
+msgid "Project wise Stock Tracking"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Projects'
+#: erpnext/erpnext/workspace_sidebar/projects.json:1
+msgid "Delayed Tasks Summary"
+msgstr ""
+
+#. Title of the Workspace Sidebar 'Quality'
+#. Label of the Desktop Icon 'Quality'
+#: erpnext/erpnext/desktop_icon/quality.json:1
+#: erpnext/erpnext/workspace_sidebar/quality.json:1
+msgid "Quality"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Quality'
+#. Item label in the Workspace Sidebar 'Stock'
+#: erpnext/erpnext/workspace_sidebar/quality.json:1
+#: erpnext/erpnext/workspace_sidebar/stock.json:1
+msgid "Quality Inspection"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Quality'
+#: erpnext/erpnext/workspace_sidebar/quality.json:1
+msgid "Quality Goal"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Quality'
+#: erpnext/erpnext/workspace_sidebar/quality.json:1
+msgid "Quality Review"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Quality'
+#: erpnext/erpnext/workspace_sidebar/quality.json:1
+msgid "Quality Action"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Quality'
+#: erpnext/erpnext/workspace_sidebar/quality.json:1
+msgid "Non Conformance"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Quality'
+#: erpnext/erpnext/workspace_sidebar/quality.json:1
+msgid "Quality Feedback"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Quality'
+#: erpnext/erpnext/workspace_sidebar/quality.json:1
+msgid "Quality Meeting"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Quality'
+#: erpnext/erpnext/workspace_sidebar/quality.json:1
+msgid "Quality Procedure"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Quality'
+#: erpnext/erpnext/workspace_sidebar/quality.json:1
+msgid "Feedback Template"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Quality'
+#. Item label in the Workspace Sidebar 'Stock'
+#: erpnext/erpnext/workspace_sidebar/quality.json:1
+#: erpnext/erpnext/workspace_sidebar/stock.json:1
+msgid "Quality Inspection Template"
+msgstr ""
+
+#. Title of the Workspace Sidebar 'Selling'
+#. Label of the Desktop Icon 'Selling'
+#: erpnext/erpnext/desktop_icon/selling.json:1
+#: erpnext/erpnext/workspace_sidebar/selling.json:1
+msgid "Selling"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Selling'
+#: erpnext/erpnext/workspace_sidebar/selling.json:1
+msgid "Quotation"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Selling'
+#: erpnext/erpnext/workspace_sidebar/selling.json:1
+msgid "Sales Order"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Selling'
+#: erpnext/erpnext/workspace_sidebar/selling.json:1
+msgid "POS"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Selling'
+#: erpnext/erpnext/workspace_sidebar/selling.json:1
+msgid "POS Profile"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Selling'
+#: erpnext/erpnext/workspace_sidebar/selling.json:1
+msgid "POS Invoice"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Selling'
+#: erpnext/erpnext/workspace_sidebar/selling.json:1
+msgid "POS Opening Entry"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Selling'
+#: erpnext/erpnext/workspace_sidebar/selling.json:1
+msgid "POS Closing Entry"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Selling'
+#: erpnext/erpnext/workspace_sidebar/selling.json:1
+msgid "POS Invoice Merge Log"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Selling'
+#: erpnext/erpnext/workspace_sidebar/selling.json:1
+msgid "Loyalty Program"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Selling'
+#: erpnext/erpnext/workspace_sidebar/selling.json:1
+msgid "Loyalty Point Entry"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Selling'
+#: erpnext/erpnext/workspace_sidebar/selling.json:1
+msgid "Items & Pricing"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Selling'
+#. Item label in the Workspace Sidebar 'Stock'
+#: erpnext/erpnext/workspace_sidebar/selling.json:1
+#: erpnext/erpnext/workspace_sidebar/stock.json:1
+msgid "Item Group"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Selling'
+#: erpnext/erpnext/workspace_sidebar/selling.json:1
+msgid "Item Price"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Selling'
+#: erpnext/erpnext/workspace_sidebar/selling.json:1
+msgid "Pricing Rule"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Selling'
+#: erpnext/erpnext/workspace_sidebar/selling.json:1
+msgid "Promotional Scheme"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Selling'
+#: erpnext/erpnext/workspace_sidebar/selling.json:1
+msgid "Coupon Code"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Selling'
+#: erpnext/erpnext/workspace_sidebar/selling.json:1
+msgid "Blanket Order"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Selling'
+#: erpnext/erpnext/workspace_sidebar/selling.json:1
+msgid "Sales Partner"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Selling'
+#: erpnext/erpnext/workspace_sidebar/selling.json:1
+msgid "Monthly Distribution"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Selling'
+#: erpnext/erpnext/workspace_sidebar/selling.json:1
+msgid "Terms Template"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Selling'
+#: erpnext/erpnext/workspace_sidebar/selling.json:1
+msgid "Tax Template"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Selling'
+#: erpnext/erpnext/workspace_sidebar/selling.json:1
+msgid "Product Bundle"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Selling'
+#: erpnext/erpnext/workspace_sidebar/selling.json:1
+msgid "UTM Source"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Selling'
+#. Item label in the Workspace Sidebar 'Stock'
+#: erpnext/erpnext/workspace_sidebar/selling.json:1
+#: erpnext/erpnext/workspace_sidebar/stock.json:1
+msgid "Shipping Rule"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Selling'
+#: erpnext/erpnext/workspace_sidebar/selling.json:1
+msgid "Item-wise Sales Register"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Selling'
+#: erpnext/erpnext/workspace_sidebar/selling.json:1
+msgid "Customer Addresses And Contacts"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Selling'
+#: erpnext/erpnext/workspace_sidebar/selling.json:1
+msgid "Inactive Customers"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Selling'
+#: erpnext/erpnext/workspace_sidebar/selling.json:1
+msgid "Customers Without Any Sales Transactions"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Selling'
+#: erpnext/erpnext/workspace_sidebar/selling.json:1
+msgid "Available Stock for Packing Items"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Selling'
+#: erpnext/erpnext/workspace_sidebar/selling.json:1
+msgid "Territory Target Variance Based On Item Group"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Selling'
+#: erpnext/erpnext/workspace_sidebar/selling.json:1
+msgid "Sales Person Target Variance Based On Item Group"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Selling'
+#: erpnext/erpnext/workspace_sidebar/selling.json:1
+msgid "Sales Partner Target Variance Based On Item Group"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Selling'
+#: erpnext/erpnext/workspace_sidebar/selling.json:1
+msgid "Pending SO Items For Purchase Request"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Selling'
+#: erpnext/erpnext/workspace_sidebar/selling.json:1
+msgid "Sales Order Analysis"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Selling'
+#: erpnext/erpnext/workspace_sidebar/selling.json:1
+msgid "Customer Acquisition and Loyalty"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Selling'
+#: erpnext/erpnext/workspace_sidebar/selling.json:1
+msgid "Quotation Trends"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Selling'
+#: erpnext/erpnext/workspace_sidebar/selling.json:1
+msgid "Sales Order Trends"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Selling'
+#: erpnext/erpnext/workspace_sidebar/selling.json:1
+msgid "Item-wise Sales History"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Selling'
+#: erpnext/erpnext/workspace_sidebar/selling.json:1
+msgid "Sales Person-wise Transaction Summary"
+msgstr ""
+
+#. Title of the Workspace Sidebar 'Stock'
+#. Label of the Desktop Icon 'Stock'
+#: erpnext/erpnext/desktop_icon/stock.json:1
+#: erpnext/erpnext/workspace_sidebar/stock.json:1
+msgid "Stock"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Stock'
+#: erpnext/erpnext/workspace_sidebar/stock.json:1
+msgid "Purchase Receipt"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Stock'
+#: erpnext/erpnext/workspace_sidebar/stock.json:1
+msgid "Delivery Note"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Stock'
+#: erpnext/erpnext/workspace_sidebar/stock.json:1
+msgid "Pick List"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Stock'
+#: erpnext/erpnext/workspace_sidebar/stock.json:1
+msgid "Stock Reconciliation"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Stock'
+#: erpnext/erpnext/workspace_sidebar/stock.json:1
+msgid "Landed Cost Voucher"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Stock'
+#: erpnext/erpnext/workspace_sidebar/stock.json:1
+msgid "Repost Item Valuation"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Stock'
+#: erpnext/erpnext/workspace_sidebar/stock.json:1
+msgid "Packing Slip"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Stock'
+#: erpnext/erpnext/workspace_sidebar/stock.json:1
+msgid "Item Attribute"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Stock'
+#: erpnext/erpnext/workspace_sidebar/stock.json:1
+msgid "Brand"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Stock'
+#: erpnext/erpnext/workspace_sidebar/stock.json:1
+msgid "Unit of Measure (UOM)"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Stock'
+#: erpnext/erpnext/workspace_sidebar/stock.json:1
+msgid "UOM Conversion Factor"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Stock'
+#: erpnext/erpnext/workspace_sidebar/stock.json:1
+msgid "Serial No"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Stock'
+#: erpnext/erpnext/workspace_sidebar/stock.json:1
+msgid "Batch No"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Stock'
+#: erpnext/erpnext/workspace_sidebar/stock.json:1
+msgid "Serial and Batch Bundle"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Stock'
+#: erpnext/erpnext/workspace_sidebar/stock.json:1
+msgid "Inventory Dimension"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Stock'
+#: erpnext/erpnext/workspace_sidebar/stock.json:1
+msgid "Item Alternative"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Stock'
+#: erpnext/erpnext/workspace_sidebar/stock.json:1
+msgid "Delivery Trip"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Stock'
+#: erpnext/erpnext/workspace_sidebar/stock.json:1
+msgid "Stock Ledger"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Stock'
+#: erpnext/erpnext/workspace_sidebar/stock.json:1
+msgid "Stock Balance"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Stock'
+#: erpnext/erpnext/workspace_sidebar/stock.json:1
+msgid "Quick Stock Balance"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Stock'
+#: erpnext/erpnext/workspace_sidebar/stock.json:1
+msgid "Stock Projected Qty"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Stock'
+#: erpnext/erpnext/workspace_sidebar/stock.json:1
+msgid "Stock Analytics"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Stock'
+#: erpnext/erpnext/workspace_sidebar/stock.json:1
+msgid "Stock Ageing"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Stock'
+#: erpnext/erpnext/workspace_sidebar/stock.json:1
+msgid "Delivery Note Trends"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Stock'
+#: erpnext/erpnext/workspace_sidebar/stock.json:1
+msgid "Item Price Stock"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Stock'
+#: erpnext/erpnext/workspace_sidebar/stock.json:1
+msgid "Warehouse Wise Stock Balance"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Stock'
+#: erpnext/erpnext/workspace_sidebar/stock.json:1
+msgid "Item Shortage Report"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Stock'
+#: erpnext/erpnext/workspace_sidebar/stock.json:1
+msgid "Serial No and Batch Traceability"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Stock'
+#: erpnext/erpnext/workspace_sidebar/stock.json:1
+msgid "Serial No Status"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Stock'
+#: erpnext/erpnext/workspace_sidebar/stock.json:1
+msgid "Serial No Ledger"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Stock'
+#: erpnext/erpnext/workspace_sidebar/stock.json:1
+msgid "Serial No Warranty Expiry"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Stock'
+#: erpnext/erpnext/workspace_sidebar/stock.json:1
+msgid "Batch-Wise Balance History"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Stock'
+#: erpnext/erpnext/workspace_sidebar/stock.json:1
+msgid "Batch Item Expiry Status"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Stock'
+#: erpnext/erpnext/workspace_sidebar/stock.json:1
+msgid "Requested Items To Be Transferred"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Stock'
+#: erpnext/erpnext/workspace_sidebar/stock.json:1
+msgid "Itemwise Recommended Reorder Level"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Stock'
+#: erpnext/erpnext/workspace_sidebar/stock.json:1
+msgid "Item Variant Details"
+msgstr ""
+
+#. Title of the Workspace Sidebar 'Support'
+#. Label of the Desktop Icon 'Support'
+#: erpnext/erpnext/desktop_icon/support.json:1
+#: erpnext/erpnext/workspace_sidebar/support.json:1
+msgid "Support"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Support'
+#: erpnext/erpnext/workspace_sidebar/support.json:1
+msgid "Issue"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Support'
+#: erpnext/erpnext/workspace_sidebar/support.json:1
+msgid "Issue Type"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Support'
+#: erpnext/erpnext/workspace_sidebar/support.json:1
+msgid "Issue Priority"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Support'
+#: erpnext/erpnext/workspace_sidebar/support.json:1
+msgid "Service Level Agreement"
+msgstr ""
+
+#. Item label in the Workspace Sidebar 'Support'
+#: erpnext/erpnext/workspace_sidebar/support.json:1
+msgid "First Response Time for Issues"
+msgstr ""
+
+#. Label of the Desktop Icon 'Accounting'
+#: erpnext/erpnext/desktop_icon/accounting.json:1
+msgid "Accounting"
+msgstr ""
+
+#. Label of the Desktop Icon 'Accounts Setup'
+#: erpnext/erpnext/desktop_icon/accounts_setup.json:1
+msgid "Accounts Setup"
+msgstr ""
+
+#. Label of the Desktop Icon 'Banking'
+#: erpnext/erpnext/desktop_icon/banking.json:1
+msgid "Banking"
+msgstr ""
+
+#. Label of the Desktop Icon 'Budget'
+#: erpnext/erpnext/desktop_icon/budget.json:1
+msgid "Budget"
+msgstr ""
+
+#. Label of the Desktop Icon 'ERPNext'
+#: erpnext/erpnext/desktop_icon/erpnext.json:1
+msgid "ERPNext"
+msgstr ""
+
+#. Label of the Desktop Icon 'Organization'
+#: erpnext/erpnext/desktop_icon/organization.json:1
+msgid "Organization"
+msgstr ""
+
+#. Label of the Desktop Icon 'Share Management'
+#: erpnext/erpnext/desktop_icon/share_management.json:1
+msgid "Share Management"
+msgstr ""
+
+#. Label of the Desktop Icon 'Subcontracting'
+#: erpnext/erpnext/desktop_icon/subcontracting.json:1
+msgid "Subcontracting"
+msgstr ""
+
+#. Label of the Desktop Icon 'Subscription'
+#: erpnext/erpnext/desktop_icon/subscription.json:1
+msgid "Subscription"
+msgstr ""
+
+#. Label of the Desktop Icon 'Taxes'
+#: erpnext/erpnext/desktop_icon/taxes.json:1
+msgid "Taxes"
+msgstr ""
+
+#. Label of the Desktop Icon 'Automation'
+#: frappe/frappe/desktop_icon/automation.json:1
+msgid "Automation"
+msgstr ""
+
+#. Label of the Desktop Icon 'Build'
+#: frappe/frappe/desktop_icon/build.json:1
+msgid "Build"
+msgstr ""
+
+#. Label of the Desktop Icon 'Data'
+#: frappe/frappe/desktop_icon/data.json:1
+msgid "Data"
+msgstr ""
+
+#. Label of the Desktop Icon 'Email'
+#: frappe/frappe/desktop_icon/email.json:1
+msgid "Email"
+msgstr ""
+
+#. Label of the Desktop Icon 'Framework'
+#: frappe/frappe/desktop_icon/framework.json:1
+msgid "Framework"
+msgstr ""
+
+#. Label of the Desktop Icon 'Integrations'
+#: frappe/frappe/desktop_icon/integrations.json:1
+msgid "Integrations"
+msgstr ""
+
+#. Label of the Desktop Icon 'Printing'
+#: frappe/frappe/desktop_icon/printing.json:1
+msgid "Printing"
+msgstr ""
+
+#. Label of the Desktop Icon 'System'
+#: frappe/frappe/desktop_icon/system.json:1
+msgid "System"
+msgstr ""
+
+#. Label of the Desktop Icon 'Users'
+#: frappe/frappe/desktop_icon/users.json:1
+msgid "Users"
+msgstr ""
+
+#. Label of the Desktop Icon 'Website'
+#: frappe/frappe/desktop_icon/website.json:1
+msgid "Website"
+msgstr ""
+

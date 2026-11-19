@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+set -euo pipefail
+cd "$(dirname "$0")"
+
+step() {
+  printf '\n▶ %s\n' "$1"
+  shift
+  "$@"
+}
+
+step "형식 (ruff format)" uv run --locked ruff format --check .
+step "린트 (ruff)" uv run --locked ruff check .
+step "가드 규칙 자체 시험 (ast-grep test)" uv run --locked ast-grep test --skip-snapshot-tests
+step "가드 (ast-grep scan)" uv run --locked ast-grep scan
+step "타입 (basedpyright strict)" uv run --locked basedpyright
+step "테스트 (pytest + Hypothesis)" uv run --locked pytest -q
+step "번역 검사 (자리표시자·태그·용어집)" ./kotr review --max 20
+
+printf '\n✔ 모든 검사 통과\n'

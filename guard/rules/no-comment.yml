@@ -1,0 +1,10 @@
+id: no-comment
+language: python
+severity: error
+message: 주석을 쓰지 않는다.
+note: |
+  주석은 코드가 바뀌면 낡고, 다음 사람이나 에이전트가 지키리라 믿을 수 없고, 제대로 고치지 않은 이유를 적는 자리가 된다.
+  이유는 이름·타입·테스트·에러 메시지로 드러낸다. 번역 판단의 근거는 용어집(glossary/terms.tsv)의 note 에 둔다.
+  noqa·type: ignore 같은 억제 주석도 주석이다. 규칙이 틀렸다면 guard/rules 나 pyproject.toml 을 고치는 변경을 따로 낸다.
+rule:
+  kind: comment

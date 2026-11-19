@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+set -euo pipefail
+cd "$(dirname "$0")/.."
+compose=(docker compose -f dev/compose.yml)
+target=/home/frappe/frappe-bench/sites/assets/locale/ko/LC_MESSAGES/erpnext_ko.mo
+./kotr compile --out work/erpnext_ko.mo
+"${compose[@]}" cp work/erpnext_ko.mo "backend:$target"
+"${compose[@]}" exec -T -u root backend chown frappe "$target"
+"${compose[@]}" exec -T backend bench --site ko.localhost clear-cache
+echo "ko.localhost 에 반영했다"

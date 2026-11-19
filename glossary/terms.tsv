@@ -1,0 +1,390 @@
+en	ko	avoid	apps	match	note
+Account	계정			word	총계정원장 계정. 은행 계좌는 Bank Account
+Account Head	계정과목		erpnext	word	
+Account Type	계정 유형		erpnext	word	
+Parent Account	상위 계정		erpnext	word	
+Root Type	계정 대분류		erpnext	word	자산·부채·자본·수익·비용
+Chart of Accounts	계정과목표	계정 차트|계정과목 차트		word	
+Accounting	회계			word	
+Accounting Dimension	관리 차원	회계 차원	erpnext	word	부서·프로젝트처럼 전표 행에 붙이는 분석 축. 더존 관리항목과 비슷하다
+Accounting Period	회계 기간		erpnext	word	
+Accounts Settings	회계 설정		erpnext	word	
+Accounts Receivable	매출채권	미수금	erpnext	word	
+Accounts Payable	매입채무	미지급금	erpnext	word	
+Receivable	채권		erpnext	word	매출채권
+Payable	채무		erpnext	word	매입채무
+Journal Entry	전표	일지|분개 항목	erpnext	word	더존의 일반전표
+Journal Entry Account	전표 행		erpnext	word	전표의 차대 한 줄
+Journal Entry Template	전표 템플릿		erpnext	word	
+GL Entry	원장 기록		erpnext	word	총계정원장에 쌓이는 한 줄
+General Ledger	총계정원장		erpnext	word	
+Ledger	원장		erpnext	word	
+Trial Balance	합계잔액시산표|시산표		erpnext	word	더존 용어
+Balance Sheet	재무상태표	대차대조표	erpnext	word	
+Profit and Loss Statement	손익계산서		erpnext	word	
+Profit and Loss	손익		erpnext	word	
+Cash Flow Statement	현금흐름표		erpnext	word	
+Cash Flow	현금흐름		erpnext	word	
+Financial Statement	재무제표		erpnext	word	
+Fiscal Year	회계연도	재정		word	
+Cost Center	코스트센터|원가센터	비용 센터	erpnext	word	부서 단위 원가 집계. 더존 iCUBE 의 코스트센터
+Cost Center Allocation	코스트센터 배부|원가센터 배부		erpnext	word	
+Budget	예산		erpnext	word	
+Debit	차변	직불	erpnext	word	
+Credit	대변	신용 거래	erpnext	word	카드·한도·메모는 각 용어를 따른다
+Credit Card	신용카드			word	
+Credit Limit	여신 한도		erpnext	word	거래처별 외상 한도
+Credit Note	대변 메모		erpnext	word	매출 반품·에누리로 채권을 줄이는 송장
+Debit Note	차변 메모		erpnext	word	매입 반품·에누리로 채무를 줄이는 송장
+Credit Days	외상 일수		erpnext	word	
+Credit Months	외상 개월 수		erpnext	word	
+Credit Controller	여신 관리자		erpnext	word	
+Payment Entry	입출금 전표	결제 입력	erpnext	word	수금·지급·계좌 이체
+Payment Term	결제 조건		erpnext	word	
+Payment Terms Template	결제 조건 템플릿		erpnext	word	
+Payment Request	결제 요청		erpnext	word	
+Payment Reconciliation	결제 대사|반제		erpnext	word	미결 입출금과 송장을 맞춘다. 더존의 반제처리
+Bank Reconciliation	은행 대사|은행계정조정		erpnext	word	
+Reconciliation	대사|조정		erpnext	word	
+Unreconcile	대사 취소|대사를 취소		erpnext	word	
+Mode of Payment	결제 수단		erpnext	word	
+Outstanding Amount	미결제 금액|미결제액|잔액		erpnext	word	
+Write Off	상각|대손		erpnext	word	소액 차이나 회수 불능 채권을 비용으로 처리
+Exchange Rate	환율			word	
+Exchange Rate Revaluation	외화 환산|외화 평가		erpnext	word	K-GAAP 외화환산
+Exchange Gain	외환차익|외환차손익|환차익|환차손익		erpnext	word	
+Exchange Loss	외환차손|외환차손익|환차손|환차손익		erpnext	word	
+Currency Exchange	환율			word	환율 기록 문서
+Currency	통화			word	
+Finance Book	재무 장부		erpnext	word	
+Period Closing Voucher	결산 마감 전표		erpnext	word	
+Opening Balance	기초 잔액		erpnext	word	
+Closing Balance	기말 잔액		erpnext	word	
+Opening Entry	기초 전표		erpnext	word	더존의 초기이월
+POS Opening Entry	POS 개점 기록		erpnext	word	
+POS Closing Entry	POS 마감 기록		erpnext	word	
+Opening	기초		erpnext	word	초기 이월 값
+Closing	마감		erpnext	word	
+Voucher	전표		erpnext	word	
+Landed Cost Voucher	부대비용 배부 전표		erpnext	word	수입·운송 부대비용을 입고 원가에 배부
+Landed Cost	부대비용		erpnext	word	
+Posting Date	회계일자|전기일	게시일|게시 날짜	erpnext	word	더존의 회계일자
+Posting Time	회계 시각|전기 시각	게시	erpnext	word	
+Posting	전기|회계	게시	erpnext	word	원장에 기록하는 일
+Due Date	만기일|지급기일|결제 기한		erpnext	word	
+Against Account	상대 계정	계정에 대해	erpnext	word	
+Against Voucher	상대 전표		erpnext	word	
+User Remark	적요|비고		erpnext	word	더존의 적요
+Party	거래처	파티	erpnext	word	고객·공급업체·사원 등 거래 상대. 더존의 거래처
+Party Type	거래처 유형	파티	erpnext	word	
+Customer	고객	손님		word	
+Customer Group	고객 그룹		erpnext	word	
+Supplier	공급업체|공급사|매입처			word	
+Supplier Group	공급업체 그룹|공급사 그룹		erpnext	word	
+Sales Invoice	매출 송장	판매 송장	erpnext	word	더존 매출전표 자리. 세금계산서는 별도 증빙
+Purchase Invoice	매입 송장	구매 송장	erpnext	word	더존 매입전표 자리
+POS Invoice	POS 송장		erpnext	word	
+Tax Invoice	세금계산서			word	
+Proforma Invoice	견적 송장		erpnext	word	프로포마 인보이스
+Invoice	송장	인보이스	erpnext	word	
+Sales Order	수주	판매 주문	erpnext	word	더존 용어
+Purchase Order	발주	구매 주문	erpnext	word	더존 용어
+Quotation	견적서|견적		erpnext	word	
+Supplier Quotation	공급업체 견적서|매입 견적		erpnext	word	
+Request for Quotation	견적 요청서|견적 요청		erpnext	word	
+Delivery Note	출고서|출고	배송 메모	erpnext	word	더존의 출고
+Purchase Receipt	입고서|입고	구매 영수증	erpnext	word	더존의 입고
+Material Request	자재 요청		erpnext	word	더존의 구매요청·청구
+Stock	재고	주식	erpnext	word	주식(Share)과 헷갈리지 않는다
+Stock Entry	재고 입출고	주식 입력|재고 입력	erpnext	word	입고·출고·이동·생산
+Stock Ledger	재고 원장|수불부		erpnext	word	
+Stock Ledger Entry	재고 원장 기록		erpnext	word	
+Stock Reconciliation	재고 실사 조정		erpnext	word	
+Stock UOM	재고 단위		erpnext	word	
+Stock Balance	재고 현황|재고 잔량		erpnext	word	
+Item	품목	아이템	erpnext	word	더존 용어
+Item Group	품목군		erpnext	word	
+Item Price	품목 단가		erpnext	word	
+Item Tax Template	품목 세금 템플릿		erpnext	word	
+Warehouse	창고		erpnext	word	
+UOM	단위|UOM		erpnext	word	Unit of Measure
+Unit of Measure	단위		erpnext	word	
+Qty	수량		erpnext	word	
+Quantity	수량			word	
+Rate	단가		erpnext	exact	품목 단가. 환율·세율·상각률은 각 용어
+Amount	금액			word	
+Total	합계|총			word	
+Grand Total	총합계|합계 금액		erpnext	word	
+Net Total	공급가액 합계|순합계		erpnext	word	세전 합계. 세금계산서의 공급가액
+Rounded Total	반올림 합계|끝전 처리 합계		erpnext	word	
+Discount	할인			word	
+Tax	세금|세액|세율|과세|세			word	
+Taxes and Charges	세금 및 부대비용|세금 및 비용		erpnext	word	
+Sales Taxes and Charges Template	매출 세금 템플릿|매출 세금 및 부대비용 템플릿		erpnext	word	
+Purchase Taxes and Charges Template	매입 세금 템플릿|매입 세금 및 부대비용 템플릿		erpnext	word	
+Tax Category	세금 분류|과세 유형		erpnext	word	
+Tax Rule	세금 규칙		erpnext	word	
+Tax Withholding Category	원천징수 분류		erpnext	word	
+Tax Withholding	원천징수		erpnext	word	
+Tax ID	사업자등록번호|사업자번호			word	한국에서는 사업자등록번호
+Tax Rate	세율			word	
+Income Tax	소득세|법인세		erpnext	word	
+VAT	부가가치세|부가세			word	
+Price List	가격표		erpnext	word	
+Pricing Rule	가격 규칙		erpnext	word	
+Bank	은행			word	
+Bank Account	은행 계좌|계좌	은행 계정		word	
+Bank Transaction	은행 거래		erpnext	word	
+Bank Statement	은행 거래 내역|통장 내역		erpnext	word	
+Bank Guarantee	은행 보증		erpnext	word	
+Cheque	수표		erpnext	word	
+Cash	현금		erpnext	word	
+Deferred Revenue	선수수익|이연 수익		erpnext	word	
+Deferred Expense	선급비용|이연 비용		erpnext	word	
+Depreciation	감가상각|상각		erpnext	word	
+Accumulated Depreciation	감가상각누계액		erpnext	word	
+Asset	자산	유산	erpnext	word	
+Fixed Asset	고정자산|유형자산		erpnext	word	
+Asset Category	자산 분류		erpnext	word	
+Capital Work in Progress	건설중인자산		erpnext	word	더존 계정명
+Income	수익		erpnext	word	
+Expense	비용|경비		erpnext	word	
+Equity	자본		erpnext	word	
+Liability	부채		erpnext	word	
+Revenue	수익|매출		erpnext	word	
+Gross Profit	매출총이익		erpnext	word	
+Net Profit	순이익|당기순이익		erpnext	word	
+Valuation Rate	평가 단가		erpnext	word	
+Valuation	평가		erpnext	word	재고 평가
+Moving Average	이동평균		erpnext	word	
+Batch	로트|배치		erpnext	word	로트(LOT) 번호
+Serial No	시리얼 번호|일련번호	직렬	erpnext	word	
+Serial and Batch Bundle	시리얼·로트 묶음|시리얼 및 로트 묶음		erpnext	word	
+BOM	BOM		erpnext	word	자재명세서. 그대로 쓴다
+Work Order	작업지시	작업 주문	erpnext	word	더존 용어
+Job Card	작업 카드|작업표		erpnext	word	
+Workstation	작업장		erpnext	word	
+Operation	공정|작업		erpnext	word	
+Routing	공정 경로|라우팅		erpnext	word	
+Production Plan	생산 계획		erpnext	word	
+Manufacturing	생산|제조		erpnext	word	
+Manufacture	생산|제조		erpnext	word	
+Subcontracting	외주		erpnext	word	더존 용어
+Subcontracting Order	외주 발주		erpnext	word	
+Subcontracting Receipt	외주 입고		erpnext	word	
+Project	프로젝트			word	
+Task	작업|업무			word	
+Timesheet	근무 기록표|타임시트		erpnext	word	
+Employee	사원|직원			word	더존의 사원
+Department	부서			word	
+Designation	직책|직위		erpnext	word	
+Branch	지점		erpnext	word	
+Holiday List	휴일 목록		erpnext	word	
+Company	회사			word	
+Lead	리드|잠재 고객		erpnext	case	CRM 문서 이름. 'lead to'(이어지다) 같은 동사와 가르려고 대소문자를 가린다
+Lead Time	리드 타임|조달 기간		erpnext	word	
+Opportunity	영업 기회		erpnext	word	
+Prospect	가망 고객		erpnext	word	
+Territory	영업 지역|지역		erpnext	word	
+Sales Person	영업 담당자|영업 사원		erpnext	word	
+Sales Partner	판매 파트너|판매 대리점		erpnext	word	
+Shipping Rule	배송 규칙		erpnext	word	
+Shareholder	주주		erpnext	word	
+Share Transfer	주식 양도		erpnext	word	
+Share Type	주식 종류		erpnext	word	
+Subscription	구독			word	
+Dunning	독촉		erpnext	word	미수 채권 독촉
+Loyalty Program	포인트 프로그램|로열티 프로그램		erpnext	word	
+Coupon Code	쿠폰 코드		erpnext	word	
+Inter Company	회사 간		erpnext	word	
+Quality Inspection	품질 검사		erpnext	word	
+Pick List	피킹 리스트|피킹 목록		erpnext	word	
+Packing Slip	포장 명세서		erpnext	word	
+Product Bundle	묶음 상품|세트 품목		erpnext	word	
+Blanket Order	포괄 주문|장기 계약 주문		erpnext	word	
+DocType	문서 유형|DocType			word	Frappe 의 문서 정의
+Document	문서			word	
+Field	필드			word	
+Form	양식|폼			word	
+List	목록|리스트			word	
+Report	보고서|리포트|보고			word	'report to'(보고하다) 동사도 받는다
+Workspace	작업 공간|워크스페이스			word	
+Dashboard	대시보드			word	
+Settings	설정			word	
+Submit	확정|제출			word	문서를 확정(전기)한다. 웹 양식에서는 제출
+Submitted	확정|제출			word	
+Cancel	취소			word	
+Cancelled	취소			word	
+Amend	수정			word	취소된 문서의 수정본을 만든다
+Amended From	원본|수정 원본			word	
+Draft	임시 저장|임시	초안		word	아직 확정하지 않은 문서
+Save	저장|절약			word	'save time·credits'(아끼다) 는 절약
+Saved	저장			word	
+Delete	삭제			word	
+Deleted	삭제			word	
+Rename	이름 변경|이름 바꾸기|이름을 변경|이름을 바꾸			word	문장 안에서는 '이름을 변경하세요'
+Duplicate	복제|중복			word	
+Print	인쇄			word	
+Print Format	인쇄 양식			word	
+Letter Head	레터헤드			word	
+Import	가져오기|가져|불러|수입			word	문장 안에서는 활용형(가져올·가져와)
+Export	내보내기|내보|수출			word	문장 안에서는 활용형(내보낼·내보냅니다)
+Download	다운로드|내려받			word	
+Upload	업로드|올리			word	
+Filter	필터			word	
+Sort	정렬			word	
+Search	검색			word	
+Refresh	새로 고침|새로고침			word	
+Assign To	담당자 지정|배정			word	
+Assigned To	담당자|배정|할당			case	'Assigned To' 라벨(담당자). 'assigned to'(할당된·부여한) 동사구와 가르려고 대소문자를 가린다
+Share	공유		frappe	word	문서 공유. 회계의 주식은 Share Transfer 등
+Attachment	첨부			word	
+Attach	첨부			word	
+Comment	댓글|의견|코멘트			word	
+Notification	알림			word	
+Email	이메일|메일			word	
+Role	역할			word	
+Permission	권한			word	
+User	사용자			word	
+Naming Series	번호 체계			word	문서 번호 규칙
+Child Table	하위 표|하위 테이블			word	
+Row	행			word	
+Column	열|컬럼			word	
+Mandatory	필수			word	
+Enabled	사용|활성			word	
+Disabled	사용 안 함|사용 중지|비활성			word	
+Enable	사용|활성			word	
+Disable	사용 안 함|사용 중지|비활성			word	
+Customize Form	양식 사용자 정의			word	
+Custom Field	사용자 정의 필드			word	
+Workflow	워크플로			word	
+Web Form	웹 양식			word	
+Website	웹사이트			word	
+Module	모듈			word	
+Kanban Board	칸반 보드			word	
+Calendar	달력|캘린더			word	
+Contact	연락처|연락|문의			word	'contact the administrator'(문의하다) 같은 동사도 받는다
+Contact Us	문의|연락처			word	
+Address	주소			word	
+Country	국가|나라			word	
+Language	언어			word	
+Time Zone	시간대			word	
+ToDo	할 일			word	
+Event	일정|이벤트			word	
+Error Log	오류 로그|오류 기록			word	
+Log	로그|기록|내역			word	
+Backup	백업			word	
+Scheduler	스케줄러			word	
+Sidebar	사이드바			word	
+Tag	태그			word	
+Timeline	타임라인			word	
+Login	로그인			word	
+Logout	로그아웃			word	
+Password	비밀번호	패스워드		word	
+Session	세션			word	
+Two Factor Authentication	2단계 인증|2차 인증			word	
+Number Card	숫자 카드			word	
+Data Import	데이터 가져오기			word	
+Server Script	서버 스크립트			word	
+Client Script	클라이언트 스크립트			word	
+Webhook	웹훅			word	
+Translation	번역			word	
+Status	상태			exact	
+Type	유형			exact	
+Title	제목			exact	
+Name	이름			exact	
+Date	날짜|일자			exact	
+Description	설명			exact	
+Details	상세 정보|세부 정보			exact	
+Notes	메모			exact	
+Remarks	비고|적요			exact	
+Yes	예			exact	
+No	아니요			exact	
+Close	닫기			exact	
+Add	추가			exact	
+Edit	편집			exact	
+New	새로 만들기|신규|새			exact	
+Update	업데이트|갱신			exact	
+Back	뒤로			exact	
+Next	다음			exact	
+Previous	이전			exact	
+Done	완료			exact	
+Confirm	확인			exact	
+OK	확인			exact	
+Apply	적용			exact	
+Reset	초기화			exact	
+Clear	지우기			exact	
+Select	선택			exact	
+Actions	작업			exact	
+Menu	메뉴			exact	
+Home	홈			exact	
+Help	도움말			exact	
+Loading...	불러오는 중...			exact	
+ERPNext	ERPNext			word	제품 이름. 그대로 쓴다
+Frappe	Frappe			word	그대로 쓴다
+Google	Google	구글		word	그대로 쓴다
+OAuth	OAuth			word	그대로 쓴다
+JavaScript	JavaScript			word	그대로 쓴다
+Python	Python			word	그대로 쓴다
+Slack	Slack			word	그대로 쓴다
+Jinja	Jinja			word	그대로 쓴다
+Markdown	Markdown			word	그대로 쓴다
+LDAP	LDAP			word	그대로 쓴다
+Payment	결제|지급|수금|입출금	지불	erpnext	word	회계 용어로 결제·지급·수금
+HR	인사			word	Human Resources
+Remove	제거|빼기			exact	목록에서 뺀다. 삭제는 Delete
+Material Issue	자재 출고		erpnext	word	재고 입출고 유형
+Material Receipt	자재 입고		erpnext	word	재고 입출고 유형
+Material Transfer	자재 이동		erpnext	word	재고 입출고 유형
+Repack	재포장		erpnext	word	
+Typst	Typst			word	그대로 쓴다
+WeasyPrint	WeasyPrint			word	그대로 쓴다
+Accounts	회계|계정		erpnext	exact	모듈·사이드바 이름은 회계
+Assets	에셋|정적 파일		frappe	word	빌드된 JS·CSS 파일. 회계의 자산은 erpnext 범위의 Asset
+Google Calendar	Google 캘린더	Google 달력		word	Google 공식 한국어 이름
+Google Contacts	Google 주소록|Google 연락처			word	Google 공식 한국어 이름은 'Google 주소록'
+Google Drive	Google 드라이브			word	Google 공식 한국어 이름
+Point of Sale	POS		erpnext	word	POS 송장·POS 프로필 같은 문서 이름과 맞춘다
+Foreign Currency	외화|외국 통화			word	회계 용어
+Finished Item	완제품|완성 품목		erpnext	word	Finished Good 과 같은 뜻
+Executive	Executive		frappe	exact	용지 크기 이름 (인쇄 설정 PDF 용지)
+Comm10E	Comm10E			word	봉투 크기 이름 (인쇄 설정 PDF 용지)
+lft	lft			exact	중첩 집합(nested set) 필드 이름
+nonce	nonce			word	OAuth 용어. 그대로 쓴다
+Btu	Btu			word	열량 단위 기호
+Cron	Cron			word	예약 작업 형식 이름. 그대로 쓴다
+GNU Affero General Public License	GNU Affero General Public License			word	라이선스 이름. 그대로 쓴다
+Arial	Arial			word	제품·프로그램 이름. 그대로 쓴다
+Brave	Brave			word	제품·프로그램 이름. 그대로 쓴다
+DuckDuckGo	DuckDuckGo			word	제품·프로그램 이름. 그대로 쓴다
+Emacs	Emacs			word	제품·프로그램 이름. 그대로 쓴다
+Exa	Exa			word	제품·프로그램 이름. 그대로 쓴다
+Facebook	Facebook			word	제품·프로그램 이름. 그대로 쓴다
+fairlogin	fairlogin			word	제품·프로그램 이름. 그대로 쓴다
+frappectl	frappectl			word	제품·프로그램 이름. 그대로 쓴다
+GitHub	GitHub			word	제품·프로그램 이름. 그대로 쓴다
+Google Analytics	Google Analytics			word	제품·프로그램 이름. 그대로 쓴다
+Helvetica Neue	Helvetica Neue			word	제품·프로그램 이름. 그대로 쓴다
+InnoDB	InnoDB			word	제품·프로그램 이름. 그대로 쓴다
+LinkedIn	LinkedIn			word	제품·프로그램 이름. 그대로 쓴다
+MyISAM	MyISAM			word	제품·프로그램 이름. 그대로 쓴다
+Nomatim	Nomatim			word	제품·프로그램 이름. 그대로 쓴다
+Office 365	Office 365			word	제품·프로그램 이름. 그대로 쓴다
+OpenLDAP	OpenLDAP			word	제품·프로그램 이름. 그대로 쓴다
+PlutoPrint	PlutoPrint			word	제품·프로그램 이름. 그대로 쓴다
+SendGrid	SendGrid			word	제품·프로그램 이름. 그대로 쓴다
+Skype	Skype			word	제품·프로그램 이름. 그대로 쓴다
+SparkPost	SparkPost			word	제품·프로그램 이름. 그대로 쓴다
+StartTLS	StartTLS			word	제품·프로그램 이름. 그대로 쓴다
+Tavily	Tavily			word	제품·프로그램 이름. 그대로 쓴다
+Vim	Vim			word	제품·프로그램 이름. 그대로 쓴다
+Vimeo	Vimeo			word	제품·프로그램 이름. 그대로 쓴다
+vscode	vscode			word	제품·프로그램 이름. 그대로 쓴다
+WhatsApp	WhatsApp			word	제품·프로그램 이름. 그대로 쓴다
+wkhtmltopdf	wkhtmltopdf			word	제품·프로그램 이름. 그대로 쓴다
+Bank Entry	은행 전표		erpnext	word	분개 유형(Journal Entry 의 voucher type). 기초 전표·감가상각 전표와 맞춘다
+Cash Entry	현금 전표		erpnext	word	분개 유형(Journal Entry 의 voucher type). 기초 전표·감가상각 전표와 맞춘다
+Credit Card Entry	신용카드 전표		erpnext	word	분개 유형(Journal Entry 의 voucher type). 기초 전표·감가상각 전표와 맞춘다
+Contra Entry	상계 전표		erpnext	word	분개 유형(Journal Entry 의 voucher type). 기초 전표·감가상각 전표와 맞춘다
+Excise Entry	소비세 전표		erpnext	word	분개 유형(Journal Entry 의 voucher type). 기초 전표·감가상각 전표와 맞춘다
+Reference Date	참조일|참조 일자	기준일		word	수표·참조 문서의 날짜. 기준일(base date)과 다르다

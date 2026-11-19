@@ -1,0 +1,10 @@
+id: no-comment
+valid:
+  - total = sum(amounts)
+invalid:
+  - "total = sum(amounts)  # 합계"
+  - |
+    # 설명
+    total = 1
+  - "value = compute()  # type: ignore[no-any-return]"
+  - "handle = urlopen(url)  # noqa: S310"

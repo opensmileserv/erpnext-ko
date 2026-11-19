@@ -1,0 +1,57 @@
+[project]
+name = "erpnext_ko"
+authors = [{ name = "Smileserv" }]
+description = "ERPNext·Frappe 한국어 번역"
+requires-python = ">=3.14"
+readme = "README.md"
+license = { text = "GPL-3.0-or-later" }
+dynamic = ["version"]
+dependencies = []
+
+[build-system]
+requires = ["flit_core >=3.4,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.uv]
+package = false
+
+[dependency-groups]
+dev = [
+    "ast-grep-cli>=0.39",
+    "babel==2.18.0",
+    "basedpyright>=1.31",
+    "hypothesis>=6.140",
+    "pytest>=8.4",
+    "ruff>=0.14",
+]
+
+[tool.ruff]
+target-version = "py314"
+line-length = 100
+src = [".", "tools"]
+extend-exclude = ["upstream"]
+
+[tool.ruff.lint]
+select = ["ALL"]
+ignore = ["D", "COM812", "ISC001", "CPY001", "RUF001", "RUF002", "RUF003"]
+
+[tool.ruff.lint.flake8-type-checking]
+runtime-evaluated-decorators = ["dataclasses.dataclass"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**" = ["S101", "PLR2004", "INP001"]
+"erpnext_ko/hooks.py" = ["INP001"]
+"dev/*.py" = ["INP001"]
+
+[tool.basedpyright]
+typeCheckingMode = "strict"
+pythonVersion = "3.14"
+include = ["tools", "tests", "erpnext_ko"]
+stubPath = "typings"
+extraPaths = ["tools"]
+reportMissingModuleSource = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["tools"]
+addopts = ["--import-mode=importlib", "--strict-markers"]

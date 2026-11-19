@@ -1,0 +1,3 @@
+def compile_translations(
+    target_app: str | None = None, locale: str | None = None, *, force: bool = False
+) -> None: ...

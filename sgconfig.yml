@@ -1,0 +1,4 @@
+ruleDirs:
+  - guard/rules
+testConfigs:
+  - testDir: guard/rule-tests
