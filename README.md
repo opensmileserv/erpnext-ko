@@ -28,7 +28,7 @@ upstream 에도 `ko.po` 는 있다 (v16.60 기준). 하지만 그대로 쓸 수 
 ## 설치
 
 ```bash
-bench get-app <이 저장소 주소>
+bench get-app https://github.com/opensmileserv/erpnext-ko
 ```
 
 ```bash
