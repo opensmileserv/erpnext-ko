@@ -147,7 +147,10 @@ GitHub Actions([.github/workflows/upstream.yml](.github/workflows/upstream.yml))
 3. 바뀌었으면 `./kotr sync` → `seed` → `translate` → `./check` 를 돌린다. 원문의 버전과 커밋은 [upstream/SOURCE.md](upstream/SOURCE.md) 에 적는다.
 4. 모두 통과하면 main 에 커밋한다. 모델 요청이 하나라도 실패하거나 검사에 걸리면 커밋하지 않고, 다음 날 처음부터 다시 한다.
 
-저장소 비밀값 `KOTR_BASE_URL` 에 모델 주소를 넣어 둔다. 모델 이름과 옵션은 워크플로 파일에 있다.
+작업은 GPU 서버에 둔 self-hosted 러너(라벨 `gpu`)에서 돈다. 모델 서버는 바깥에서 막혀 있어 GitHub 의 러너로는 닿지 않는다. 그래서 같은 서버의 `http://127.0.0.1:8001/v1` 을 쓴다. 모델 이름과 옵션은 워크플로 파일에 있다.
+
+- 러너는 sudo 가 없는 전용 사용자 `ghrunner` 로 돈다. 위치는 `/home/ghrunner/actions-runner` 이다.
+- 공개 저장소에 self-hosted 러너를 두면 포크 PR 의 워크플로가 이 서버에서 돌 수 있다. 그래서 저장소 설정의 포크 PR 워크플로 승인은 '모든 외부 기여자'로 둔다. 모르는 PR 의 워크플로 실행은 승인하지 않는다.
 
 손으로 돌리려면 Actions 탭에서 `upstream` 을 실행한다. 이때는 먼저 모델 서버에 닿는지 확인한다. 로컬에서는 `KOTR_*` 환경 변수를 정하고 실행한다. 다른 브랜치를 따라가려면 `UPSTREAM_BRANCH` 를 정한다 (기본 `version-16`).
 

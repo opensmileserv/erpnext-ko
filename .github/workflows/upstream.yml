@@ -14,10 +14,10 @@ concurrency:
 
 jobs:
   update:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, gpu]
     timeout-minutes: 120
     env:
-      KOTR_BASE_URL: ${{ secrets.KOTR_BASE_URL }}
+      KOTR_BASE_URL: http://127.0.0.1:8001/v1
       KOTR_MODEL: Qwen/Qwen3.8-27B
       KOTR_EXTRA_JSON: '{"chat_template_kwargs":{"enable_thinking":false}}'
     steps:
