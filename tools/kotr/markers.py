@@ -29,6 +29,7 @@ MARKER = re.compile(
     re.DOTALL,
 )
 CODE = re.compile(r"<code\b[^>]*>.*?</code>", re.DOTALL)
+LINK = re.compile(r"\[([^\]\n]+)\]\((?:https?://|/)[^)\s]*\)|<a\b[^>]*>([^<]+)</a>", re.IGNORECASE)
 LABEL = re.compile(rf"(?={NAME}*[A-Za-z]){NAME}*_{NAME}*")
 MASK = "\x00"
 HANGUL = re.compile(r"[가-힣]")
@@ -75,6 +76,10 @@ def prose_words(text: str) -> list[str]:
         for word in WORD.findall(prose(text))
         if len(word) >= MIN_PROSE_WORD and any(char.islower() for char in word)
     ]
+
+
+def link_labels(text: str) -> list[str]:
+    return [(markdown or anchor).strip() for markdown, anchor in LINK.findall(text)]
 
 
 def shape_problems(source: str, target: str) -> list[str]:

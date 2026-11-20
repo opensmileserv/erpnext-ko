@@ -46331,8 +46331,8 @@ msgid ""
 "</a>"
 msgstr ""
 "Google Cloud Console의 <a href=\"https://console.cloud.google.com/apis/credentials\">\n"
-"\"APIs &amp; Services\" &gt; \"Credentials\"\n"
-"</a>에서 가져온 Client ID"
+"\"API &amp; 서비스\" &gt; \"사용자 인증 정보\"\n"
+"</a>에서 받은 클라이언트 ID"
 
 #: frappe/email/doctype/notification/notification.py:238
 #, mt, python-brace-format
@@ -46503,9 +46503,9 @@ msgid ""
 "\"APIs &amp; Services\" &gt; \"Credentials\"\n"
 "</a>"
 msgstr ""
-"<a href=\"https://console.cloud.google.com/apis/credentials\">\n"
-"\"APIs &amp; Services\" &gt; \"Credentials\"\n"
-"</a>의 Google Cloud Console에서 가져온 브라우저 API 키입니다"
+"Google Cloud Console의 <a href=\"https://console.cloud.google.com/apis/credentials\">\n"
+"\"API &amp; 서비스\" &gt; \"사용자 인증 정보\"\n"
+"</a>에서 받은 브라우저 API 키"
 
 #: frappe/public/js/frappe/views/kanban_v2/core/kanban_core.js:1040
 #, mt
@@ -103778,7 +103778,7 @@ msgstr "주문 금액"
 #: erpnext/buying/onboarding_step/create_purchase_order/create_purchase_order.json:5
 #, mt
 msgid "Order from the supplier. When the goods arrive, receive them and record the bill from the order itself. See [Purchase Order](https://docs.frappe.io/erpnext/user/manual/en/purchase-order)."
-msgstr "공급업체에게 발주하세요. 화물이 도착하면 수령하고 주문서에서 직접 청구서를 기록하세요. [Purchase Order](https://docs.frappe.io/erpnext/user/manual/en/purchase-order) 참조."
+msgstr "공급업체에게 발주하세요. 화물이 도착하면 발주서에서 직접 입고 처리하고 청구서를 기록하세요. [발주](https://docs.frappe.io/erpnext/user/manual/en/purchase-order) 참고."
 
 #. Title of the Module Onboarding 'Buying Onboarding'
 #. Title of an Onboarding Step
@@ -126409,7 +126409,7 @@ msgstr "제품을 만들 때 사용하는 것으로, 원자재 그룹에 보관�
 #: erpnext/quality_management/onboarding_step/create_quality_goal/create_quality_goal.json:5
 #, mt
 msgid "Something you want to measure and improve, like on-time delivery or returns, reviewed on a schedule you choose. See [Quality Management](https://docs.frappe.io/erpnext/user/manual/en/quality-management)."
-msgstr "정시 배송률이나 반품률처럼 측정하고 개선하고 싶은 항목을, 사용자가 선택한 일정대로 검토합니다. [Quality Management](https://docs.frappe.io/erpnext/user/manual/en/quality-management) 참조."
+msgstr "정시 납품이나 반품률처럼 측정하고 개선하려는 목표를 설정하고, 사용자가 선택한 일정에 따라 검토하세요. [품질 관리](https://docs.frappe.io/erpnext/user/manual/en/quality-management) 참고."
 
 #. Description of a DocType
 #: erpnext/assets/doctype/asset/asset.json:7
@@ -139628,7 +139628,7 @@ msgstr "이 고객에게 판매할 때, 이 품목만 선택할 수 있습니다
 #: erpnext/quality_management/onboarding_step/create_non_conformance/create_non_conformance.json:5
 #, mt
 msgid "When something falls short of the procedure, note what happened, the cause, and what you will do about it. See [Non Conformance](https://docs.frappe.io/erpnext/user/manual/en/non-conformance)."
-msgstr "절차에 미달하는 일이 발생하면, 발생한 내용, 원인, 조치 사항을 기록하세요. [Non Conformance](https://docs.frappe.io/erpnext/user/manual/en/non-conformance) 참조."
+msgstr "절차에 미달한 상황이 발생하면, 무슨 일이 있었는지, 원인이 무엇인지, 어떻게 조치할 것인지를 기록하세요. [불일치](https://docs.frappe.io/erpnext/user/manual/en/non-conformance) 참고."
 
 #: erpnext/projects/doctype/project/project.js:840
 #, mt
@@ -139702,7 +139702,7 @@ msgstr "누구를 위해 설정하시나요?"
 #: erpnext/projects/onboarding_step/create_tasks/create_tasks.json:5
 #, mt
 msgid "Who does what, by when. Tasks roll up into the project's progress. See [Task](https://docs.frappe.io/erpnext/user/manual/en/task)."
-msgstr "누가, 언제까지, 무엇을 하는지 정의합니다. 작업은 프로젝트 진행률로 집계됩니다. [Task](https://docs.frappe.io/erpnext/user/manual/en/task) 참고."
+msgstr "누가 무엇을 언제까지 하는지 정의하세요. 작업이 프로젝트 진행률에 집계됩니다. [작업](https://docs.frappe.io/erpnext/user/manual/en/task) 참고."
 
 #. Description of a report in the Onboarding Step 'Follow up on unpaid
 #. invoices'

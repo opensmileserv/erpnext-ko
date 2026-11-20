@@ -3,7 +3,14 @@ from typing import TYPE_CHECKING
 from hypothesis import given
 from hypothesis import strategies as st
 
-from kotr.markers import hangul_problems, marker_problems, markers, prose, shape_problems
+from kotr.markers import (
+    hangul_problems,
+    link_labels,
+    marker_problems,
+    markers,
+    prose,
+    shape_problems,
+)
 
 if TYPE_CHECKING:
     from random import Random
@@ -121,3 +128,11 @@ def test_prose_masks_code_without_joining_words() -> None:
     assert "{0}" not in masked
     assert len(masked) == len("Open <code>Item</code> for {0} now")
     assert "for" in masked.split()
+
+
+def test_link_labels_cover_markdown_and_anchors() -> None:
+    text = (
+        'See [Quality Management](https://docs.frappe.io/q) or <a href="/app/task">Task list</a>.'
+    )
+    assert link_labels(text) == ["Quality Management", "Task list"]
+    assert link_labels("[x] done, (see) [notes](not-a-link)") == []
