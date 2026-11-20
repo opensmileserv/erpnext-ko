@@ -5790,6 +5790,8 @@ msgid "Background Image"
 msgstr "배경 이미지"
 
 #. Label of a chart in the System Workspace
+#. Name of the Dashboard Chart 'Background Job Activity'
+#: frappe/frappe/core/dashboard_chart/background_job_activity/background_job_activity.json:1
 #: frappe/system/workspace/system/system.json:5
 #, mt
 msgid "Background Job Activity"
@@ -16230,7 +16232,9 @@ msgstr "오류 로그"
 
 #. Label of a Link in the Build Workspace
 #. Label of a number card in the System Workspace
+#. Label of the Number Card 'Error Logs'
 #: frappe/build/workspace/build/build.json:276
+#: frappe/frappe/core/number_card/error_logs/error_logs.json:1
 #: frappe/system/workspace/system/system.json:32
 msgid "Error Logs"
 msgstr "오류 로그"
@@ -17047,6 +17051,8 @@ msgid "Failed Jobs"
 msgstr "실패한 작업"
 
 #. Label of a number card in the Users Workspace
+#. Label of the Number Card 'Failed Login Attempts'
+#: frappe/frappe/desk/number_card/failed_login_attempts/failed_login_attempts.json:1
 #: frappe/users/workspace/users/users.json:113
 #, mt
 msgid "Failed Login Attempts"
@@ -17059,6 +17065,8 @@ msgid "Failed Logins (Last 30 days)"
 msgstr "로그인 실패 (최근 30일)"
 
 #. Label of a number card in the System Workspace
+#. Label of the Number Card 'Failed Scheduled Jobs'
+#: frappe/frappe/core/number_card/failed_scheduled_jobs/failed_scheduled_jobs.json:1
 #: frappe/system/workspace/system/system.json:40
 #, mt
 msgid "Failed Scheduled Jobs"
@@ -26711,8 +26719,10 @@ msgstr "로그아웃됨"
 
 #. Option for the 'Operation' (Select) field in DocType 'Activity Log'
 #. Label of the security_tab (Tab Break) field in DocType 'System Settings'
+#. Name of the Dashboard Chart 'Login'
 #: frappe/core/doctype/activity_log/activity_log.json:75
 #: frappe/core/doctype/system_settings/system_settings.json:629
+#: frappe/frappe/desk/dashboard_chart/login/login.json:1
 #: frappe/public/js/frappe/web_form/webform_script.js:16
 #: frappe/templates/discussions/discussions_section.html:60
 #: frappe/templates/discussions/reply_section.html:44
@@ -26723,6 +26733,8 @@ msgid "Login"
 msgstr "로그인"
 
 #. Label of a chart in the Users Workspace
+#. Name of the Dashboard Chart 'Login Activity'
+#: frappe/frappe/desk/dashboard_chart/login_activity/login_activity.json:1
 #: frappe/users/workspace/users/users.json:5
 #, mt
 msgid "Login Activity"
@@ -31187,6 +31199,8 @@ msgid "Notifications"
 msgstr "알림"
 
 #. Label of a chart in the System Workspace
+#. Name of the Dashboard Chart 'Notifications By Type'
+#: frappe/frappe/core/dashboard_chart/notifications_by_type/notifications_by_type.json:1
 #: frappe/system/workspace/system/system.json:9
 #, mt
 msgid "Notifications By Type"
@@ -35759,12 +35773,16 @@ msgid "Published"
 msgstr "게시됨"
 
 #. Label of a number card in the Website Workspace
+#. Label of the Number Card 'Published Web Forms'
+#: frappe/frappe/desk/number_card/published_web_forms/published_web_forms.json:1
 #: frappe/website/workspace/website/website.json:108
 #, mt
 msgid "Published Web Forms"
 msgstr "게시된 웹 양식"
 
 #. Label of a number card in the Website Workspace
+#. Label of the Number Card 'Published Web Pages'
+#: frappe/frappe/desk/number_card/published_web_pages/published_web_pages.json:1
 #: frappe/website/workspace/website/website.json:104
 #, mt
 msgid "Published Web Pages"
@@ -39918,6 +39936,8 @@ msgid "Scheduled Job Type"
 msgstr "예약 작업 유형"
 
 #. Label of a number card in the System Workspace
+#. Label of the Number Card 'Scheduled Jobs'
+#: frappe/frappe/core/number_card/scheduled_jobs/scheduled_jobs.json:1
 #: frappe/system/workspace/system/system.json:36
 #, mt
 msgid "Scheduled Jobs"
@@ -52431,6 +52451,8 @@ msgid "Website Theme image link"
 msgstr "웹사이트 테마 이미지 링크"
 
 #. Label of a number card in the Website Workspace
+#. Label of the Number Card 'Website Themes Available'
+#: frappe/frappe/website/number_card/website_themes_available/website_themes_available.json:1
 #: frappe/website/workspace/website/website.json:112
 #, mt
 msgid "Website Themes Available"
@@ -61489,6 +61511,8 @@ msgstr "품목별 직렬/로트 번호 활성화"
 
 #. Label of a number card in the ERPNext Settings Workspace
 #. Label of a number card in the Home Workspace
+#. Label of the Number Card 'Active Customers'
+#: erpnext/erpnext/selling/number_card/active_customers/active_customers.json:1
 #: erpnext/setup/workspace/erpnext_settings/erpnext_settings.json:27
 #: erpnext/setup/workspace/home/home.json:62
 #, mt
@@ -61508,6 +61532,8 @@ msgstr "활성 상태"
 
 #. Label of a number card in the ERPNext Settings Workspace
 #. Label of a number card in the Home Workspace
+#. Label of the Number Card 'Active Suppliers'
+#: erpnext/erpnext/buying/number_card/active_suppliers/active_suppliers.json:1
 #: erpnext/setup/workspace/erpnext_settings/erpnext_settings.json:31
 #: erpnext/setup/workspace/home/home.json:66
 #, mt
@@ -64998,7 +65024,9 @@ msgid "Annual Income"
 msgstr "연간 수익"
 
 #. Label of a number card in the Buying Workspace
+#. Label of the Number Card 'Annual Purchase'
 #: erpnext/buying/workspace/buying/buying.json:367
+#: erpnext/erpnext/buying/number_card/annual_purchase/annual_purchase.json:1
 #, mt
 msgid "Annual Purchase"
 msgstr "연간 구매"
@@ -65014,6 +65042,8 @@ msgid "Annual Revenue"
 msgstr "연간 수익"
 
 #. Label of a number card in the Selling Workspace
+#. Label of the Number Card 'Annual Sales'
+#: erpnext/erpnext/selling/number_card/annual_sales/annual_sales.json:1
 #: erpnext/selling/workspace/selling/selling.json:475
 #, mt
 msgid "Annual Sales"
@@ -66241,12 +66271,14 @@ msgstr "자산 유형"
 #. Label of the asset_value (Currency) field in DocType 'Asset Capitalization
 #. Asset Item'
 #. Label of a number card in the Assets Workspace
+#. Label of the Number Card 'Asset Value'
 #: erpnext/assets/doctype/asset/asset.js:525
 #: erpnext/assets/doctype/asset_capitalization_asset_item/asset_capitalization_asset_item.json:71
 #: erpnext/assets/report/fixed_asset_register/fixed_asset_register.py:245
 #: erpnext/assets/report/fixed_asset_register/fixed_asset_register.py:526
 #: erpnext/assets/report/fixed_asset_register/fixed_asset_register.py:573
 #: erpnext/assets/workspace/assets/assets.json:129
+#: erpnext/erpnext/assets/number_card/asset_value/asset_value.json:1
 #, mt
 msgid "Asset Value"
 msgstr "자산 가치"
@@ -66282,7 +66314,9 @@ msgid "Asset Value After Depreciation"
 msgstr "감가상각 후 자산 가치"
 
 #. Label of a chart in the Assets Workspace
+#. Name of the Dashboard Chart 'Asset Value Analytics'
 #: erpnext/assets/workspace/assets/assets.json:6
+#: erpnext/erpnext/assets/dashboard_chart/asset_value_analytics/asset_value_analytics.json:1
 #, mt
 msgid "Asset Value Analytics"
 msgstr "자산 가치 분석"
@@ -68225,7 +68259,9 @@ msgstr "은행 계좌"
 #. Label of a chart in the Payments Workspace
 #. Label of the bank_balance (Check) field in DocType 'Email Digest'
 #. Label of a chart in the Home Workspace
+#. Name of the Dashboard Chart 'Bank Balance'
 #: erpnext/accounts/workspace/payments/payments.json:6
+#: erpnext/erpnext/accounts/dashboard_chart/bank_balance/bank_balance.json:1
 #: erpnext/setup/doctype/email_digest/email_digest.json:146
 #: erpnext/setup/workspace/home/home.json:9
 #, mt
@@ -70055,8 +70091,10 @@ msgstr "예산 시작일"
 
 #. Label of a Sidebar Item
 #. Label of a chart in the Financial Reports Workspace
+#. Name of the Dashboard Chart 'Budget Variance'
 #: erpnext/accounts/sidebar/accounts/accounts.json:504
 #: erpnext/accounts/workspace/financial_reports/financial_reports.json:6
+#: erpnext/erpnext/accounts/dashboard_chart/budget_variance/budget_variance.json:1
 #, mt
 msgid "Budget Variance"
 msgstr "예산 차이"
@@ -74019,6 +74057,8 @@ msgstr "완료일"
 msgid "Completed On cannot be greater than Today"
 msgstr "완료일은 오늘보다 클 수 없습니다"
 
+#. Name of the Dashboard Chart 'Completed Operation'
+#: erpnext/erpnext/manufacturing/dashboard_chart/completed_operation/completed_operation.json:1
 #: erpnext/manufacturing/dashboard_fixtures.py:76
 #, mt
 msgid "Completed Operation"
@@ -90539,7 +90579,9 @@ msgid "Incoming Call Settings"
 msgstr "수신 전화 설정"
 
 #. Label of a chart in the CRM Workspace
+#. Name of the Dashboard Chart 'Incoming Leads'
 #: erpnext/crm/workspace/crm/crm.json:6
+#: erpnext/erpnext/crm/dashboard_chart/incoming_leads/incoming_leads.json:1
 #, mt
 msgid "Incoming Leads"
 msgstr "수신 리드"
@@ -93004,6 +93046,8 @@ msgid "Issued Items Against Work Order"
 msgstr "작업지시별 출고 품목"
 
 #. Label of a chart in the Support Workspace
+#. Name of the Dashboard Chart 'Issues Opened'
+#: erpnext/erpnext/support/dashboard_chart/issues_opened/issues_opened.json:1
 #: erpnext/support/workspace/support/support.json:6
 #, mt
 msgid "Issues Opened"
@@ -95084,6 +95128,8 @@ msgstr "작업 용량"
 msgid "Job Card"
 msgstr "작업 카드"
 
+#. Name of the Dashboard Chart 'Job Card Analysis'
+#: erpnext/erpnext/manufacturing/dashboard_chart/job_card_analysis/job_card_analysis.json:1
 #: erpnext/manufacturing/dashboard_fixtures.py:167
 #, mt
 msgid "Job Card Analysis"
@@ -95723,6 +95769,8 @@ msgstr "마지막 원장 기록 갱신은 {} 에 수행되었습니다. 시스�
 msgid "Last Integration Date"
 msgstr "마지막 연동일"
 
+#. Name of the Dashboard Chart 'Last Month Downtime Analysis'
+#: erpnext/erpnext/manufacturing/dashboard_chart/last_month_downtime_analysis/last_month_downtime_analysis.json:1
 #: erpnext/manufacturing/dashboard_fixtures.py:138
 #, mt
 msgid "Last Month Downtime Analysis"
@@ -95962,7 +96010,9 @@ msgstr "리드 파이프라인"
 #. Label of a Sidebar Item
 #. Label of a Workspace Sidebar Item
 #. Item label in the Workspace Sidebar 'CRM'
+#. Name of the Dashboard Chart 'Lead Source'
 #: erpnext/crm/sidebar/crm/crm.json:546
+#: erpnext/erpnext/crm/dashboard_chart/lead_source/lead_source.json:1
 #: erpnext/erpnext/workspace_sidebar/crm.json:1
 #: erpnext/workspace_sidebar/crm.json:437
 #, mt
@@ -99365,6 +99415,8 @@ msgstr "송장 월 종료 후 월 수"
 msgid "Monthly Completed Work Order"
 msgstr "월별 완료 작업지시"
 
+#. Label of the Number Card 'Monthly Completed Work Order'
+#: erpnext/erpnext/manufacturing/number_card/monthly_completed_work_order/monthly_completed_work_order.json:1
 #: erpnext/manufacturing/dashboard_fixtures.py:215
 #, mt
 msgid "Monthly Completed Work Orders"
@@ -99395,6 +99447,8 @@ msgstr "월별 분배 비율"
 msgid "Monthly Distribution Percentages"
 msgstr "월별 분배 비율"
 
+#. Label of the Number Card 'Monthly Quality Inspection'
+#: erpnext/erpnext/manufacturing/number_card/monthly_quality_inspection/monthly_quality_inspection.json:1
 #: erpnext/manufacturing/dashboard_fixtures.py:244
 #, mt
 msgid "Monthly Quality Inspections"
@@ -99418,6 +99472,8 @@ msgstr "월간 매출 목표"
 msgid "Monthly Sales Trend"
 msgstr "월별 매출 추이"
 
+#. Label of the Number Card 'Monthly Total Work Order'
+#: erpnext/erpnext/manufacturing/number_card/monthly_total_work_order/monthly_total_work_order.json:1
 #: erpnext/manufacturing/dashboard_fixtures.py:198
 #, mt
 msgid "Monthly Total Work Orders"
@@ -100169,7 +100225,9 @@ msgid "New Asset Value is the same as the current asset value"
 msgstr "새 자산 가치는 현재 자산 가치와 동일합니다"
 
 #. Label of a number card in the Assets Workspace
+#. Label of the Number Card 'New Assets (This Year)'
 #: erpnext/assets/workspace/assets/assets.json:133
+#: erpnext/erpnext/assets/number_card/new_assets_(this_year)/new_assets_(this_year).json:1
 #, mt
 msgid "New Assets (This Year)"
 msgstr "신규 자산 (올해)"
@@ -100297,7 +100355,9 @@ msgid "New Journal Entry will be posted for the difference amount. The Posting D
 msgstr "차이 금액에 대해 새로운 전표가 게시됩니다. 회계일자는 수정할 수 있습니다."
 
 #. Label of a number card in the CRM Workspace
+#. Label of the Number Card 'New Lead (Last 1 Month)'
 #: erpnext/crm/workspace/crm/crm.json:31
+#: erpnext/erpnext/crm/number_card/new_lead_(last_1_month)/new_lead_(last_1_month).json:1
 #, mt
 msgid "New Lead (Last 1 Month)"
 msgstr "새 리드 (최근 1개월)"
@@ -101341,6 +101401,8 @@ msgid "Node of the design part. 0 means the finished good."
 msgstr "설계 부품의 노드입니다. 0은 완제품을 의미합니다."
 
 #. Label of a number card in the Projects Workspace
+#. Label of the Number Card 'Non Completed Tasks'
+#: erpnext/erpnext/projects/number_card/non_completed_tasks/non_completed_tasks.json:1
 #: erpnext/projects/workspace/projects/projects.json:90
 #, mt
 msgid "Non Completed Tasks"
@@ -102283,6 +102345,8 @@ msgstr "고객 한 명은 하나의 포인트 프로그램에만 참여할 수 �
 msgid "Ongoing"
 msgstr "진행 중"
 
+#. Label of the Number Card 'Ongoing Job Card'
+#: erpnext/erpnext/manufacturing/number_card/ongoing_job_card/ongoing_job_card.json:1
 #: erpnext/manufacturing/dashboard_fixtures.py:228
 #, mt
 msgid "Ongoing Job Cards"
@@ -102644,6 +102708,8 @@ msgstr "총계정원장 열기"
 
 #. Label of the issue (Check) field in DocType 'Email Digest'
 #. Label of a number card in the Support Workspace
+#. Label of the Number Card 'Open Issues'
+#: erpnext/erpnext/support/number_card/open_issues/open_issues.json:1
 #: erpnext/setup/doctype/email_digest/email_digest.json:248
 #: erpnext/support/workspace/support/support.json:27
 #, mt
@@ -102668,6 +102734,8 @@ msgid "Open Manufacturing"
 msgstr "생산 열기"
 
 #. Label of a number card in the Quality Workspace
+#. Label of the Number Card 'Open Non Conformances'
+#: erpnext/erpnext/quality_management/number_card/open_non_conformances/open_non_conformances.json:1
 #: erpnext/quality_management/workspace/quality/quality.json:98
 #, mt
 msgid "Open Non Conformances"
@@ -102681,7 +102749,9 @@ msgid "Open Notifications"
 msgstr "미확인 알림"
 
 #. Label of a number card in the CRM Workspace
+#. Label of the Number Card 'Open Opportunity'
 #: erpnext/crm/workspace/crm/crm.json:27
+#: erpnext/erpnext/crm/number_card/open_opportunity/open_opportunity.json:1
 #, mt
 msgid "Open Opportunity"
 msgstr "진행 중 영업 기회"
@@ -102713,6 +102783,8 @@ msgstr "진행 중인 프로젝트 요약 열기"
 #. Label of a number card in the Projects Workspace
 #. Label of the project (Check) field in DocType 'Email Digest'
 #. Label of an action in the Onboarding Step 'Plan and deliver projects'
+#. Label of the Number Card 'Open Projects'
+#: erpnext/erpnext/projects/number_card/open_projects/open_projects.json:1
 #: erpnext/projects/workspace/projects/projects.json:86
 #: erpnext/setup/doctype/email_digest/email_digest.json:254
 #: erpnext/setup/onboarding_step/complete_projects_onboarding/complete_projects_onboarding.json:3
@@ -102738,12 +102810,16 @@ msgid "Open Quality"
 msgstr "품질 열기"
 
 #. Label of a number card in the Quality Workspace
+#. Label of the Number Card 'Open Quality Actions'
+#: erpnext/erpnext/quality_management/number_card/open_quality_actions/open_quality_actions.json:1
 #: erpnext/quality_management/workspace/quality/quality.json:94
 #, mt
 msgid "Open Quality Actions"
 msgstr "진행 중인 품질 조치"
 
 #. Label of a number card in the Quality Workspace
+#. Label of the Number Card 'Open Quality Reviews'
+#: erpnext/erpnext/quality_management/number_card/open_quality_reviews/open_quality_reviews.json:1
 #: erpnext/quality_management/workspace/quality/quality.json:102
 #, mt
 msgid "Open Quality Reviews"
@@ -102863,6 +102939,8 @@ msgstr "진행 중 작업지시 {0}"
 #. Name of a report
 #. Label of a number card in the Manufacturing Workspace
 #. Label of a Link in the Manufacturing Workspace
+#. Label of the Number Card 'Open Work Orders'
+#: erpnext/erpnext/manufacturing/number_card/open_work_orders/open_work_orders.json:1
 #: erpnext/manufacturing/report/open_work_orders/open_work_orders.json:18
 #: erpnext/manufacturing/workspace/manufacturing/manufacturing.json:52
 #, mt
@@ -103990,7 +104068,9 @@ msgid "Outdated POS Opening Entry"
 msgstr "만료된 POS 개점 기록"
 
 #. Label of a chart in the Invoicing Workspace
+#. Name of the Dashboard Chart 'Outgoing Bills (Sales Invoice)'
 #: erpnext/accounts/workspace/invoicing/invoicing.json:6
+#: erpnext/erpnext/accounts/dashboard_chart/outgoing_bills_(sales_invoice)/outgoing_bills_(sales_invoice).json:1
 #, mt
 msgid "Outgoing Bills (Sales Invoice)"
 msgstr "발행 송장 (매출 송장)"
@@ -104285,6 +104365,8 @@ msgid "Overdue Deliveries"
 msgstr "지연된 납품"
 
 #. Label of a number card in the Support Workspace
+#. Label of the Number Card 'Overdue Issues'
+#: erpnext/erpnext/support/number_card/overdue_issues/overdue_issues.json:1
 #: erpnext/support/workspace/support/support.json:31
 #, mt
 msgid "Overdue Issues"
@@ -107178,6 +107260,8 @@ msgstr "검토 대기"
 msgid "Pending SO Items For Purchase Request"
 msgstr "구매 요청 대기 중인 주문 품목"
 
+#. Name of the Dashboard Chart 'Pending Work Order'
+#: erpnext/erpnext/manufacturing/dashboard_chart/pending_work_order/pending_work_order.json:1
 #: erpnext/manufacturing/dashboard_fixtures.py:123
 #, mt
 msgid "Pending Work Order"
@@ -111380,6 +111464,8 @@ msgid "Produced Qty"
 msgstr "생산 수량"
 
 #. Label of the produced_qty (Float) field in DocType 'Sales Order Item'
+#. Name of the Dashboard Chart 'Produced Quantity'
+#: erpnext/erpnext/manufacturing/dashboard_chart/produced_quantity/produced_quantity.json:1
 #: erpnext/manufacturing/dashboard_fixtures.py:59
 #: erpnext/selling/doctype/sales_order_item/sales_order_item.json:747
 #, mt
@@ -111685,10 +111771,12 @@ msgstr "당해연도 이익"
 #. Label of a chart in the Home Workspace
 #. Label of a Workspace Sidebar Item
 #. Item label in the Workspace Sidebar 'Financial Reports'
+#. Name of the Dashboard Chart 'Profit and Loss'
 #: erpnext/accounts/doctype/account/account.json:98
 #: erpnext/accounts/doctype/process_period_closing_voucher_detail/process_period_closing_voucher_detail.json:40
 #: erpnext/accounts/sidebar/accounts/accounts.json:189
 #: erpnext/accounts/workspace/accounting/accounting.json:6
+#: erpnext/erpnext/accounts/dashboard_chart/profit_and_loss/profit_and_loss.json:1
 #: erpnext/erpnext/workspace_sidebar/financial_reports.json:1
 #: erpnext/public/js/financial_statements.js:368
 #: erpnext/setup/workspace/home/home.json:5
@@ -111904,6 +111992,8 @@ msgstr "프로젝트 상태"
 #. Label of a Link in the Projects Workspace
 #. Label of a Workspace Sidebar Item
 #. Item label in the Workspace Sidebar 'Projects'
+#. Name of the Dashboard Chart 'Project Summary'
+#: erpnext/erpnext/projects/dashboard_chart/project_summary/project_summary.json:1
 #: erpnext/erpnext/workspace_sidebar/projects.json:1
 #: erpnext/projects/report/project_summary/project_summary.json:17
 #: erpnext/projects/sidebar/projects/projects.json:112
@@ -112676,9 +112766,11 @@ msgstr "발주 금액(회사 통화)"
 #. Label of a Link in the Buying Workspace
 #. Label of a Workspace Sidebar Item
 #. Item label in the Workspace Sidebar 'Buying'
+#. Name of the Dashboard Chart 'Purchase Order Analysis'
 #: erpnext/buying/report/purchase_order_analysis/purchase_order_analysis.json:17
 #: erpnext/buying/sidebar/buying/buying.json:191
 #: erpnext/buying/workspace/buying/buying.json:6
+#: erpnext/erpnext/buying/dashboard_chart/purchase_order_analysis/purchase_order_analysis.json:1
 #: erpnext/erpnext/workspace_sidebar/buying.json:1
 #: erpnext/workspace_sidebar/buying.json:243
 #, mt
@@ -112755,8 +112847,10 @@ msgstr "품목 {} 에는 발주가 필요합니다"
 #. Label of a Link in the Buying Workspace
 #. Label of a Workspace Sidebar Item
 #. Item label in the Workspace Sidebar 'Buying'
+#. Name of the Dashboard Chart 'Purchase Order Trends'
 #: erpnext/buying/report/purchase_order_trends/purchase_order_trends.json:20
 #: erpnext/buying/workspace/buying/buying.json:82
+#: erpnext/erpnext/buying/dashboard_chart/purchase_order_trends/purchase_order_trends.json:1
 #: erpnext/erpnext/workspace_sidebar/buying.json:1
 #: erpnext/workspace_sidebar/buying.json:309
 #, mt
@@ -112801,7 +112895,9 @@ msgstr "점수표 상태가 {1}이므로 {0}에 대한 발주가 허용되지 �
 
 #. Label of a number card in the Buying Workspace
 #. Label of the purchase_orders_to_bill (Check) field in DocType 'Email Digest'
+#. Label of the Number Card 'Purchase Orders to Bill'
 #: erpnext/buying/workspace/buying/buying.json:363
+#: erpnext/erpnext/buying/number_card/purchase_orders_to_bill/purchase_orders_to_bill.json:1
 #: erpnext/setup/doctype/email_digest/email_digest.json:181
 #, mt
 msgid "Purchase Orders to Bill"
@@ -112810,7 +112906,9 @@ msgstr "청구할 발주"
 #. Label of a number card in the Buying Workspace
 #. Label of the purchase_orders_to_receive (Check) field in DocType 'Email
 #. Digest'
+#. Label of the Number Card 'Purchase Orders to Receive'
 #: erpnext/buying/workspace/buying/buying.json:359
+#: erpnext/erpnext/buying/number_card/purchase_orders_to_receive/purchase_orders_to_receive.json:1
 #: erpnext/setup/doctype/email_digest/email_digest.json:214
 #, mt
 msgid "Purchase Orders to Receive"
@@ -112942,7 +113040,9 @@ msgstr "품목 {}에(에는) 입고서가 필요합니다"
 #. Label of a Workspace Sidebar Item
 #. Item label in the Workspace Sidebar 'Buying'
 #. Item label in the Workspace Sidebar 'Stock'
+#. Name of the Dashboard Chart 'Purchase Receipt Trends'
 #: erpnext/buying/workspace/buying/buying.json:92
+#: erpnext/erpnext/stock/dashboard_chart/purchase_receipt_trends/purchase_receipt_trends.json:1
 #: erpnext/erpnext/workspace_sidebar/buying.json:1
 #: erpnext/erpnext/workspace_sidebar/stock.json:1
 #: erpnext/stock/report/purchase_receipt_trends/purchase_receipt_trends.json:20
@@ -113748,6 +113848,8 @@ msgstr "품질 목표"
 msgid "Quality Inspection"
 msgstr "품질 검사"
 
+#. Name of the Dashboard Chart 'Quality Inspection Analysis'
+#: erpnext/erpnext/manufacturing/dashboard_chart/quality_inspection_analysis/quality_inspection_analysis.json:1
 #: erpnext/manufacturing/dashboard_fixtures.py:108
 #, mt
 msgid "Quality Inspection Analysis"
@@ -113874,6 +113976,8 @@ msgid "Quality Inspection(s)"
 msgstr "품질 검사"
 
 #. Label of a chart in the Quality Workspace
+#. Name of the Dashboard Chart 'Quality Inspections'
+#: erpnext/erpnext/quality_management/dashboard_chart/quality_inspections/quality_inspections.json:1
 #: erpnext/quality_management/workspace/quality/quality.json:6
 msgid "Quality Inspections"
 msgstr "품질 검사"
@@ -117727,6 +117831,8 @@ msgid "Resolved By"
 msgstr "처리자"
 
 #. Label of a number card in the Support Workspace
+#. Label of the Number Card 'Resolved Issues'
+#: erpnext/erpnext/support/number_card/resolved_issues/resolved_issues.json:1
 #: erpnext/support/workspace/support/support.json:35
 #, mt
 msgid "Resolved Issues"
@@ -121656,6 +121762,8 @@ msgstr "수주"
 #. Label of a Link in the Selling Workspace
 #. Label of a Workspace Sidebar Item
 #. Item label in the Workspace Sidebar 'Selling'
+#. Name of the Dashboard Chart 'Sales Order Analysis'
+#: erpnext/erpnext/selling/dashboard_chart/sales_order_analysis/sales_order_analysis.json:1
 #: erpnext/erpnext/workspace_sidebar/selling.json:1
 #: erpnext/selling/report/sales_order_analysis/sales_order_analysis.json:17
 #: erpnext/selling/workspace/selling/selling.json:6
@@ -121755,6 +121863,8 @@ msgstr "수주 상태"
 #. Label of a Link in the Selling Workspace
 #. Label of a Workspace Sidebar Item
 #. Item label in the Workspace Sidebar 'Selling'
+#. Name of the Dashboard Chart 'Sales Order Trends'
+#: erpnext/erpnext/selling/dashboard_chart/sales_order_trends/sales_order_trends.json:1
 #: erpnext/erpnext/workspace_sidebar/selling.json:1
 #: erpnext/selling/report/sales_order_trends/sales_order_trends.json:20
 #: erpnext/selling/workspace/selling/selling.json:92
@@ -121817,6 +121927,8 @@ msgstr "수주 필요"
 
 #. Label of a number card in the Selling Workspace
 #. Label of the sales_orders_to_bill (Check) field in DocType 'Email Digest'
+#. Label of the Number Card 'Sales Orders to Bill'
+#: erpnext/erpnext/selling/number_card/sales_orders_to_bill/sales_orders_to_bill.json:1
 #: erpnext/selling/workspace/selling/selling.json:471
 #: erpnext/setup/doctype/email_digest/email_digest.json:175
 #, mt
@@ -121825,6 +121937,8 @@ msgstr "청구할 수주"
 
 #. Label of a number card in the Selling Workspace
 #. Label of the sales_orders_to_deliver (Check) field in DocType 'Email Digest'
+#. Label of the Number Card 'Sales Orders to Deliver'
+#: erpnext/erpnext/selling/number_card/sales_orders_to_deliver/sales_orders_to_deliver.json:1
 #: erpnext/selling/workspace/selling/selling.json:467
 #: erpnext/setup/doctype/email_digest/email_digest.json:208
 #, mt
@@ -128010,6 +128124,8 @@ msgid "Stock Value Mismatch"
 msgstr "재고 가치 불일치"
 
 #. Label of a chart in the Stock Workspace
+#. Name of the Dashboard Chart 'Stock Value by Item Group'
+#: erpnext/erpnext/stock/dashboard_chart/stock_value_by_item_group/stock_value_by_item_group.json:1
 #: erpnext/stock/workspace/stock/stock.json:6
 #, mt
 msgid "Stock Value by Item Group"
@@ -128528,8 +128644,10 @@ msgstr "외주 입고 주문 요약"
 #. Label of the subcontracting_order (Link) field in DocType 'Subcontracting
 #. Receipt Item'
 #. Receipt Supplied Item'
+#. Name of the Dashboard Chart 'Subcontracting Order'
 #: erpnext/buying/doctype/purchase_order/purchase_order.js:400
 #: erpnext/controllers/subcontracting_controller.py:1481
+#: erpnext/erpnext/subcontracting/dashboard_chart/subcontracting_order/subcontracting_order.json:1
 #: erpnext/manufacturing/sidebar/manufacturing/manufacturing.json:234
 #: erpnext/stock/doctype/stock_entry/stock_entry.json:187
 #: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.json:89
@@ -133360,6 +133478,8 @@ msgid "Timesheet Detail"
 msgstr "근무 기록표 세부"
 
 #. Label of a number card in the Projects Workspace
+#. Label of the Number Card 'Timesheet Working Hours'
+#: erpnext/erpnext/projects/number_card/timesheet_working_hours/timesheet_working_hours.json:1
 #: erpnext/projects/workspace/projects/projects.json:94
 #, mt
 msgid "Timesheet Working Hours"
@@ -133916,6 +134036,8 @@ msgid "Too many columns. Export the report and print it using a spreadsheet appl
 msgstr "열이 너무 많습니다. 보고서를 내보내 스프레드시트 애플리케이션으로 인쇄하세요."
 
 #. Label of a chart in the ERPNext Settings Workspace
+#. Name of the Dashboard Chart 'Top Customers'
+#: erpnext/erpnext/selling/dashboard_chart/top_customers/top_customers.json:1
 #: erpnext/setup/workspace/erpnext_settings/erpnext_settings.json:6
 #, mt
 msgid "Top Customers"
@@ -133982,6 +134104,8 @@ msgstr "합계 달성"
 
 #. Label of a number card in the Home Workspace
 #. Label of a number card in the Stock Workspace
+#. Label of the Number Card 'Total Active Items'
+#: erpnext/erpnext/stock/number_card/total_active_items/total_active_items.json:1
 #: erpnext/setup/workspace/home/home.json:70
 #: erpnext/stock/workspace/stock/stock.json:793
 #, mt
@@ -134106,7 +134230,9 @@ msgid "Total Asset Cost"
 msgstr "자산 합계 금액"
 
 #. Label of a number card in the Assets Workspace
+#. Label of the Number Card 'Total Assets'
 #: erpnext/assets/workspace/assets/assets.json:125
+#: erpnext/erpnext/assets/number_card/total_assets/total_assets.json:1
 #, mt
 msgid "Total Assets"
 msgstr "자산 합계"
@@ -134405,17 +134531,21 @@ msgstr "올해 총 수익"
 #. Label of a number card in the Accounting Workspace
 #. Label of a number card in the Financial Reports Workspace
 #. Label of a number card in the Invoicing Workspace
+#. Label of the Number Card 'Total Incoming Bills'
 #: erpnext/accounts/workspace/accounting/accounting.json:938
 #: erpnext/accounts/workspace/financial_reports/financial_reports.json:33
 #: erpnext/accounts/workspace/invoicing/invoicing.json:33
+#: erpnext/erpnext/accounts/number_card/total_incoming_bills/total_incoming_bills.json:1
 #, mt
 msgid "Total Incoming Bills"
 msgstr "수취 예정 청구서 합계"
 
 #. Label of a number card in the Accounting Workspace
 #. Label of a number card in the Payments Workspace
+#. Label of the Number Card 'Total Incoming Payment'
 #: erpnext/accounts/workspace/accounting/accounting.json:942
 #: erpnext/accounts/workspace/payments/payments.json:30
+#: erpnext/erpnext/accounts/number_card/total_incoming_payment/total_incoming_payment.json:1
 #, mt
 msgid "Total Incoming Payment"
 msgstr "수금 합계"
@@ -134561,10 +134691,12 @@ msgstr "총 출고"
 #. Label of a number card in the Financial Reports Workspace
 #. Label of a number card in the Invoicing Workspace
 #. Label of a number card in the Payments Workspace
+#. Label of the Number Card 'Total Outgoing Bills'
 #: erpnext/accounts/workspace/accounting/accounting.json:934
 #: erpnext/accounts/workspace/financial_reports/financial_reports.json:29
 #: erpnext/accounts/workspace/invoicing/invoicing.json:29
 #: erpnext/accounts/workspace/payments/payments.json:38
+#: erpnext/erpnext/accounts/number_card/total_outgoing_bills/total_outgoing_bills.json:1
 #, mt
 msgid "Total Outgoing Bills"
 msgstr "합계 매출 청구서"
@@ -134572,9 +134704,11 @@ msgstr "합계 매출 청구서"
 #. Label of a number card in the Financial Reports Workspace
 #. Label of a number card in the Invoicing Workspace
 #. Label of a number card in the Payments Workspace
+#. Label of the Number Card 'Total Outgoing Payment'
 #: erpnext/accounts/workspace/financial_reports/financial_reports.json:37
 #: erpnext/accounts/workspace/invoicing/invoicing.json:37
 #: erpnext/accounts/workspace/payments/payments.json:34
+#: erpnext/erpnext/accounts/number_card/total_outgoing_payment/total_outgoing_payment.json:1
 #, mt
 msgid "Total Outgoing Payment"
 msgstr "지급 합계"
@@ -134647,7 +134781,9 @@ msgstr "생산 수량 합계"
 msgid "Total Projected Qty"
 msgstr "예상 총 수량"
 
+#. Label of the Number Card 'Total Purchase Amount'
 #: erpnext/buying/report/item_wise_purchase_history/item_wise_purchase_history.py:285
+#: erpnext/erpnext/buying/number_card/total_purchase_amount/total_purchase_amount.json:1
 #, mt
 msgid "Total Purchase Amount"
 msgstr "구매 금액 합계"
@@ -134716,6 +134852,8 @@ msgstr "총 수리 비용"
 msgid "Total Revenue"
 msgstr "수익 합계"
 
+#. Label of the Number Card 'Total Sales Amount'
+#: erpnext/erpnext/selling/number_card/total_sales_amount/total_sales_amount.json:1
 #: erpnext/selling/report/item_wise_sales_history/item_wise_sales_history.py:281
 #, mt
 msgid "Total Sales Amount"
@@ -134737,6 +134875,8 @@ msgstr "재고 합계 요약"
 
 #. Label of a number card in the Home Workspace
 #. Label of a number card in the Stock Workspace
+#. Label of the Number Card 'Total Stock Value'
+#: erpnext/erpnext/stock/number_card/total_stock_value/total_stock_value.json:1
 #: erpnext/setup/workspace/home/home.json:74
 #: erpnext/stock/workspace/stock/stock.json:785
 #, mt
@@ -134888,6 +135028,8 @@ msgstr "총 조회수"
 
 #. Label of a number card in the ERPNext Settings Workspace
 #. Label of a number card in the Stock Workspace
+#. Label of the Number Card 'Total Warehouses'
+#: erpnext/erpnext/stock/number_card/total_warehouses/total_warehouses.json:1
 #: erpnext/setup/workspace/erpnext_settings/erpnext_settings.json:35
 #: erpnext/stock/workspace/stock/stock.json:789
 #, mt
@@ -138587,6 +138729,8 @@ msgid "WIP Warehouse"
 msgstr "재공 창고"
 
 #. Label of a number card in the Manufacturing Workspace
+#. Label of the Number Card 'WIP Work Orders'
+#: erpnext/erpnext/manufacturing/number_card/wip_work_orders/wip_work_orders.json:1
 #: erpnext/manufacturing/workspace/manufacturing/manufacturing.json:361
 #, mt
 msgid "WIP Work Orders"
@@ -139717,7 +139861,9 @@ msgid "Within estimate"
 msgstr "예측 범위 내"
 
 #. Label of a number card in the CRM Workspace
+#. Label of the Number Card 'Won Opportunity (Last 1 Month)'
 #: erpnext/crm/workspace/crm/crm.json:35
+#: erpnext/erpnext/crm/number_card/won_opportunity_(last_1_month)/won_opportunity_(last_1_month).json:1
 #, mt
 msgid "Won Opportunity (Last 1 Month)"
 msgstr "확정된 영업 기회 (최근 1개월)"
@@ -139803,6 +139949,8 @@ msgid "Work Order Additional Item"
 msgstr "작업지시 추가 품목"
 
 #. Label of a chart in the Manufacturing Workspace
+#. Name of the Dashboard Chart 'Work Order Analysis'
+#: erpnext/erpnext/manufacturing/dashboard_chart/work_order_analysis/work_order_analysis.json:1
 #: erpnext/manufacturing/dashboard_fixtures.py:93
 #: erpnext/manufacturing/workspace/manufacturing/manufacturing.json:6
 #, mt
@@ -139852,6 +140000,8 @@ msgstr "작업지시 공정"
 msgid "Work Order Qty"
 msgstr "작업지시 수량"
 
+#. Name of the Dashboard Chart 'Work Order Qty Analysis'
+#: erpnext/erpnext/manufacturing/dashboard_chart/work_order_qty_analysis/work_order_qty_analysis.json:1
 #: erpnext/manufacturing/dashboard_fixtures.py:152
 #, mt
 msgid "Work Order Qty Analysis"
@@ -143029,4 +143179,462 @@ msgstr "계정과목표"
 #, mt
 msgid "Support"
 msgstr "지원"
+
+#. Name of the Dashboard Chart 'Accounts Payable Ageing'
+#: erpnext/erpnext/accounts/dashboard_chart/accounts_payable_ageing/accounts_payable_ageing.json:1
+#, mt
+msgid "Accounts Payable Ageing"
+msgstr "매입채무 기한별 현황"
+
+#. Empty state message of the Dashboard Chart 'Accounts Payable Ageing'
+#: erpnext/erpnext/accounts/dashboard_chart/accounts_payable_ageing/accounts_payable_ageing.json:1
+#, mt
+msgid "How long your unpaid supplier bills have been due."
+msgstr "미지급 공급업체 청구서가 만기된 지 얼마나 되었는지 보여 줍니다."
+
+#. Name of the Dashboard Chart 'Accounts Receivable Ageing'
+#: erpnext/erpnext/accounts/dashboard_chart/accounts_receivable_ageing/accounts_receivable_ageing.json:1
+#, mt
+msgid "Accounts Receivable Ageing"
+msgstr "매출채권 기한별 현황"
+
+#. Empty state message of the Dashboard Chart 'Accounts Receivable Ageing'
+#: erpnext/erpnext/accounts/dashboard_chart/accounts_receivable_ageing/accounts_receivable_ageing.json:1
+#, mt
+msgid "How long your customers' unpaid invoices have been due."
+msgstr "고객의 미수 송장이 만기된 지 얼마나 되었는지 보여 줍니다."
+
+#. Empty state message of the Dashboard Chart 'Bank Balance'
+#: erpnext/erpnext/accounts/dashboard_chart/bank_balance/bank_balance.json:1
+#, mt
+msgid "How much money sits in your bank accounts, month by month."
+msgstr "월별 은행 계좌 잔액을 보여 줍니다."
+
+#. Empty state message of the Dashboard Chart 'Budget Variance'
+#: erpnext/erpnext/accounts/dashboard_chart/budget_variance/budget_variance.json:1
+#, mt
+msgid "Your budgets against what you actually spent."
+msgstr "예산 대비 실제 지출액을 보여 줍니다."
+
+#. Name of the Dashboard Chart 'Incoming Bills (Purchase Invoice)'
+#: erpnext/erpnext/accounts/dashboard_chart/incoming_bills_(purchase_invoice)/incoming_bills_(purchase_invoice).json:1
+#, mt
+msgid "Incoming Bills (Purchase Invoice)"
+msgstr "수취 송장 (매입 송장)"
+
+#. Empty state message of the Dashboard Chart 'Incoming Bills (Purchase
+#. Invoice)'
+#: erpnext/erpnext/accounts/dashboard_chart/incoming_bills_(purchase_invoice)/incoming_bills_(purchase_invoice).json:1
+#, mt
+msgid "What your suppliers bill you each month."
+msgstr "매월 공급업체가 청구한 금액을 보여 줍니다."
+
+#. Empty state message of the Dashboard Chart 'Outgoing Bills (Sales Invoice)'
+#: erpnext/erpnext/accounts/dashboard_chart/outgoing_bills_(sales_invoice)/outgoing_bills_(sales_invoice).json:1
+#, mt
+msgid "What you bill your customers each month."
+msgstr "매월 고객에게 청구한 금액을 보여 줍니다."
+
+#. Empty state message of the Dashboard Chart 'Profit and Loss'
+#: erpnext/erpnext/accounts/dashboard_chart/profit_and_loss/profit_and_loss.json:1
+#, mt
+msgid "Your income and expenses over the year, and what's left as profit."
+msgstr "연간 수익과 비용, 그리고 남은 이익을 보여 줍니다."
+
+#. Empty state message of the Dashboard Chart 'Asset Value Analytics'
+#: erpnext/erpnext/assets/dashboard_chart/asset_value_analytics/asset_value_analytics.json:1
+#, mt
+msgid "What your assets are worth, year by year."
+msgstr "연도별 자산 가치를 보여 줍니다."
+
+#. Name of the Dashboard Chart 'Category-wise Asset Value'
+#: erpnext/erpnext/assets/dashboard_chart/category_wise_asset_value/category_wise_asset_value.json:1
+#, mt
+msgid "Category-wise Asset Value"
+msgstr "카테고리별 자산 가치"
+
+#. Empty state message of the Dashboard Chart 'Category-wise Asset Value'
+#: erpnext/erpnext/assets/dashboard_chart/category_wise_asset_value/category_wise_asset_value.json:1
+#, mt
+msgid "What your assets are worth, by category."
+msgstr "카테고리별 자산 가치를 보여 줍니다."
+
+#. Name of the Dashboard Chart 'Location-wise Asset Value'
+#: erpnext/erpnext/assets/dashboard_chart/location_wise_asset_value/location_wise_asset_value.json:1
+#, mt
+msgid "Location-wise Asset Value"
+msgstr "위치별 자산 가치"
+
+#. Empty state message of the Dashboard Chart 'Location-wise Asset Value'
+#: erpnext/erpnext/assets/dashboard_chart/location_wise_asset_value/location_wise_asset_value.json:1
+#, mt
+msgid "What your assets are worth, by location."
+msgstr "위치별 자산 가치를 보여 줍니다."
+
+#. Name of the Dashboard Chart 'Material Request Analysis'
+#: erpnext/erpnext/buying/dashboard_chart/material_request_analysis/material_request_analysis.json:1
+#, mt
+msgid "Material Request Analysis"
+msgstr "자재 요청 분석"
+
+#. Empty state message of the Dashboard Chart 'Material Request Analysis'
+#: erpnext/erpnext/buying/dashboard_chart/material_request_analysis/material_request_analysis.json:1
+#, mt
+msgid "Your material requests by status, from pending to ordered."
+msgstr "대기부터 주문까지 상태별 자재 요청을 보여 줍니다."
+
+#. Empty state message of the Dashboard Chart 'Purchase Order Analysis'
+#: erpnext/erpnext/buying/dashboard_chart/purchase_order_analysis/purchase_order_analysis.json:1
+#, mt
+msgid "Where your purchase orders stand: to receive, to bill, or done."
+msgstr "발주가 수령 대기, 청구 대기, 완료 중 어디에 있는지 보여 줍니다."
+
+#. Empty state message of the Dashboard Chart 'Purchase Order Trends'
+#: erpnext/erpnext/buying/dashboard_chart/purchase_order_trends/purchase_order_trends.json:1
+#, mt
+msgid "How much you order from suppliers each month."
+msgstr "매월 공급업체에 발주한 금액을 보여 줍니다."
+
+#. Name of the Dashboard Chart 'Top Suppliers'
+#: erpnext/erpnext/buying/dashboard_chart/top_suppliers/top_suppliers.json:1
+#, mt
+msgid "Top Suppliers"
+msgstr "주요 공급업체"
+
+#. Empty state message of the Dashboard Chart 'Top Suppliers'
+#: erpnext/erpnext/buying/dashboard_chart/top_suppliers/top_suppliers.json:1
+#, mt
+msgid "Your suppliers, ranked by what they deliver to you."
+msgstr "입고 실적 기준 공급업체 순위를 보여 줍니다."
+
+#. Empty state message of the Dashboard Chart 'Incoming Leads'
+#: erpnext/erpnext/crm/dashboard_chart/incoming_leads/incoming_leads.json:1
+#, mt
+msgid "New leads coming in each week."
+msgstr "매주 들어오는 신규 리드를 보여 줍니다."
+
+#. Empty state message of the Dashboard Chart 'Lead Source'
+#: erpnext/erpnext/crm/dashboard_chart/lead_source/lead_source.json:1
+#, mt
+msgid "Where your leads come from."
+msgstr "리드 출처를 보여 줍니다."
+
+#. Name of the Dashboard Chart 'Opportunities via Campaigns'
+#: erpnext/erpnext/crm/dashboard_chart/opportunities_via_campaigns/opportunities_via_campaigns.json:1
+#, mt
+msgid "Opportunities via Campaigns"
+msgstr "캠페인별 영업 기회"
+
+#. Empty state message of the Dashboard Chart 'Opportunities via Campaigns'
+#: erpnext/erpnext/crm/dashboard_chart/opportunities_via_campaigns/opportunities_via_campaigns.json:1
+#, mt
+msgid "Which campaigns bring in your opportunities."
+msgstr "캠페인별 영업 기회 유입을 보여 줍니다."
+
+#. Name of the Dashboard Chart 'Opportunity Trends'
+#: erpnext/erpnext/crm/dashboard_chart/opportunity_trends/opportunity_trends.json:1
+#, mt
+msgid "Opportunity Trends"
+msgstr "영업 기회 추이"
+
+#. Empty state message of the Dashboard Chart 'Opportunity Trends'
+#: erpnext/erpnext/crm/dashboard_chart/opportunity_trends/opportunity_trends.json:1
+#, mt
+msgid "New opportunities coming in each week."
+msgstr "매주 들어오는 신규 영업 기회를 보여 줍니다."
+
+#. Name of the Dashboard Chart 'Territory Wise Opportunity Count'
+#: erpnext/erpnext/crm/dashboard_chart/territory_wise_opportunity_count/territory_wise_opportunity_count.json:1
+#, mt
+msgid "Territory Wise Opportunity Count"
+msgstr "영업 지역별 영업 기회 수"
+
+#. Empty state message of the Dashboard Chart 'Territory Wise Opportunity
+#. Count'
+#: erpnext/erpnext/crm/dashboard_chart/territory_wise_opportunity_count/territory_wise_opportunity_count.json:1
+#, mt
+msgid "How many opportunities each territory brings in."
+msgstr "영업 지역별 영업 기회 수를 보여 줍니다."
+
+#. Name of the Dashboard Chart 'Territory Wise Sales'
+#: erpnext/erpnext/crm/dashboard_chart/territory_wise_sales/territory_wise_sales.json:1
+#, mt
+msgid "Territory Wise Sales"
+msgstr "영업 지역별 매출"
+
+#. Empty state message of the Dashboard Chart 'Territory Wise Sales'
+#: erpnext/erpnext/crm/dashboard_chart/territory_wise_sales/territory_wise_sales.json:1
+#, mt
+msgid "The value of opportunities you win in each territory."
+msgstr "영업 지역별 성사된 영업 기회 금액을 보여 줍니다."
+
+#. Name of the Dashboard Chart 'Won Opportunities'
+#: erpnext/erpnext/crm/dashboard_chart/won_opportunities/won_opportunities.json:1
+#, mt
+msgid "Won Opportunities"
+msgstr "성사된 영업 기회"
+
+#. Empty state message of the Dashboard Chart 'Won Opportunities'
+#: erpnext/erpnext/crm/dashboard_chart/won_opportunities/won_opportunities.json:1
+#, mt
+msgid "The opportunities you win each month."
+msgstr "매월 성사된 영업 기회를 보여 줍니다."
+
+#. Empty state message of the Dashboard Chart 'Completed Operation'
+#: erpnext/erpnext/manufacturing/dashboard_chart/completed_operation/completed_operation.json:1
+#, mt
+msgid "Operations completed on your work orders each quarter."
+msgstr "분기별 작업지시에서 완료된 공정 수를 보여 줍니다."
+
+#. Empty state message of the Dashboard Chart 'Job Card Analysis'
+#: erpnext/erpnext/manufacturing/dashboard_chart/job_card_analysis/job_card_analysis.json:1
+#, mt
+msgid "Your job cards each month, by status."
+msgstr "매월 작업 카드를 상태별로 보여 줍니다."
+
+#. Empty state message of the Dashboard Chart 'Last Month Downtime Analysis'
+#: erpnext/erpnext/manufacturing/dashboard_chart/last_month_downtime_analysis/last_month_downtime_analysis.json:1
+#, mt
+msgid "How long your workstations were down last month."
+msgstr "지난달 작업장이 가동 중단된 시간을 보여 줍니다."
+
+#. Empty state message of the Dashboard Chart 'Pending Work Order'
+#: erpnext/erpnext/manufacturing/dashboard_chart/pending_work_order/pending_work_order.json:1
+#, mt
+msgid "How long your open work orders have been waiting."
+msgstr "미완료 작업지시가 대기한 시간을 보여 줍니다."
+
+#. Empty state message of the Dashboard Chart 'Produced Quantity'
+#: erpnext/erpnext/manufacturing/dashboard_chart/produced_quantity/produced_quantity.json:1
+#, mt
+msgid "How much you produce each month."
+msgstr "매월 생산량을 보여 줍니다."
+
+#. Empty state message of the Dashboard Chart 'Quality Inspection Analysis'
+#: erpnext/erpnext/manufacturing/dashboard_chart/quality_inspection_analysis/quality_inspection_analysis.json:1
+#, mt
+msgid "How many of your inspections pass or fail."
+msgstr "검사 합격·불합격 건수를 보여 줍니다."
+
+#. Empty state message of the Dashboard Chart 'Work Order Analysis'
+#: erpnext/erpnext/manufacturing/dashboard_chart/work_order_analysis/work_order_analysis.json:1
+#, mt
+msgid "Your work orders by status, from planned to completed."
+msgstr "계획부터 완료까지 상태별 작업지시를 보여 줍니다."
+
+#. Empty state message of the Dashboard Chart 'Work Order Qty Analysis'
+#: erpnext/erpnext/manufacturing/dashboard_chart/work_order_qty_analysis/work_order_qty_analysis.json:1
+#, mt
+msgid "What your work orders planned against what they produced."
+msgstr "작업지시의 계획량과 생산량을 비교해 보여 줍니다."
+
+#. Name of the Dashboard Chart 'Completed Projects'
+#: erpnext/erpnext/projects/dashboard_chart/completed_projects/completed_projects.json:1
+#, mt
+msgid "Completed Projects"
+msgstr "완료된 프로젝트"
+
+#. Empty state message of the Dashboard Chart 'Completed Projects'
+#: erpnext/erpnext/projects/dashboard_chart/completed_projects/completed_projects.json:1
+#, mt
+msgid "The projects you finish each month."
+msgstr "매월 완료한 프로젝트를 보여 줍니다."
+
+#. Empty state message of the Dashboard Chart 'Project Summary'
+#: erpnext/erpnext/projects/dashboard_chart/project_summary/project_summary.json:1
+#, mt
+msgid "How far along your open projects are."
+msgstr "진행 중인 프로젝트의 진척도를 보여 줍니다."
+
+#. Empty state message of the Dashboard Chart 'Quality Inspections'
+#: erpnext/erpnext/quality_management/dashboard_chart/quality_inspections/quality_inspections.json:1
+#, mt
+msgid "How many inspections you run each month."
+msgstr "매월 수행한 검사 건수를 보여 줍니다."
+
+#. Name of the Dashboard Chart 'Item-wise Annual Sales'
+#: erpnext/erpnext/selling/dashboard_chart/item_wise_annual_sales/item_wise_annual_sales.json:1
+#, mt
+msgid "Item-wise Annual Sales"
+msgstr "품목별 연간 매출"
+
+#. Empty state message of the Dashboard Chart 'Item-wise Annual Sales'
+#: erpnext/erpnext/selling/dashboard_chart/item_wise_annual_sales/item_wise_annual_sales.json:1
+#, mt
+msgid "Your best-selling items over the year."
+msgstr "연간 판매량 상위 품목을 보여 줍니다."
+
+#. Empty state message of the Dashboard Chart 'Sales Order Analysis'
+#: erpnext/erpnext/selling/dashboard_chart/sales_order_analysis/sales_order_analysis.json:1
+#, mt
+msgid "Sales orders still waiting to be delivered or billed."
+msgstr "배송이나 청구를 기다리는 수주를 보여 줍니다."
+
+#. Empty state message of the Dashboard Chart 'Sales Order Trends'
+#: erpnext/erpnext/selling/dashboard_chart/sales_order_trends/sales_order_trends.json:1
+#, mt
+msgid "How much your customers order each month."
+msgstr "매월 고객의 주문 금액을 보여 줍니다."
+
+#. Empty state message of the Dashboard Chart 'Top Customers'
+#: erpnext/erpnext/selling/dashboard_chart/top_customers/top_customers.json:1
+#, mt
+msgid "Your customers, ranked by what you deliver to them."
+msgstr "배송 실적 기준 고객 순위를 보여 줍니다."
+
+#. Name of the Dashboard Chart 'Delivery Trends'
+#: erpnext/erpnext/stock/dashboard_chart/delivery_trends/delivery_trends.json:1
+#, mt
+msgid "Delivery Trends"
+msgstr "배송 추이"
+
+#. Empty state message of the Dashboard Chart 'Delivery Trends'
+#: erpnext/erpnext/stock/dashboard_chart/delivery_trends/delivery_trends.json:1
+#, mt
+msgid "What you deliver to your customers each month."
+msgstr "매월 고객에게 배송한 내역을 보여 줍니다."
+
+#. Name of the Dashboard Chart 'Item Shortage Summary'
+#: erpnext/erpnext/stock/dashboard_chart/item_shortage_summary/item_shortage_summary.json:1
+#, mt
+msgid "Item Shortage Summary"
+msgstr "품목 부족 요약"
+
+#. Empty state message of the Dashboard Chart 'Item Shortage Summary'
+#: erpnext/erpnext/stock/dashboard_chart/item_shortage_summary/item_shortage_summary.json:1
+#, mt
+msgid "Items you're about to run short of."
+msgstr "곧 부족해질 품목을 보여 줍니다."
+
+#. Name of the Dashboard Chart 'Oldest Items'
+#: erpnext/erpnext/stock/dashboard_chart/oldest_items/oldest_items.json:1
+#, mt
+msgid "Oldest Items"
+msgstr "가장 오래된 품목"
+
+#. Empty state message of the Dashboard Chart 'Oldest Items'
+#: erpnext/erpnext/stock/dashboard_chart/oldest_items/oldest_items.json:1
+#, mt
+msgid "The stock that has sat longest in your warehouses."
+msgstr "창고에 가장 오래 보관된 재고를 보여 줍니다."
+
+#. Empty state message of the Dashboard Chart 'Purchase Receipt Trends'
+#: erpnext/erpnext/stock/dashboard_chart/purchase_receipt_trends/purchase_receipt_trends.json:1
+#, mt
+msgid "What you receive from suppliers each month."
+msgstr "매월 공급업체로부터 입고한 내역을 보여 줍니다."
+
+#. Empty state message of the Dashboard Chart 'Stock Value by Item Group'
+#: erpnext/erpnext/stock/dashboard_chart/stock_value_by_item_group/stock_value_by_item_group.json:1
+#, mt
+msgid "What your stock is worth, by item group."
+msgstr "품목군별 재고 금액을 보여 줍니다."
+
+#. Name of the Dashboard Chart 'Warehouse wise Stock Value'
+#: erpnext/erpnext/stock/dashboard_chart/warehouse_wise_stock_value/warehouse_wise_stock_value.json:1
+#, mt
+msgid "Warehouse wise Stock Value"
+msgstr "창고별 재고 금액"
+
+#. Empty state message of the Dashboard Chart 'Warehouse wise Stock Value'
+#: erpnext/erpnext/stock/dashboard_chart/warehouse_wise_stock_value/warehouse_wise_stock_value.json:1
+#, mt
+msgid "What your stock is worth in each warehouse."
+msgstr "창고별 재고 금액을 보여 줍니다."
+
+#. Empty state message of the Dashboard Chart 'Subcontracting Order'
+#: erpnext/erpnext/subcontracting/dashboard_chart/subcontracting_order/subcontracting_order.json:1
+#, mt
+msgid "What you send out for subcontracting each month."
+msgstr "매월 외주로 보낸 내역을 보여 줍니다."
+
+#. Empty state message of the Dashboard Chart 'Issues Opened'
+#: erpnext/erpnext/support/dashboard_chart/issues_opened/issues_opened.json:1
+#, mt
+msgid "Support issues opened each month."
+msgstr "매월 발생한 지원 이슈를 보여 줍니다."
+
+#. Name of the Dashboard Chart 'Email Activity'
+#: frappe/frappe/desk/dashboard_chart/email_activity/email_activity.json:1
+#, mt
+msgid "Email Activity"
+msgstr "이메일 활동"
+
+#. Name of the Dashboard Chart 'Webpage Views'
+#: frappe/frappe/website/dashboard_chart/webpage_views/webpage_views.json:1
+#, mt
+msgid "Webpage Views"
+msgstr "웹페이지 조회 수"
+
+#. Label of the Number Card 'Average Order Values'
+#: erpnext/erpnext/buying/number_card/average_order_values/average_order_values.json:1
+#, mt
+msgid "Average Order Values"
+msgstr "평균 주문 금액"
+
+#. Label of the Number Card 'Purchase Orders Count'
+#: erpnext/erpnext/buying/number_card/purchase_orders_count/purchase_orders_count.json:1
+#, mt
+msgid "Purchase Orders Count"
+msgstr "발주 건수"
+
+#. Label of the Number Card 'New Opportunity (Last 1 Month)'
+#: erpnext/erpnext/crm/number_card/new_opportunity_(last_1_month)/new_opportunity_(last_1_month).json:1
+#, mt
+msgid "New Opportunity (Last 1 Month)"
+msgstr "신규 영업 기회 (최근 1개월)"
+
+#. Label of the Number Card 'Manufactured Items Value'
+#: erpnext/erpnext/manufacturing/number_card/manufactured_items_value/manufactured_items_value.json:1
+#, mt
+msgid "Manufactured Items Value"
+msgstr "생산 품목 금액"
+
+#. Label of the Number Card 'Average Sales Order Value'
+#: erpnext/erpnext/selling/number_card/average_sales_order_value/average_sales_order_value.json:1
+#, mt
+msgid "Average Sales Order Value"
+msgstr "평균 수주 금액"
+
+#. Label of the Number Card 'Sales Orders Count'
+#: erpnext/erpnext/selling/number_card/sales_orders_count/sales_orders_count.json:1
+#, mt
+msgid "Sales Orders Count"
+msgstr "수주 건수"
+
+#. Label of the Number Card 'Active Subcontracted Items'
+#: erpnext/erpnext/subcontracting/number_card/active_subcontracted_items/active_subcontracted_items.json:1
+#, mt
+msgid "Active Subcontracted Items"
+msgstr "활성 외주 품목"
+
+#. Label of the Number Card 'Subcontracting Inward Order Count'
+#: erpnext/erpnext/subcontracting/number_card/subcontracting_inward_order_count/subcontracting_inward_order_count.json:1
+#, mt
+msgid "Subcontracting Inward Order Count"
+msgstr "외주 입고 주문 수"
+
+#. Label of the Number Card 'Subcontracting Outward Order Count'
+#: erpnext/erpnext/subcontracting/number_card/subcontracting_outward_order_count/subcontracting_outward_order_count.json:1
+#, mt
+msgid "Subcontracting Outward Order Count"
+msgstr "외주 출고 주문 수"
+
+#. Label of the Number Card 'Active RQ Worker'
+#: frappe/frappe/core/number_card/active_rq_worker/active_rq_worker.json:1
+#, mt
+msgid "Active RQ Worker"
+msgstr "활성 RQ 워커"
+
+#. Label of the Number Card 'Total Website Users'
+#: frappe/frappe/desk/number_card/total_website_users/total_website_users.json:1
+#, mt
+msgid "Total Website Users"
+msgstr "총 웹사이트 사용자 수"
+
+#. Label of the Number Card 'Users'
+#: frappe/frappe/desk/number_card/users/users.json:1
+#, mt
+msgid "Total System Users"
+msgstr "총 시스템 사용자 수"
 

@@ -327,6 +327,8 @@ msgid "Purchase Analytics"
 msgstr ""
 
 #. Item label in the Workspace Sidebar 'Buying'
+#. Name of the Dashboard Chart 'Purchase Order Analysis'
+#: erpnext/erpnext/buying/dashboard_chart/purchase_order_analysis/purchase_order_analysis.json:1
 #: erpnext/erpnext/workspace_sidebar/buying.json:1
 msgid "Purchase Order Analysis"
 msgstr ""
@@ -348,6 +350,8 @@ msgstr ""
 
 #. Item label in the Workspace Sidebar 'Buying'
 #. Item label in the Workspace Sidebar 'Stock'
+#. Name of the Dashboard Chart 'Purchase Receipt Trends'
+#: erpnext/erpnext/stock/dashboard_chart/purchase_receipt_trends/purchase_receipt_trends.json:1
 #: erpnext/erpnext/workspace_sidebar/buying.json:1
 #: erpnext/erpnext/workspace_sidebar/stock.json:1
 msgid "Purchase Receipt Trends"
@@ -361,6 +365,8 @@ msgid "Purchase Invoice Trends"
 msgstr ""
 
 #. Item label in the Workspace Sidebar 'Buying'
+#. Name of the Dashboard Chart 'Purchase Order Trends'
+#: erpnext/erpnext/buying/dashboard_chart/purchase_order_trends/purchase_order_trends.json:1
 #: erpnext/erpnext/workspace_sidebar/buying.json:1
 msgid "Purchase Order Trends"
 msgstr ""
@@ -569,6 +575,8 @@ msgid "Sales Stage"
 msgstr ""
 
 #. Item label in the Workspace Sidebar 'CRM'
+#. Name of the Dashboard Chart 'Lead Source'
+#: erpnext/erpnext/crm/dashboard_chart/lead_source/lead_source.json:1
 #: erpnext/erpnext/workspace_sidebar/crm.json:1
 msgid "Lead Source"
 msgstr ""
@@ -705,6 +713,8 @@ msgid "Balance Sheet"
 msgstr ""
 
 #. Item label in the Workspace Sidebar 'Financial Reports'
+#. Name of the Dashboard Chart 'Profit and Loss'
+#: erpnext/erpnext/accounts/dashboard_chart/profit_and_loss/profit_and_loss.json:1
 #: erpnext/erpnext/workspace_sidebar/financial_reports.json:1
 msgid "Profit and Loss"
 msgstr ""
@@ -1208,6 +1218,8 @@ msgid "Project Update"
 msgstr ""
 
 #. Item label in the Workspace Sidebar 'Projects'
+#. Name of the Dashboard Chart 'Project Summary'
+#: erpnext/erpnext/projects/dashboard_chart/project_summary/project_summary.json:1
 #: erpnext/erpnext/workspace_sidebar/projects.json:1
 msgid "Project Summary"
 msgstr ""
@@ -1470,6 +1482,8 @@ msgid "Pending SO Items For Purchase Request"
 msgstr ""
 
 #. Item label in the Workspace Sidebar 'Selling'
+#. Name of the Dashboard Chart 'Sales Order Analysis'
+#: erpnext/erpnext/selling/dashboard_chart/sales_order_analysis/sales_order_analysis.json:1
 #: erpnext/erpnext/workspace_sidebar/selling.json:1
 msgid "Sales Order Analysis"
 msgstr ""
@@ -1485,6 +1499,8 @@ msgid "Quotation Trends"
 msgstr ""
 
 #. Item label in the Workspace Sidebar 'Selling'
+#. Name of the Dashboard Chart 'Sales Order Trends'
+#: erpnext/erpnext/selling/dashboard_chart/sales_order_trends/sales_order_trends.json:1
 #: erpnext/erpnext/workspace_sidebar/selling.json:1
 msgid "Sales Order Trends"
 msgstr ""
@@ -1816,5 +1832,722 @@ msgstr ""
 #. Label of the Desktop Icon 'Website'
 #: frappe/frappe/desktop_icon/website.json:1
 msgid "Website"
+msgstr ""
+
+#. Name of the Dashboard Chart 'Accounts Payable Ageing'
+#: erpnext/erpnext/accounts/dashboard_chart/accounts_payable_ageing/accounts_payable_ageing.json:1
+msgid "Accounts Payable Ageing"
+msgstr ""
+
+#. Empty state message of the Dashboard Chart 'Accounts Payable Ageing'
+#: erpnext/erpnext/accounts/dashboard_chart/accounts_payable_ageing/accounts_payable_ageing.json:1
+msgid "How long your unpaid supplier bills have been due."
+msgstr ""
+
+#. Name of the Dashboard Chart 'Accounts Receivable Ageing'
+#: erpnext/erpnext/accounts/dashboard_chart/accounts_receivable_ageing/accounts_receivable_ageing.json:1
+msgid "Accounts Receivable Ageing"
+msgstr ""
+
+#. Empty state message of the Dashboard Chart 'Accounts Receivable Ageing'
+#: erpnext/erpnext/accounts/dashboard_chart/accounts_receivable_ageing/accounts_receivable_ageing.json:1
+msgid "How long your customers' unpaid invoices have been due."
+msgstr ""
+
+#. Name of the Dashboard Chart 'Bank Balance'
+#: erpnext/erpnext/accounts/dashboard_chart/bank_balance/bank_balance.json:1
+msgid "Bank Balance"
+msgstr ""
+
+#. Empty state message of the Dashboard Chart 'Bank Balance'
+#: erpnext/erpnext/accounts/dashboard_chart/bank_balance/bank_balance.json:1
+msgid "How much money sits in your bank accounts, month by month."
+msgstr ""
+
+#. Name of the Dashboard Chart 'Budget Variance'
+#: erpnext/erpnext/accounts/dashboard_chart/budget_variance/budget_variance.json:1
+msgid "Budget Variance"
+msgstr ""
+
+#. Empty state message of the Dashboard Chart 'Budget Variance'
+#: erpnext/erpnext/accounts/dashboard_chart/budget_variance/budget_variance.json:1
+msgid "Your budgets against what you actually spent."
+msgstr ""
+
+#. Name of the Dashboard Chart 'Incoming Bills (Purchase Invoice)'
+#: erpnext/erpnext/accounts/dashboard_chart/incoming_bills_(purchase_invoice)/incoming_bills_(purchase_invoice).json:1
+msgid "Incoming Bills (Purchase Invoice)"
+msgstr ""
+
+#. Empty state message of the Dashboard Chart 'Incoming Bills (Purchase
+#. Invoice)'
+#: erpnext/erpnext/accounts/dashboard_chart/incoming_bills_(purchase_invoice)/incoming_bills_(purchase_invoice).json:1
+msgid "What your suppliers bill you each month."
+msgstr ""
+
+#. Name of the Dashboard Chart 'Outgoing Bills (Sales Invoice)'
+#: erpnext/erpnext/accounts/dashboard_chart/outgoing_bills_(sales_invoice)/outgoing_bills_(sales_invoice).json:1
+msgid "Outgoing Bills (Sales Invoice)"
+msgstr ""
+
+#. Empty state message of the Dashboard Chart 'Outgoing Bills (Sales Invoice)'
+#: erpnext/erpnext/accounts/dashboard_chart/outgoing_bills_(sales_invoice)/outgoing_bills_(sales_invoice).json:1
+msgid "What you bill your customers each month."
+msgstr ""
+
+#. Empty state message of the Dashboard Chart 'Profit and Loss'
+#: erpnext/erpnext/accounts/dashboard_chart/profit_and_loss/profit_and_loss.json:1
+msgid "Your income and expenses over the year, and what's left as profit."
+msgstr ""
+
+#. Name of the Dashboard Chart 'Asset Value Analytics'
+#: erpnext/erpnext/assets/dashboard_chart/asset_value_analytics/asset_value_analytics.json:1
+msgid "Asset Value Analytics"
+msgstr ""
+
+#. Empty state message of the Dashboard Chart 'Asset Value Analytics'
+#: erpnext/erpnext/assets/dashboard_chart/asset_value_analytics/asset_value_analytics.json:1
+msgid "What your assets are worth, year by year."
+msgstr ""
+
+#. Name of the Dashboard Chart 'Category-wise Asset Value'
+#: erpnext/erpnext/assets/dashboard_chart/category_wise_asset_value/category_wise_asset_value.json:1
+msgid "Category-wise Asset Value"
+msgstr ""
+
+#. Empty state message of the Dashboard Chart 'Category-wise Asset Value'
+#: erpnext/erpnext/assets/dashboard_chart/category_wise_asset_value/category_wise_asset_value.json:1
+msgid "What your assets are worth, by category."
+msgstr ""
+
+#. Name of the Dashboard Chart 'Location-wise Asset Value'
+#: erpnext/erpnext/assets/dashboard_chart/location_wise_asset_value/location_wise_asset_value.json:1
+msgid "Location-wise Asset Value"
+msgstr ""
+
+#. Empty state message of the Dashboard Chart 'Location-wise Asset Value'
+#: erpnext/erpnext/assets/dashboard_chart/location_wise_asset_value/location_wise_asset_value.json:1
+msgid "What your assets are worth, by location."
+msgstr ""
+
+#. Name of the Dashboard Chart 'Material Request Analysis'
+#: erpnext/erpnext/buying/dashboard_chart/material_request_analysis/material_request_analysis.json:1
+msgid "Material Request Analysis"
+msgstr ""
+
+#. Empty state message of the Dashboard Chart 'Material Request Analysis'
+#: erpnext/erpnext/buying/dashboard_chart/material_request_analysis/material_request_analysis.json:1
+msgid "Your material requests by status, from pending to ordered."
+msgstr ""
+
+#. Empty state message of the Dashboard Chart 'Purchase Order Analysis'
+#: erpnext/erpnext/buying/dashboard_chart/purchase_order_analysis/purchase_order_analysis.json:1
+msgid "Where your purchase orders stand: to receive, to bill, or done."
+msgstr ""
+
+#. Empty state message of the Dashboard Chart 'Purchase Order Trends'
+#: erpnext/erpnext/buying/dashboard_chart/purchase_order_trends/purchase_order_trends.json:1
+msgid "How much you order from suppliers each month."
+msgstr ""
+
+#. Name of the Dashboard Chart 'Top Suppliers'
+#: erpnext/erpnext/buying/dashboard_chart/top_suppliers/top_suppliers.json:1
+msgid "Top Suppliers"
+msgstr ""
+
+#. Empty state message of the Dashboard Chart 'Top Suppliers'
+#: erpnext/erpnext/buying/dashboard_chart/top_suppliers/top_suppliers.json:1
+msgid "Your suppliers, ranked by what they deliver to you."
+msgstr ""
+
+#. Name of the Dashboard Chart 'Incoming Leads'
+#: erpnext/erpnext/crm/dashboard_chart/incoming_leads/incoming_leads.json:1
+msgid "Incoming Leads"
+msgstr ""
+
+#. Empty state message of the Dashboard Chart 'Incoming Leads'
+#: erpnext/erpnext/crm/dashboard_chart/incoming_leads/incoming_leads.json:1
+msgid "New leads coming in each week."
+msgstr ""
+
+#. Empty state message of the Dashboard Chart 'Lead Source'
+#: erpnext/erpnext/crm/dashboard_chart/lead_source/lead_source.json:1
+msgid "Where your leads come from."
+msgstr ""
+
+#. Name of the Dashboard Chart 'Opportunities via Campaigns'
+#: erpnext/erpnext/crm/dashboard_chart/opportunities_via_campaigns/opportunities_via_campaigns.json:1
+msgid "Opportunities via Campaigns"
+msgstr ""
+
+#. Empty state message of the Dashboard Chart 'Opportunities via Campaigns'
+#: erpnext/erpnext/crm/dashboard_chart/opportunities_via_campaigns/opportunities_via_campaigns.json:1
+msgid "Which campaigns bring in your opportunities."
+msgstr ""
+
+#. Name of the Dashboard Chart 'Opportunity Trends'
+#: erpnext/erpnext/crm/dashboard_chart/opportunity_trends/opportunity_trends.json:1
+msgid "Opportunity Trends"
+msgstr ""
+
+#. Empty state message of the Dashboard Chart 'Opportunity Trends'
+#: erpnext/erpnext/crm/dashboard_chart/opportunity_trends/opportunity_trends.json:1
+msgid "New opportunities coming in each week."
+msgstr ""
+
+#. Name of the Dashboard Chart 'Territory Wise Opportunity Count'
+#: erpnext/erpnext/crm/dashboard_chart/territory_wise_opportunity_count/territory_wise_opportunity_count.json:1
+msgid "Territory Wise Opportunity Count"
+msgstr ""
+
+#. Empty state message of the Dashboard Chart 'Territory Wise Opportunity
+#. Count'
+#: erpnext/erpnext/crm/dashboard_chart/territory_wise_opportunity_count/territory_wise_opportunity_count.json:1
+msgid "How many opportunities each territory brings in."
+msgstr ""
+
+#. Name of the Dashboard Chart 'Territory Wise Sales'
+#: erpnext/erpnext/crm/dashboard_chart/territory_wise_sales/territory_wise_sales.json:1
+msgid "Territory Wise Sales"
+msgstr ""
+
+#. Empty state message of the Dashboard Chart 'Territory Wise Sales'
+#: erpnext/erpnext/crm/dashboard_chart/territory_wise_sales/territory_wise_sales.json:1
+msgid "The value of opportunities you win in each territory."
+msgstr ""
+
+#. Name of the Dashboard Chart 'Won Opportunities'
+#: erpnext/erpnext/crm/dashboard_chart/won_opportunities/won_opportunities.json:1
+msgid "Won Opportunities"
+msgstr ""
+
+#. Empty state message of the Dashboard Chart 'Won Opportunities'
+#: erpnext/erpnext/crm/dashboard_chart/won_opportunities/won_opportunities.json:1
+msgid "The opportunities you win each month."
+msgstr ""
+
+#. Name of the Dashboard Chart 'Completed Operation'
+#: erpnext/erpnext/manufacturing/dashboard_chart/completed_operation/completed_operation.json:1
+msgid "Completed Operation"
+msgstr ""
+
+#. Empty state message of the Dashboard Chart 'Completed Operation'
+#: erpnext/erpnext/manufacturing/dashboard_chart/completed_operation/completed_operation.json:1
+msgid "Operations completed on your work orders each quarter."
+msgstr ""
+
+#. Name of the Dashboard Chart 'Job Card Analysis'
+#: erpnext/erpnext/manufacturing/dashboard_chart/job_card_analysis/job_card_analysis.json:1
+msgid "Job Card Analysis"
+msgstr ""
+
+#. Empty state message of the Dashboard Chart 'Job Card Analysis'
+#: erpnext/erpnext/manufacturing/dashboard_chart/job_card_analysis/job_card_analysis.json:1
+msgid "Your job cards each month, by status."
+msgstr ""
+
+#. Name of the Dashboard Chart 'Last Month Downtime Analysis'
+#: erpnext/erpnext/manufacturing/dashboard_chart/last_month_downtime_analysis/last_month_downtime_analysis.json:1
+msgid "Last Month Downtime Analysis"
+msgstr ""
+
+#. Empty state message of the Dashboard Chart 'Last Month Downtime Analysis'
+#: erpnext/erpnext/manufacturing/dashboard_chart/last_month_downtime_analysis/last_month_downtime_analysis.json:1
+msgid "How long your workstations were down last month."
+msgstr ""
+
+#. Name of the Dashboard Chart 'Pending Work Order'
+#: erpnext/erpnext/manufacturing/dashboard_chart/pending_work_order/pending_work_order.json:1
+msgid "Pending Work Order"
+msgstr ""
+
+#. Empty state message of the Dashboard Chart 'Pending Work Order'
+#: erpnext/erpnext/manufacturing/dashboard_chart/pending_work_order/pending_work_order.json:1
+msgid "How long your open work orders have been waiting."
+msgstr ""
+
+#. Name of the Dashboard Chart 'Produced Quantity'
+#: erpnext/erpnext/manufacturing/dashboard_chart/produced_quantity/produced_quantity.json:1
+msgid "Produced Quantity"
+msgstr ""
+
+#. Empty state message of the Dashboard Chart 'Produced Quantity'
+#: erpnext/erpnext/manufacturing/dashboard_chart/produced_quantity/produced_quantity.json:1
+msgid "How much you produce each month."
+msgstr ""
+
+#. Name of the Dashboard Chart 'Quality Inspection Analysis'
+#: erpnext/erpnext/manufacturing/dashboard_chart/quality_inspection_analysis/quality_inspection_analysis.json:1
+msgid "Quality Inspection Analysis"
+msgstr ""
+
+#. Empty state message of the Dashboard Chart 'Quality Inspection Analysis'
+#: erpnext/erpnext/manufacturing/dashboard_chart/quality_inspection_analysis/quality_inspection_analysis.json:1
+msgid "How many of your inspections pass or fail."
+msgstr ""
+
+#. Name of the Dashboard Chart 'Work Order Analysis'
+#: erpnext/erpnext/manufacturing/dashboard_chart/work_order_analysis/work_order_analysis.json:1
+msgid "Work Order Analysis"
+msgstr ""
+
+#. Empty state message of the Dashboard Chart 'Work Order Analysis'
+#: erpnext/erpnext/manufacturing/dashboard_chart/work_order_analysis/work_order_analysis.json:1
+msgid "Your work orders by status, from planned to completed."
+msgstr ""
+
+#. Name of the Dashboard Chart 'Work Order Qty Analysis'
+#: erpnext/erpnext/manufacturing/dashboard_chart/work_order_qty_analysis/work_order_qty_analysis.json:1
+msgid "Work Order Qty Analysis"
+msgstr ""
+
+#. Empty state message of the Dashboard Chart 'Work Order Qty Analysis'
+#: erpnext/erpnext/manufacturing/dashboard_chart/work_order_qty_analysis/work_order_qty_analysis.json:1
+msgid "What your work orders planned against what they produced."
+msgstr ""
+
+#. Name of the Dashboard Chart 'Completed Projects'
+#: erpnext/erpnext/projects/dashboard_chart/completed_projects/completed_projects.json:1
+msgid "Completed Projects"
+msgstr ""
+
+#. Empty state message of the Dashboard Chart 'Completed Projects'
+#: erpnext/erpnext/projects/dashboard_chart/completed_projects/completed_projects.json:1
+msgid "The projects you finish each month."
+msgstr ""
+
+#. Empty state message of the Dashboard Chart 'Project Summary'
+#: erpnext/erpnext/projects/dashboard_chart/project_summary/project_summary.json:1
+msgid "How far along your open projects are."
+msgstr ""
+
+#. Name of the Dashboard Chart 'Quality Inspections'
+#: erpnext/erpnext/quality_management/dashboard_chart/quality_inspections/quality_inspections.json:1
+msgid "Quality Inspections"
+msgstr ""
+
+#. Empty state message of the Dashboard Chart 'Quality Inspections'
+#: erpnext/erpnext/quality_management/dashboard_chart/quality_inspections/quality_inspections.json:1
+msgid "How many inspections you run each month."
+msgstr ""
+
+#. Name of the Dashboard Chart 'Item-wise Annual Sales'
+#: erpnext/erpnext/selling/dashboard_chart/item_wise_annual_sales/item_wise_annual_sales.json:1
+msgid "Item-wise Annual Sales"
+msgstr ""
+
+#. Empty state message of the Dashboard Chart 'Item-wise Annual Sales'
+#: erpnext/erpnext/selling/dashboard_chart/item_wise_annual_sales/item_wise_annual_sales.json:1
+msgid "Your best-selling items over the year."
+msgstr ""
+
+#. Empty state message of the Dashboard Chart 'Sales Order Analysis'
+#: erpnext/erpnext/selling/dashboard_chart/sales_order_analysis/sales_order_analysis.json:1
+msgid "Sales orders still waiting to be delivered or billed."
+msgstr ""
+
+#. Empty state message of the Dashboard Chart 'Sales Order Trends'
+#: erpnext/erpnext/selling/dashboard_chart/sales_order_trends/sales_order_trends.json:1
+msgid "How much your customers order each month."
+msgstr ""
+
+#. Name of the Dashboard Chart 'Top Customers'
+#: erpnext/erpnext/selling/dashboard_chart/top_customers/top_customers.json:1
+msgid "Top Customers"
+msgstr ""
+
+#. Empty state message of the Dashboard Chart 'Top Customers'
+#: erpnext/erpnext/selling/dashboard_chart/top_customers/top_customers.json:1
+msgid "Your customers, ranked by what you deliver to them."
+msgstr ""
+
+#. Name of the Dashboard Chart 'Delivery Trends'
+#: erpnext/erpnext/stock/dashboard_chart/delivery_trends/delivery_trends.json:1
+msgid "Delivery Trends"
+msgstr ""
+
+#. Empty state message of the Dashboard Chart 'Delivery Trends'
+#: erpnext/erpnext/stock/dashboard_chart/delivery_trends/delivery_trends.json:1
+msgid "What you deliver to your customers each month."
+msgstr ""
+
+#. Name of the Dashboard Chart 'Item Shortage Summary'
+#: erpnext/erpnext/stock/dashboard_chart/item_shortage_summary/item_shortage_summary.json:1
+msgid "Item Shortage Summary"
+msgstr ""
+
+#. Empty state message of the Dashboard Chart 'Item Shortage Summary'
+#: erpnext/erpnext/stock/dashboard_chart/item_shortage_summary/item_shortage_summary.json:1
+msgid "Items you're about to run short of."
+msgstr ""
+
+#. Name of the Dashboard Chart 'Oldest Items'
+#: erpnext/erpnext/stock/dashboard_chart/oldest_items/oldest_items.json:1
+msgid "Oldest Items"
+msgstr ""
+
+#. Empty state message of the Dashboard Chart 'Oldest Items'
+#: erpnext/erpnext/stock/dashboard_chart/oldest_items/oldest_items.json:1
+msgid "The stock that has sat longest in your warehouses."
+msgstr ""
+
+#. Empty state message of the Dashboard Chart 'Purchase Receipt Trends'
+#: erpnext/erpnext/stock/dashboard_chart/purchase_receipt_trends/purchase_receipt_trends.json:1
+msgid "What you receive from suppliers each month."
+msgstr ""
+
+#. Name of the Dashboard Chart 'Stock Value by Item Group'
+#: erpnext/erpnext/stock/dashboard_chart/stock_value_by_item_group/stock_value_by_item_group.json:1
+msgid "Stock Value by Item Group"
+msgstr ""
+
+#. Empty state message of the Dashboard Chart 'Stock Value by Item Group'
+#: erpnext/erpnext/stock/dashboard_chart/stock_value_by_item_group/stock_value_by_item_group.json:1
+msgid "What your stock is worth, by item group."
+msgstr ""
+
+#. Name of the Dashboard Chart 'Warehouse wise Stock Value'
+#: erpnext/erpnext/stock/dashboard_chart/warehouse_wise_stock_value/warehouse_wise_stock_value.json:1
+msgid "Warehouse wise Stock Value"
+msgstr ""
+
+#. Empty state message of the Dashboard Chart 'Warehouse wise Stock Value'
+#: erpnext/erpnext/stock/dashboard_chart/warehouse_wise_stock_value/warehouse_wise_stock_value.json:1
+msgid "What your stock is worth in each warehouse."
+msgstr ""
+
+#. Name of the Dashboard Chart 'Subcontracting Order'
+#: erpnext/erpnext/subcontracting/dashboard_chart/subcontracting_order/subcontracting_order.json:1
+msgid "Subcontracting Order"
+msgstr ""
+
+#. Empty state message of the Dashboard Chart 'Subcontracting Order'
+#: erpnext/erpnext/subcontracting/dashboard_chart/subcontracting_order/subcontracting_order.json:1
+msgid "What you send out for subcontracting each month."
+msgstr ""
+
+#. Name of the Dashboard Chart 'Issues Opened'
+#: erpnext/erpnext/support/dashboard_chart/issues_opened/issues_opened.json:1
+msgid "Issues Opened"
+msgstr ""
+
+#. Empty state message of the Dashboard Chart 'Issues Opened'
+#: erpnext/erpnext/support/dashboard_chart/issues_opened/issues_opened.json:1
+msgid "Support issues opened each month."
+msgstr ""
+
+#. Name of the Dashboard Chart 'Background Job Activity'
+#: frappe/frappe/core/dashboard_chart/background_job_activity/background_job_activity.json:1
+msgid "Background Job Activity"
+msgstr ""
+
+#. Name of the Dashboard Chart 'Notifications By Type'
+#: frappe/frappe/core/dashboard_chart/notifications_by_type/notifications_by_type.json:1
+msgid "Notifications By Type"
+msgstr ""
+
+#. Name of the Dashboard Chart 'Email Activity'
+#: frappe/frappe/desk/dashboard_chart/email_activity/email_activity.json:1
+msgid "Email Activity"
+msgstr ""
+
+#. Name of the Dashboard Chart 'Login'
+#: frappe/frappe/desk/dashboard_chart/login/login.json:1
+msgid "Login"
+msgstr ""
+
+#. Name of the Dashboard Chart 'Login Activity'
+#: frappe/frappe/desk/dashboard_chart/login_activity/login_activity.json:1
+msgid "Login Activity"
+msgstr ""
+
+#. Name of the Dashboard Chart 'Webpage Views'
+#: frappe/frappe/website/dashboard_chart/webpage_views/webpage_views.json:1
+msgid "Webpage Views"
+msgstr ""
+
+#. Label of the Number Card 'Total Incoming Bills'
+#: erpnext/erpnext/accounts/number_card/total_incoming_bills/total_incoming_bills.json:1
+msgid "Total Incoming Bills"
+msgstr ""
+
+#. Label of the Number Card 'Total Incoming Payment'
+#: erpnext/erpnext/accounts/number_card/total_incoming_payment/total_incoming_payment.json:1
+msgid "Total Incoming Payment"
+msgstr ""
+
+#. Label of the Number Card 'Total Outgoing Bills'
+#: erpnext/erpnext/accounts/number_card/total_outgoing_bills/total_outgoing_bills.json:1
+msgid "Total Outgoing Bills"
+msgstr ""
+
+#. Label of the Number Card 'Total Outgoing Payment'
+#: erpnext/erpnext/accounts/number_card/total_outgoing_payment/total_outgoing_payment.json:1
+msgid "Total Outgoing Payment"
+msgstr ""
+
+#. Label of the Number Card 'Asset Value'
+#: erpnext/erpnext/assets/number_card/asset_value/asset_value.json:1
+msgid "Asset Value"
+msgstr ""
+
+#. Label of the Number Card 'New Assets (This Year)'
+#: erpnext/erpnext/assets/number_card/new_assets_(this_year)/new_assets_(this_year).json:1
+msgid "New Assets (This Year)"
+msgstr ""
+
+#. Label of the Number Card 'Total Assets'
+#: erpnext/erpnext/assets/number_card/total_assets/total_assets.json:1
+msgid "Total Assets"
+msgstr ""
+
+#. Label of the Number Card 'Active Suppliers'
+#: erpnext/erpnext/buying/number_card/active_suppliers/active_suppliers.json:1
+msgid "Active Suppliers"
+msgstr ""
+
+#. Label of the Number Card 'Annual Purchase'
+#: erpnext/erpnext/buying/number_card/annual_purchase/annual_purchase.json:1
+msgid "Annual Purchase"
+msgstr ""
+
+#. Label of the Number Card 'Average Order Values'
+#: erpnext/erpnext/buying/number_card/average_order_values/average_order_values.json:1
+msgid "Average Order Values"
+msgstr ""
+
+#. Label of the Number Card 'Purchase Orders Count'
+#: erpnext/erpnext/buying/number_card/purchase_orders_count/purchase_orders_count.json:1
+msgid "Purchase Orders Count"
+msgstr ""
+
+#. Label of the Number Card 'Purchase Orders to Bill'
+#: erpnext/erpnext/buying/number_card/purchase_orders_to_bill/purchase_orders_to_bill.json:1
+msgid "Purchase Orders to Bill"
+msgstr ""
+
+#. Label of the Number Card 'Purchase Orders to Receive'
+#: erpnext/erpnext/buying/number_card/purchase_orders_to_receive/purchase_orders_to_receive.json:1
+msgid "Purchase Orders to Receive"
+msgstr ""
+
+#. Label of the Number Card 'Total Purchase Amount'
+#: erpnext/erpnext/buying/number_card/total_purchase_amount/total_purchase_amount.json:1
+msgid "Total Purchase Amount"
+msgstr ""
+
+#. Label of the Number Card 'New Lead (Last 1 Month)'
+#: erpnext/erpnext/crm/number_card/new_lead_(last_1_month)/new_lead_(last_1_month).json:1
+msgid "New Lead (Last 1 Month)"
+msgstr ""
+
+#. Label of the Number Card 'New Opportunity (Last 1 Month)'
+#: erpnext/erpnext/crm/number_card/new_opportunity_(last_1_month)/new_opportunity_(last_1_month).json:1
+msgid "New Opportunity (Last 1 Month)"
+msgstr ""
+
+#. Label of the Number Card 'Open Opportunity'
+#: erpnext/erpnext/crm/number_card/open_opportunity/open_opportunity.json:1
+msgid "Open Opportunity"
+msgstr ""
+
+#. Label of the Number Card 'Won Opportunity (Last 1 Month)'
+#: erpnext/erpnext/crm/number_card/won_opportunity_(last_1_month)/won_opportunity_(last_1_month).json:1
+msgid "Won Opportunity (Last 1 Month)"
+msgstr ""
+
+#. Label of the Number Card 'Manufactured Items Value'
+#: erpnext/erpnext/manufacturing/number_card/manufactured_items_value/manufactured_items_value.json:1
+msgid "Manufactured Items Value"
+msgstr ""
+
+#. Label of the Number Card 'Monthly Completed Work Order'
+#: erpnext/erpnext/manufacturing/number_card/monthly_completed_work_order/monthly_completed_work_order.json:1
+msgid "Monthly Completed Work Orders"
+msgstr ""
+
+#. Label of the Number Card 'Monthly Quality Inspection'
+#: erpnext/erpnext/manufacturing/number_card/monthly_quality_inspection/monthly_quality_inspection.json:1
+msgid "Monthly Quality Inspections"
+msgstr ""
+
+#. Label of the Number Card 'Monthly Total Work Order'
+#: erpnext/erpnext/manufacturing/number_card/monthly_total_work_order/monthly_total_work_order.json:1
+msgid "Monthly Total Work Orders"
+msgstr ""
+
+#. Label of the Number Card 'Ongoing Job Card'
+#: erpnext/erpnext/manufacturing/number_card/ongoing_job_card/ongoing_job_card.json:1
+msgid "Ongoing Job Cards"
+msgstr ""
+
+#. Label of the Number Card 'Open Work Orders'
+#: erpnext/erpnext/manufacturing/number_card/open_work_orders/open_work_orders.json:1
+msgid "Open Work Orders"
+msgstr ""
+
+#. Label of the Number Card 'WIP Work Orders'
+#: erpnext/erpnext/manufacturing/number_card/wip_work_orders/wip_work_orders.json:1
+msgid "WIP Work Orders"
+msgstr ""
+
+#. Label of the Number Card 'Non Completed Tasks'
+#: erpnext/erpnext/projects/number_card/non_completed_tasks/non_completed_tasks.json:1
+msgid "Non Completed Tasks"
+msgstr ""
+
+#. Label of the Number Card 'Open Projects'
+#: erpnext/erpnext/projects/number_card/open_projects/open_projects.json:1
+msgid "Open Projects"
+msgstr ""
+
+#. Label of the Number Card 'Timesheet Working Hours'
+#: erpnext/erpnext/projects/number_card/timesheet_working_hours/timesheet_working_hours.json:1
+msgid "Timesheet Working Hours"
+msgstr ""
+
+#. Label of the Number Card 'Open Non Conformances'
+#: erpnext/erpnext/quality_management/number_card/open_non_conformances/open_non_conformances.json:1
+msgid "Open Non Conformances"
+msgstr ""
+
+#. Label of the Number Card 'Open Quality Actions'
+#: erpnext/erpnext/quality_management/number_card/open_quality_actions/open_quality_actions.json:1
+msgid "Open Quality Actions"
+msgstr ""
+
+#. Label of the Number Card 'Open Quality Reviews'
+#: erpnext/erpnext/quality_management/number_card/open_quality_reviews/open_quality_reviews.json:1
+msgid "Open Quality Reviews"
+msgstr ""
+
+#. Label of the Number Card 'Active Customers'
+#: erpnext/erpnext/selling/number_card/active_customers/active_customers.json:1
+msgid "Active Customers"
+msgstr ""
+
+#. Label of the Number Card 'Annual Sales'
+#: erpnext/erpnext/selling/number_card/annual_sales/annual_sales.json:1
+msgid "Annual Sales"
+msgstr ""
+
+#. Label of the Number Card 'Average Sales Order Value'
+#: erpnext/erpnext/selling/number_card/average_sales_order_value/average_sales_order_value.json:1
+msgid "Average Sales Order Value"
+msgstr ""
+
+#. Label of the Number Card 'Sales Orders Count'
+#: erpnext/erpnext/selling/number_card/sales_orders_count/sales_orders_count.json:1
+msgid "Sales Orders Count"
+msgstr ""
+
+#. Label of the Number Card 'Sales Orders to Bill'
+#: erpnext/erpnext/selling/number_card/sales_orders_to_bill/sales_orders_to_bill.json:1
+msgid "Sales Orders to Bill"
+msgstr ""
+
+#. Label of the Number Card 'Sales Orders to Deliver'
+#: erpnext/erpnext/selling/number_card/sales_orders_to_deliver/sales_orders_to_deliver.json:1
+msgid "Sales Orders to Deliver"
+msgstr ""
+
+#. Label of the Number Card 'Total Sales Amount'
+#: erpnext/erpnext/selling/number_card/total_sales_amount/total_sales_amount.json:1
+msgid "Total Sales Amount"
+msgstr ""
+
+#. Label of the Number Card 'Total Active Items'
+#: erpnext/erpnext/stock/number_card/total_active_items/total_active_items.json:1
+msgid "Total Active Items"
+msgstr ""
+
+#. Label of the Number Card 'Total Stock Value'
+#: erpnext/erpnext/stock/number_card/total_stock_value/total_stock_value.json:1
+msgid "Total Stock Value"
+msgstr ""
+
+#. Label of the Number Card 'Total Warehouses'
+#: erpnext/erpnext/stock/number_card/total_warehouses/total_warehouses.json:1
+msgid "Total Warehouses"
+msgstr ""
+
+#. Label of the Number Card 'Active Subcontracted Items'
+#: erpnext/erpnext/subcontracting/number_card/active_subcontracted_items/active_subcontracted_items.json:1
+msgid "Active Subcontracted Items"
+msgstr ""
+
+#. Label of the Number Card 'Subcontracting Inward Order Count'
+#: erpnext/erpnext/subcontracting/number_card/subcontracting_inward_order_count/subcontracting_inward_order_count.json:1
+msgid "Subcontracting Inward Order Count"
+msgstr ""
+
+#. Label of the Number Card 'Subcontracting Outward Order Count'
+#: erpnext/erpnext/subcontracting/number_card/subcontracting_outward_order_count/subcontracting_outward_order_count.json:1
+msgid "Subcontracting Outward Order Count"
+msgstr ""
+
+#. Label of the Number Card 'Open Issues'
+#: erpnext/erpnext/support/number_card/open_issues/open_issues.json:1
+msgid "Open Issues"
+msgstr ""
+
+#. Label of the Number Card 'Overdue Issues'
+#: erpnext/erpnext/support/number_card/overdue_issues/overdue_issues.json:1
+msgid "Overdue Issues"
+msgstr ""
+
+#. Label of the Number Card 'Resolved Issues'
+#: erpnext/erpnext/support/number_card/resolved_issues/resolved_issues.json:1
+msgid "Resolved Issues"
+msgstr ""
+
+#. Label of the Number Card 'Active RQ Worker'
+#: frappe/frappe/core/number_card/active_rq_worker/active_rq_worker.json:1
+msgid "Active RQ Worker"
+msgstr ""
+
+#. Label of the Number Card 'Error Logs'
+#: frappe/frappe/core/number_card/error_logs/error_logs.json:1
+msgid "Error Logs"
+msgstr ""
+
+#. Label of the Number Card 'Failed Scheduled Jobs'
+#: frappe/frappe/core/number_card/failed_scheduled_jobs/failed_scheduled_jobs.json:1
+msgid "Failed Scheduled Jobs"
+msgstr ""
+
+#. Label of the Number Card 'Scheduled Jobs'
+#: frappe/frappe/core/number_card/scheduled_jobs/scheduled_jobs.json:1
+msgid "Scheduled Jobs"
+msgstr ""
+
+#. Label of the Number Card 'Failed Login Attempts'
+#: frappe/frappe/desk/number_card/failed_login_attempts/failed_login_attempts.json:1
+msgid "Failed Login Attempts"
+msgstr ""
+
+#. Label of the Number Card 'Published Web Forms'
+#: frappe/frappe/desk/number_card/published_web_forms/published_web_forms.json:1
+msgid "Published Web Forms"
+msgstr ""
+
+#. Label of the Number Card 'Published Web Pages'
+#: frappe/frappe/desk/number_card/published_web_pages/published_web_pages.json:1
+msgid "Published Web Pages"
+msgstr ""
+
+#. Label of the Number Card 'Total Website Users'
+#: frappe/frappe/desk/number_card/total_website_users/total_website_users.json:1
+msgid "Total Website Users"
+msgstr ""
+
+#. Label of the Number Card 'Users'
+#: frappe/frappe/desk/number_card/users/users.json:1
+msgid "Total System Users"
+msgstr ""
+
+#. Label of the Number Card 'Website Themes Available'
+#: frappe/frappe/website/number_card/website_themes_available/website_themes_available.json:1
+msgid "Website Themes Available"
 msgstr ""
 
