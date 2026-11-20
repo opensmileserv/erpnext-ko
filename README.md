@@ -71,7 +71,7 @@ docker compose -f dev/compose.yml exec backend bench --site ko.localhost clear-c
 |---|---|
 | `./kotr sync` | `upstream/*.pot` 을 ko.po 에 합친다. 원문에서 사라진 번역은 `#~` 로 보관했다가 같은 원문이 돌아오면 되살린다 |
 | `./kotr seed` | 용어집 표제어와 똑같은 메시지를 용어집 번역으로 채운다 |
-| `./kotr translate --where '^erpnext/accounts/'` | 빈 메시지를 모델로 옮긴다. 검사를 통과한 것만 받고, 걸린 것은 이유를 붙여 한 번 더 요청한다. 그래도 안 되면 비워 두고 `work/rejected.tsv` 에 남긴다 |
+| `./kotr translate --where '^erpnext/accounts/'` | 빈 메시지를 모델로 옮긴다. 검사를 통과한 것만 받고, 걸린 것은 이유를 붙여 한 번 더 요청한다. 그래도 안 되면 비워 두고 `work/rejected.tsv` 에 남긴다. 모델 요청이 실패한 묶음이 있으면 종료 코드 1 이다 (다시 실행하면 남은 것만 옮긴다) |
 | `./kotr review` | 모든 번역을 검사한다. 문제가 있으면 종료 코드 1 이다 |
 | `./kotr review --reset` | 문제가 있는 기계 번역을 비운다. 용어집을 고친 뒤 `translate` 와 함께 쓴다 |
 | `./kotr compile` | ko.po 를 `work/erpnext_ko.mo` 로 컴파일한다 |
@@ -138,9 +138,22 @@ docker compose -f dev/compose.yml exec backend bench --site ko.localhost clear-c
 
 커밋 훅은 `git config core.hooksPath .githooks` 로 켠다.
 
-## upstream 버전 올리기
+## upstream 따라가기
 
-[upstream/SOURCE.md](upstream/SOURCE.md) 에 원본의 출처와 버전을 적어 둔다. 새 버전의 `main.pot` 으로 바꾼 뒤 `./kotr sync` 를 실행한다.
+GitHub Actions([.github/workflows/upstream.yml](.github/workflows/upstream.yml))가 매일 03:00(한국 시각)에 [tools/update-upstream](tools/update-upstream) 을 돌린다.
+
+1. frappe·erpnext 의 `version-16` 브랜치에서 원문(`main.pot`)과 사이드바·데스크 아이콘 문서를 얕게 내려받는다.
+2. 원문이 그대로면 여기서 끝낸다. upstream 원문은 봇이 주 1회쯤 다시 만들기 때문에 대부분의 날이 그렇다.
+3. 바뀌었으면 `./kotr sync` → `seed` → `translate` → `./check` 를 돌린다. 원문의 버전과 커밋은 [upstream/SOURCE.md](upstream/SOURCE.md) 에 적는다.
+4. 모두 통과하면 main 에 커밋한다. 모델 요청이 하나라도 실패하거나 검사에 걸리면 커밋하지 않고, 다음 날 처음부터 다시 한다.
+
+저장소 비밀값 `KOTR_BASE_URL` 에 모델 주소를 넣어 둔다. 모델 이름과 옵션은 워크플로 파일에 있다.
+
+손으로 돌리려면 Actions 탭에서 `upstream` 을 실행한다. 이때는 먼저 모델 서버에 닿는지 확인한다. 로컬에서는 `KOTR_*` 환경 변수를 정하고 실행한다. 다른 브랜치를 따라가려면 `UPSTREAM_BRANCH` 를 정한다 (기본 `version-16`).
+
+```bash
+tools/update-upstream
+```
 
 ## 라이선스
 

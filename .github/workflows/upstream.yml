@@ -1,0 +1,40 @@
+name: upstream
+
+on:
+  schedule:
+    - cron: "0 18 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: upstream
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      KOTR_BASE_URL: ${{ secrets.KOTR_BASE_URL }}
+      KOTR_MODEL: Qwen/Qwen3.8-27B
+      KOTR_EXTRA_JSON: '{"chat_template_kwargs":{"enable_thinking":false}}'
+    steps:
+      - uses: actions/checkout@v7
+      - uses: astral-sh/setup-uv@v10.3.3
+      - name: 모델 서버 확인 (수동 실행 때만)
+        if: github.event_name == 'workflow_dispatch'
+        run: curl --fail --silent --show-error --max-time 30 --output /dev/null "$KOTR_BASE_URL/models"
+      - name: upstream 원문 반영
+        run: tools/update-upstream
+      - name: main 에 커밋
+        run: |
+          if git diff --quiet; then
+            echo "커밋할 변경이 없다"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -a -F work/upstream-commit.txt
+          git push

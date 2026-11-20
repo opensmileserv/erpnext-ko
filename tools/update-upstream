@@ -1,0 +1,69 @@
+#!/usr/bin/env bash
+set -euo pipefail
+cd "$(dirname "$0")/.."
+: "${KOTR_BASE_URL:?모델 주소 KOTR_BASE_URL 이 필요하다}"
+: "${KOTR_MODEL:?모델 이름 KOTR_MODEL 이 필요하다}"
+branch=${UPSTREAM_BRANCH:-version-16}
+
+if ! git diff --quiet -- upstream erpnext_ko/locale/ko.po; then
+  echo "upstream/ 나 ko.po 에 커밋하지 않은 변경이 있다. 커밋하거나 되돌린 뒤 다시 실행한다" >&2
+  exit 1
+fi
+
+apps=$(mktemp -d)
+trap 'rm -rf "$apps"' EXIT
+
+fetch() {
+  git clone --quiet --depth 1 --branch "$branch" --filter=blob:none --sparse \
+    "https://github.com/frappe/$1.git" "$apps/$1"
+  git -C "$apps/$1" sparse-checkout set --no-cone \
+    "/$1/locale/main.pot" "/$1/__init__.py" "/$1/workspace_sidebar/" "/$1/desktop_icon/"
+}
+
+version() {
+  sed -n 's/^__version__ = "\(.*\)"$/\1/p' "$apps/$1/$1/__init__.py"
+}
+
+revision() {
+  git -C "$apps/$1" rev-parse --short HEAD
+}
+
+fetch frappe
+fetch erpnext
+cp "$apps/frappe/frappe/locale/main.pot" upstream/frappe.pot
+cp "$apps/erpnext/erpnext/locale/main.pot" upstream/erpnext.pot
+./kotr extract-sidebar "$apps"
+
+if git diff --quiet -- upstream; then
+  echo "upstream $branch 의 원문이 그대로다 (frappe $(revision frappe), erpnext $(revision erpnext))"
+  exit 0
+fi
+
+cat > upstream/SOURCE.md <<EOF
+# 원문 템플릿 출처
+
+[tools/update-upstream](../tools/update-upstream) 이 frappe·erpnext 의 \`$branch\` 브랜치에서 가져온다.
+
+| 파일 | 저장소 | 버전 | 커밋 |
+|---|---|---|---|
+| \`frappe.pot\` | frappe/frappe | $(version frappe) | $(revision frappe) |
+| \`erpnext.pot\` | frappe/erpnext | $(version erpnext) | $(revision erpnext) |
+
+\`sidebar.pot\` 은 같은 커밋의 \`workspace_sidebar\`·\`desktop_icon\` 문서에서 \`./kotr extract-sidebar\` 로 뽑는다. 원문에서 사라진 번역은 ko.po 끝에 \`#~\` 로 보관되고, 같은 문구가 돌아오면 되살아난다.
+EOF
+
+summary=$(./kotr sync)
+echo "$summary"
+./kotr seed
+./kotr translate --jobs 3
+./check
+
+mkdir -p work
+{
+  echo "upstream $branch 원문 반영: frappe $(version frappe), erpnext $(version erpnext)"
+  echo
+  echo "frappe $(revision frappe), erpnext $(revision erpnext) 에서 가져왔다."
+  echo "$summary"
+  ./kotr stats
+} > work/upstream-commit.txt
+cat work/upstream-commit.txt

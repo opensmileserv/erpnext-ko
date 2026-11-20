@@ -175,6 +175,7 @@ def command_translate(arguments: argparse.Namespace) -> int:
     say(f"번역할 메시지 {len(todo)}개, 요청 {len(groups)}번, 동시 {arguments.jobs}개")
     started = time.monotonic()
     totals = Outcome()
+    failed = 0
     with ThreadPoolExecutor(max_workers=arguments.jobs) as pool:
         futures: dict[Future[Outcome], int] = {
             pool.submit(translate_group, provider, glossary, reviewer, group): len(group)
@@ -183,8 +184,12 @@ def command_translate(arguments: argparse.Namespace) -> int:
         for done, future in enumerate(as_completed(futures), start=1):
             try:
                 outcome = future.result()
-            except (ProviderError, ReplyError, OSError, ValueError) as error:
+            except (ProviderError, OSError) as error:
+                failed += 1
                 say(f"[{done}/{len(groups)}] 요청 실패: {error}")
+                continue
+            except (ReplyError, ValueError) as error:
+                say(f"[{done}/{len(groups)}] 답을 읽지 못했다: {error}")
                 continue
             for key, text in outcome.accepted.items():
                 position = index[key]
@@ -202,6 +207,9 @@ def command_translate(arguments: argparse.Namespace) -> int:
                 f" · 토큰 {totals.prompt_tokens}/{totals.completion_tokens} · {elapsed:.0f}초"
             )
     save_po(current, obsolete)
+    if failed:
+        say(f"모델 요청 {failed}번이 실패했다. 다시 실행하면 남은 메시지만 옮긴다")
+        return 1
     return 0
 
 
