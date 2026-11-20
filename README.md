@@ -17,7 +17,7 @@ upstream 에도 `ko.po` 는 있다 (v16.60 기준). 하지만 그대로 쓸 수 
 
 - Frappe 는 설치된 앱 순서대로 `sites/assets/locale/ko/LC_MESSAGES/<앱>.mo` 를 읽어 하나의 사전으로 합친다. 같은 원문이면 뒤에 설치된 앱이 이긴다.
 - 그래서 이 앱이 frappe·erpnext 의 원문을 모두 담으면 기존 번역을 대신하게 된다.
-- upstream 원본에 빠진 v16 사이드바·데스크 아이콘 라벨도 [upstream/sidebar.pot](upstream/sidebar.pot) 으로 담는다.
+- upstream 원본에 빠진 v16 데스크 문서(사이드바, 데스크 아이콘, 대시보드 차트, 숫자 카드)의 문구도 [upstream/desk.pot](upstream/desk.pot) 으로 담는다. 대시보드 차트의 이름과 빈 차트 안내문, 숫자 카드 라벨은 화면에서 번역 함수를 거치지만 upstream 원본에는 없다.
 - 날짜 선택기(air-datepicker)에는 한국어 로케일이 없어 월·요일이 영어로 나온다. 이 앱이 [erpnext_ko/public/js](erpnext_ko/public/js) 에서 `ko` 로케일을 등록한다.
 - Frappe 는 날짜 선택기 언어를 사용자 설정의 언어로만 고른다. 그래서 언어를 비워 둔 사용자도 화면 언어를 따르게 한다.
 - 설치할 때(`after_install`)와 `bench migrate` 할 때(`after_migrate`) 다음 세 가지를 한다.
@@ -76,7 +76,7 @@ docker compose -f dev/compose.yml exec backend bench --site ko.localhost clear-c
 | `./kotr review --reset` | 문제가 있는 기계 번역을 비운다. 용어집을 고친 뒤 `translate` 와 함께 쓴다 |
 | `./kotr compile` | ko.po 를 `work/erpnext_ko.mo` 로 컴파일한다 |
 | `./kotr stats` | 번역 현황 |
-| `./kotr extract-sidebar <apps 디렉터리>` | v16 사이드바·데스크 아이콘 라벨을 `upstream/sidebar.pot` 으로 뽑는다 |
+| `./kotr extract-desk <apps 디렉터리>` | upstream 원본에 빠진 v16 데스크 문서(사이드바·데스크 아이콘·대시보드 차트·숫자 카드)의 문구를 `upstream/desk.pot` 으로 뽑는다 |
 
 모델은 OpenAI 호환 엔드포인트면 된다. 환경 변수로 정한다.
 
@@ -142,7 +142,7 @@ docker compose -f dev/compose.yml exec backend bench --site ko.localhost clear-c
 
 GitHub Actions([.github/workflows/upstream.yml](.github/workflows/upstream.yml))가 매일 03:00(한국 시각)에 [tools/update-upstream](tools/update-upstream) 을 돌린다.
 
-1. frappe·erpnext 의 `version-16` 브랜치에서 원문(`main.pot`)과 사이드바·데스크 아이콘 문서를 얕게 내려받는다.
+1. frappe·erpnext 의 `version-16` 브랜치에서 원문(`main.pot`)과 데스크 문서(사이드바·데스크 아이콘·대시보드 차트·숫자 카드)를 얕게 내려받는다.
 2. 원문이 그대로면 여기서 끝낸다. upstream 원문은 봇이 주 1회쯤 다시 만들기 때문에 대부분의 날이 그렇다.
 3. 바뀌었으면 `./kotr sync` → `seed` → `translate` → `./check` 를 돌린다. 원문의 버전과 커밋은 [upstream/SOURCE.md](upstream/SOURCE.md) 에 적는다.
 4. 모두 통과하면 main 에 커밋한다. 모델 요청이 하나라도 실패하거나 검사에 걸리면 커밋하지 않고, 다음 날 처음부터 다시 한다.

@@ -17,7 +17,8 @@ fetch() {
   git clone --quiet --depth 1 --branch "$branch" --filter=blob:none --sparse \
     "https://github.com/frappe/$1.git" "$apps/$1"
   git -C "$apps/$1" sparse-checkout set --no-cone \
-    "/$1/locale/main.pot" "/$1/__init__.py" "/$1/workspace_sidebar/" "/$1/desktop_icon/"
+    "/$1/locale/main.pot" "/$1/__init__.py" "/$1/workspace_sidebar/" "/$1/desktop_icon/" \
+    "/$1/*/dashboard_chart/" "/$1/*/number_card/"
 }
 
 version() {
@@ -32,7 +33,7 @@ fetch frappe
 fetch erpnext
 cp "$apps/frappe/frappe/locale/main.pot" upstream/frappe.pot
 cp "$apps/erpnext/erpnext/locale/main.pot" upstream/erpnext.pot
-./kotr extract-sidebar "$apps"
+./kotr extract-desk "$apps"
 
 if git diff --quiet -- upstream; then
   echo "upstream $branch 의 원문이 그대로다 (frappe $(revision frappe), erpnext $(revision erpnext))"
@@ -49,7 +50,7 @@ cat > upstream/SOURCE.md <<EOF
 | \`frappe.pot\` | frappe/frappe | $(version frappe) | $(revision frappe) |
 | \`erpnext.pot\` | frappe/erpnext | $(version erpnext) | $(revision erpnext) |
 
-\`sidebar.pot\` 은 같은 커밋의 \`workspace_sidebar\`·\`desktop_icon\` 문서에서 \`./kotr extract-sidebar\` 로 뽑는다. 원문에서 사라진 번역은 ko.po 끝에 \`#~\` 로 보관되고, 같은 문구가 돌아오면 되살아난다.
+\`desk.pot\` 은 같은 커밋의 데스크 문서(\`workspace_sidebar\`·\`desktop_icon\`·\`dashboard_chart\`·\`number_card\`)에서 \`./kotr extract-desk\` 로 뽑는다. 원문에서 사라진 번역은 ko.po 끝에 \`#~\` 로 보관되고, 같은 문구가 돌아오면 되살아난다.
 EOF
 
 summary=$(./kotr sync)

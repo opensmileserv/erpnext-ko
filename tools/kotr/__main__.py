@@ -1,5 +1,4 @@
 import argparse
-import json
 import os
 import re
 import sys
@@ -10,11 +9,12 @@ from pathlib import Path
 from typing import TYPE_CHECKING
 
 from kotr.catalog import Entry, Key, compile_mo, merge, parse, render, with_translation
+from kotr.desk import entries as desk_entries
+from kotr.desk import load_documents
 from kotr.glossary import Glossary, parse_terms
 from kotr.llm import Provider, ProviderError, complete
 from kotr.markers import leading, trailing
 from kotr.review import Reviewer
-from kotr.sidebar import entries as sidebar_entries
 from kotr.translate import ReplyError, build, pick, schema
 from kotr.translate import batches as make_batches
 from kotr.translate import parse as parse_reply
@@ -27,7 +27,7 @@ PO = ROOT / "erpnext_ko" / "locale" / "ko.po"
 TEMPLATES = (
     ROOT / "upstream" / "frappe.pot",
     ROOT / "upstream" / "erpnext.pot",
-    ROOT / "upstream" / "sidebar.pot",
+    ROOT / "upstream" / "desk.pot",
 )
 GLOSSARY = ROOT / "glossary" / "terms.tsv"
 REJECTED = ROOT / "work" / "rejected.tsv"
@@ -55,16 +55,11 @@ def save_po(entries: Sequence[Entry], obsolete: Sequence[Entry]) -> None:
     temporary.replace(PO)
 
 
-def command_extract_sidebar(arguments: argparse.Namespace) -> int:
-    source = Path(arguments.source)
-    documents = [
-        (path.relative_to(source).as_posix(), json.loads(path.read_text(encoding="utf-8")))
-        for pattern in ("*/*/workspace_sidebar/*.json", "*/*/desktop_icon/*.json")
-        for path in sorted(source.glob(pattern))
-    ]
-    found = sidebar_entries(documents)
+def command_extract_desk(arguments: argparse.Namespace) -> int:
+    documents = load_documents(Path(arguments.source))
+    found = desk_entries(documents)
     TEMPLATES[2].write_bytes(render(found))
-    say(f"사이드바·데스크 아이콘 문서 {len(documents)}개에서 라벨 {len(found)}개")
+    say(f"데스크 문서 {len(documents)}개에서 문구 {len(found)}개")
     return 0
 
 
@@ -266,10 +261,12 @@ def parser() -> argparse.ArgumentParser:
         run=command_sync
     )
     extract = commands.add_parser(
-        "extract-sidebar", help="v16 사이드바·데스크 아이콘 라벨을 upstream/sidebar.pot 로 뽑는다"
+        "extract-desk",
+        help="upstream pot 에 빠진 데스크 문서(사이드바·아이콘·차트·숫자 카드) 문구를 "
+        "upstream/desk.pot 로 뽑는다",
     )
     extract.add_argument("source", help="apps 디렉터리 (frappe/frappe/..., erpnext/erpnext/...)")
-    extract.set_defaults(run=command_extract_sidebar)
+    extract.set_defaults(run=command_extract_desk)
     commands.add_parser("seed", help="용어집과 똑같은 메시지를 채운다").set_defaults(
         run=command_seed
     )
